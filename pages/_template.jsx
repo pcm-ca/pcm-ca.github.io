@@ -40,17 +40,40 @@ module.exports = React.createClass({
               style={{
                 color: 'black',
                 textDecoration: 'none',
+                fontSize: 40,
+                fontWeight: "bold",
               }}
             >
-              PCM Computational Applications.
+              PCM Computational Applications
             </Link>
-            <nav className="left-nav">
-              <Link
-                to={prefixLink('/personas/')}
-              >Personas</Link>
-            </nav>
+            
           </Container>
         </Headroom>
+
+        <Container
+          style={{
+            maxWidth: 960,
+            padding: `${rhythm(1)} ${rhythm(3/4)}`,
+            paddingTop: 0,
+            flexDirection: 'row',
+            'justify-content': 'space-between',
+          }}
+        >
+          <nav>
+            <ul>
+            <li><Link to={prefixLink('/')}>Home</Link></li>
+            <li><Link to={prefixLink('/people/')}>People</Link></li>
+            <li><Link to={prefixLink('/research/')}>Research</Link></li>
+            <li><Link to={prefixLink('/publications/')}>Publications</Link></li>
+            <li><Link to={prefixLink('/resources/')}>Resources</Link></li>
+            <li><Link to={prefixLink('/contact/')}>Contact us</Link></li>
+            
+          </ul>
+        </nav>
+        </Container>
+
+        
+
         <Container
           style={{
             maxWidth: 960,
@@ -60,7 +83,10 @@ module.exports = React.createClass({
         >
           {this.props.children}
         </Container>
+
+        
       </div>
+      
     )
   },
 })

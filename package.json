@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "bootstrap-sass": "^3.3.7",
     "front-matter": "^2.1.2",
     "gatsby": "^0.12.36",
     "highlight.js": "^9.8.0",
@@ -16,6 +17,7 @@
     "markdown-it-footnote": "^3.0.1",
     "markdown-it-sub": "^1.0.0",
     "object-assign": "^4.1.1",
+    "react-bootstrap": "^0.30.8",
     "react-headroom": "^2.1.2",
     "react-helmet": "^3.2.2",
     "react-responsive-grid": "^0.3.3",
