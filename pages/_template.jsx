@@ -4,6 +4,7 @@ import { Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
 import Headroom from 'react-headroom'
 import '../css/markdown-styles'
+import '../css/pcm'
 
 import { rhythm } from '../utils/typography'
 
@@ -21,7 +22,7 @@ module.exports = React.createClass({
             marginBottom: rhythm(1),
           }}
           style={{
-            background: 'lightgray',
+            background: 'skyblue',
           }}
         >
           <Container
@@ -29,6 +30,9 @@ module.exports = React.createClass({
               maxWidth: 960,
               paddingTop: 0,
               padding: `${rhythm(1)} ${rhythm(3/4)}`,
+              display: 'flex',
+              flexDirection: 'row',
+              'justify-content': 'space-between',
             }}
           >
             <Link
@@ -38,8 +42,13 @@ module.exports = React.createClass({
                 textDecoration: 'none',
               }}
             >
-              Gatsby!!!
+              PCM Computational Applications.
             </Link>
+            <nav className="left-nav">
+              <Link
+                to={prefixLink('/personas/')}
+              >Personas</Link>
+            </nav>
           </Container>
         </Headroom>
         <Container
