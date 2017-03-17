@@ -91,7 +91,7 @@ export default class Index extends React.Component {
           mechanical and nanoscale properties.</p>
         <h2>Where are we ?</h2>
         <p>We are at the Universidad Nacional de Colombia.
-          The group's core is in <a href="https://es.wikipedia.org/wiki/Manizales">Manizales</a> in the Nubia Campus, near of the airport of Manizales.</p>
+          The group's core is in <a target='_blank' href="https://es.wikipedia.org/wiki/Manizales">Manizales</a> in the Nubia Campus, near of the airport of Manizales.</p>
         <h2>What does <b style={{color: "black"}}>PCM</b> mean?</h2>
         <p><b style={{color: "black"}}>PCM</b> are the abbreviations for Physics, Chemistry and Mathematics.</p>
         <h2>Who is(are) the Boss(es) ?</h2>

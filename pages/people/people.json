@@ -1,0 +1,21 @@
+{
+    "bosses": {
+        "juaneired": {
+            "name": "Juan David Alzate Cardona",
+            "picture": "http://beerhold.it/500/500",
+            "email": "jdalzatec@unal.edu.co"
+        },
+        "osqueired": {
+            "name": "Oscar David Arbeláez Echeverri",
+            "picture": "http://placekitten.com/601/601",
+            "email": "odarbelaeze@unal.edu.co"
+        }
+    },
+    "pedestrians": {
+        "rulos": {
+            "name": "Sebastian Rulòs",
+            "picture": "http://beerhold.it/600/600",
+            "email": "sramirezc@unal.edu.co"
+        }
+    }
+}

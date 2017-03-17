@@ -9,12 +9,12 @@ import '../css/pcm'
 import { rhythm } from '../utils/typography'
 
 module.exports = React.createClass({
-  propTypes () {
+  propTypes() {
     return {
       children: React.PropTypes.any,
     }
   },
-  render () {
+  render() {
     return (
       <div>
         <Headroom
@@ -29,10 +29,10 @@ module.exports = React.createClass({
             style={{
               maxWidth: 960,
               paddingTop: 0,
-              padding: `${rhythm(1)} ${rhythm(3/4)}`,
+              padding: `${rhythm(1)} ${rhythm(3 / 4)}`,
               display: 'flex',
-              flexDirection: 'row',
-              'justify-content': 'space-between',
+              flexDirection: 'column',
+              textAlign: 'center',
             }}
           >
             <Link
@@ -42,51 +42,39 @@ module.exports = React.createClass({
                 textDecoration: 'none',
                 fontSize: 40,
                 fontWeight: "bold",
+                marginBottom: rhythm(1),
               }}
             >
               PCM Computational Applications
             </Link>
-            
+
+            <nav>
+              <ul>
+                <li><Link activeStyle={{ color: 'crimson' }} to={prefixLink('/people/')}>People</Link></li>
+                <li><Link activeStyle={{ color: 'crimson' }} to={prefixLink('/research/')}>Research</Link></li>
+                <li><Link activeStyle={{ color: 'crimson' }} to={prefixLink('/publications/')}>Publications</Link></li>
+                <li><Link activeStyle={{ color: 'crimson' }} to={prefixLink('/resources/')}>Resources</Link></li>
+                <li><Link activeStyle={{ color: 'crimson' }} to={prefixLink('/contact/')}>Contact us</Link></li>
+
+              </ul>
+            </nav>
+
           </Container>
         </Headroom>
 
         <Container
           style={{
             maxWidth: 960,
-            padding: `${rhythm(1)} ${rhythm(3/4)}`,
-            paddingTop: 0,
-            flexDirection: 'row',
-            'justify-content': 'space-between',
-          }}
-        >
-          <nav>
-            <ul>
-            <li><Link to={prefixLink('/')}>Home</Link></li>
-            <li><Link to={prefixLink('/people/')}>People</Link></li>
-            <li><Link to={prefixLink('/research/')}>Research</Link></li>
-            <li><Link to={prefixLink('/publications/')}>Publications</Link></li>
-            <li><Link to={prefixLink('/resources/')}>Resources</Link></li>
-            <li><Link to={prefixLink('/contact/')}>Contact us</Link></li>
-            
-          </ul>
-        </nav>
-        </Container>
-
-        
-
-        <Container
-          style={{
-            maxWidth: 960,
-            padding: `${rhythm(1)} ${rhythm(3/4)}`,
+            padding: `${rhythm(1)} ${rhythm(3 / 4)}`,
             paddingTop: 0,
           }}
         >
           {this.props.children}
         </Container>
 
-        
+
       </div>
-      
+
     )
   },
 })
