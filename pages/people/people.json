@@ -1,116 +1,116 @@
 {
     "bosses": {
-        "elisabeth_restrepo_parra": {
+        "erestrepopa": {
             "name": "Elisabeth Restrepo Parra",
             "picture": "./images/elisabeth_restrepo_parra.jpg",
             "email": "erestrepopa@unal.edu.co"
         },
-        "juan_carlos_riano_rojas": {
+        "jcrianoro": {
             "name": "Juan Carlos Riaño Rojas",
             "picture": "./images/juan_carlos_riano_rojas.jpg",
             "email": "jcrianoro@unal.edu.co"
         }
     },
     "range1": {
-        "oscar_david_arbelaez_echeverri": {
+        "odarbelaeze": {
             "name": "Óscar David Arbeláez Echeverri",
             "picture": "./images/oscar_david_arbelaez_echeverri.jpg",
             "email": "odarbelaeze@unal.edu.co"
         },
-        "daniel_alejandro_sabogal_suarez": {
+        "dasabogals": {
             "name": "Daniel Alejandro Sabogal Suárez",
             "picture": "./images/daniel_alejandro_sabogal_suarez.jpg",
             "email": "dasabogals@unal.edu.co"
         },
-        "jose_dario_agudelo_giraldo": {
+        "jdagudelog": {
             "name": "José Darío Agudelo Giraldo",
             "picture": "./images/jose_dario_agudelo_giraldo.jpg",
             "email": "jdagudelog@unal.edu.co"
         },
-        "hugo_hernan_ortiz_alvarez": {
+        "hhortiza": {
             "name": "Hugo Hernán Ortiz Álvarez",
             "picture": "./images/hugo_hernan_ortiz_alvarez.jpg",
             "email": "hhortiza@unal.edu.co"
         },
-        "juan_camilo_henao_londono": {
+        "juchenaolo": {
             "name": "Juan Camilo Henao Londoño",
             "picture": "./images/juan_camilo_henao_londono.jpg",
             "email": "juchenaolo@unal.edu.co"
         },
-        "hector_dario_aristizabal_soto": {
+        "hdaristizabals": {
             "name": "Hector Dario Aristizabal Soto",
             "picture": "./images/hector_dario_aristizabal_soto.jpg",
             "email": "hdaristizabals@unal.edu.co"
         },
-        "diego_fernando_devia_narvaez": {
+        "dfdevian": {
             "name": "Diego Fernando Devia Narvaez",
             "picture": "./images/diego_fernando_devia_narvaez.jpg",
             "email": "dfdevian@unal.edu.co"
         }
     },
     "range2": {
-        "juan_david_alzate_cardona": {
+        "jdalzatec": {
             "name": "Juan David Alzate Cardona",
             "picture": "./images/juan_david_alzate_cardona.jpg",
             "email": "jdalzatec@unal.edu.co"
         },
-        "sebastian_ramirez_ramirez": {
+        "seramirezra": {
             "name": "Sebastián Ramírez Ramírez",
             "picture": "./images/sebastian_ramirez_ramirez.jpg",
             "email": "seramirezra@unal.edu.co"
         },
-        "carlos_fernando_ospina_trujillo": {
+        "cfospinat": {
             "name": "Carlos Fernando Ospina Trujillo",
             "picture": "./images/carlos_fernando_ospina_trujillo.jpg",
             "email": "cfospinat@unal.edu.co"
         },
-        "jose_antonio_valencia_aricapa": {
+        "javalenciaa": {
             "name": "Jose Antonio Valencia Aricapa",
             "picture": "./images/jose_antonio_valencia_aricapa.jpg",
             "email": "javalenciaa@unal.edu.co"
         },
-        "yamit_lopez_munoz": {
+        "yalopezmu": {
             "name": "Yamit López Muñoz",
             "picture": "./images/yamit_lopez_munoz.jpg",
             "email": "yalopezmu@unal.edu.co"
         },
-        "jhonatan_calderon_cardona": {
+        "jcalderonc": {
             "name": "Jhonatan Calderón Cardona",
             "picture": "./images/jhonatan_calderon_cardona.jpg",
             "email": "jcalderonc@unal.edu.co"
         },
-        "cristian_camilo_ceballes_serrano": {
+        "ccceballess": {
             "name": "Cristian Camilo Ceballes Serrano",
             "picture": "./images/cristian_camilo_ceballes_serrano.jpg",
             "email": "ccceballess@unal.edu.co"
         },
-        "viviana_andrea_hurtado_marin": {
+        "vahurtadom": {
             "name": "Viviana Andrea Hurtado Marín",
             "picture": "./images/viviana_andrea_hurtado_marin.jpg",
             "email": "vahurtadom@unal.edu.co"
         }
     },
     "range3": {
-        "ivan_david_buitrago_torres": {
+        "idbuitragot": {
             "name": "Ivan David Buitrago Torres",
             "picture": "./images/ivan_david_buitrago_torres.jpg",
             "email": "idbuitragot@unal.edu.co"
         },
-        "maria_camila_barrero_moreno": {
+        "marcbarreromor": {
             "name": "Maria Camila Barrero Moreno",
             "picture": "./images/maria_camila_barrero_moreno.jpg",
             "email": "marcbarreromor@unal.edu.co"
         },
-        "cristian_camilo_galindo_gonzalez": {
+        "ccgalindog": {
             "name": "Cristian Camilo Galindo González",
             "picture": "./images/cristian_camilo_galindo_gonzalez.jpg",
             "email": "ccgalindog@unal.edu.co"
         },
-        "juan_sebastian_salcedo_gallo": {
+        "jussalcedoga": {
             "name": "Juan Sebastián Salcedo Gallo",
             "picture": "./images/juan_sebastian_salcedo_gallo.jpg",
             "email": "jussalcedoga@unal.edu.co"
-        },"daniel_felipe_rodriguez_patino": {
+        },"dfrodriguezp": {
             "name": "Daniel Felipe Rodríguez Patiño",
             "picture": "./images/daniel_felipe_rodriguez_patino.jpg",
             "email": "dfrodriguezp@unal.edu.co"
