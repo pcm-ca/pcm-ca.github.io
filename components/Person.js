@@ -4,7 +4,7 @@ import {Link} from 'react-router';
 
 const Person = ({ name, email, picture, link }) => (
     <Link className='person' to={link}>
-        <img src={picture} alt="foto" className="person--picture" />
+        <center><img src={picture} alt="foto" className="person--picture" /></center>
         <div className="person--info">
             <span className="person--name">{name}</span>
             <small className="person--email">{email}</small>

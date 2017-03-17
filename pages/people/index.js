@@ -31,10 +31,37 @@ export default class Index extends React.Component {
           ))}
         </div>
 
-        <h2>The Pedestrians</h2>
+        <hr/>
+        <h2>Research Scientists / Doctoral Researchers</h2>
 
         <div className='people'>
-          {_.map(people.pedestrians, (props, key) => (
+          {_.map(people.range1, (props, key) => (
+            <Person
+              {...props}
+              link={prefixLink(`/people/${key}/`)}
+              key={key}
+            />
+          ))}
+        </div>
+
+        <hr/>
+        <h2>Master students</h2>
+
+        <div className='people'>
+          {_.map(people.range2, (props, key) => (
+            <Person
+              {...props}
+              link={prefixLink(`/people/${key}/`)}
+              key={key}
+            />
+          ))}
+        </div>
+
+        <hr/>
+        <h2>Undergraduate students</h2>
+
+        <div className='people'>
+          {_.map(people.range3, (props, key) => (
             <Person
               {...props}
               link={prefixLink(`/people/${key}/`)}
