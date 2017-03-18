@@ -1,5 +1,0 @@
----
-title: Osqueired
----
-
-Un calidoso.

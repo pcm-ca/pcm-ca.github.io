@@ -1,0 +1,32 @@
+{
+    "jdalzatec":
+    {
+        "name": "Juan David Alzate Cardona",
+        "email": "jdalzatec@unal.edu.co",
+        "title": "Physics Engineer",
+        "actual": "Student of Master in Science - Physics",
+        "education": ["B.Sc. in Physics Engineering, Universidad Nacional De Colombia, 2015."],
+        "achievements": ["Honor Degree in the B. Sc."],
+        "research": ["I don't know the name."]
+    },
+    "seramirezra":
+    {
+        "name": "Sebastián Ramírez Ramírez",
+        "email": "seramirezra@unal.edu.co",
+        "title": "Physics Engineer",
+        "actual": "Student of Master in Science - Physics",
+        "education": ["B.Sc. in Physics Engineering, Universidad Nacional De Colombia, 2014."],
+        "research": ["I don't know the name."]
+    },
+    "dasabogals":
+    {
+        "name": "Daniel Alejandro Sabogal Suárez",
+        "email": "dasabogals@unal.edu.co",
+        "title": "M.Sc. Physics",
+        "actual": "Researcher",
+        "education": ["B.Sc. in Physics Engineering, Universidad Nacional De Colombia, 2013.",
+                      "M.Sc. in Science - Physics, Universidad Nacional de Colombia, 2016"],
+        "achievements": ["Honor Degree in the B. Sc.", "Honor distinction in postgraduate thesis."],
+        "research": ["I don't know the name."]
+    }
+}

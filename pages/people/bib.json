@@ -1,0 +1,89 @@
+{
+    "seramirezra":
+    {
+        "2014" :
+        [
+            {
+                "title": "Thermal Stability of WC Coatings Produced by DC Magnetron Sputtering",
+                "authors": ["Sebastián Ramírez Ramírez",
+                            "Daniel Alejandro Sabogal Suárez",
+                            "Daniel Escobar Rincón",
+                            "Jhonattan de la Roche Yepes",
+                            "Elisabeth Restrepo Parra",
+                            "Pedro José Arango Arango"],
+                "journal": "Momento",
+                "issn": "0121-4470",
+                "volume": "49",
+                "pages": "57-68",
+                "issue": "N/A",
+                "link": "http://www.revistas.unal.edu.co/index.php/momento/article/download/50626/51105"
+            }
+        ]
+    },
+    "dasabogals":
+    {
+        "2014" :
+        [
+            {
+                "title": "Thermal Stability of WC Coatings Produced by DC Magnetron Sputtering",
+                "authors": ["Sebastián Ramírez Ramírez",
+                            "Daniel Alejandro Sabogal Suárez",
+                            "Daniel Escobar Rincón",
+                            "Jhonattan de la Roche Yepes",
+                            "Elisabeth Restrepo Parra",
+                            "Pedro José Arango Arango"],
+                "journal": "Momento",
+                "issn": "0121-4470",
+                "volume": "49",
+                "pages": "57-68",
+                "issue": "N/A",
+                "link": "http://www.revistas.unal.edu.co/index.php/momento/article/download/50626/51105"
+            }
+        ],
+        "2015" :
+        [
+            {
+                "title": "Static and dynamic critical behavior of thin magnetic Ising films",
+                "authors": ["Daniel Alejandro Sabogal Suárez",
+                            "Juan David Alzate Cardona",
+                            "Elisabeth Restrepo Parra"],
+                "journal": "Physica A-Statistical Mechanics And Its Applications",
+                "issn": "0378-4371",
+                "volume": "434",
+                "pages": "60-67",
+                "issue": "N/A",
+                "doi": "http://dx.doi.org/10.1016/j.physa.2015.03.072"
+            }
+        ],
+        "2016" :
+        [
+            {
+                "title": "Fission gas bubble percolation on crystallographically consistent grain boundary networks",
+                "authors": ["Daniel Alejandro Sabogal Suárez",
+                            "Juan David Alzate Cardona",
+                            "Elisabeth Restrepo Parra"],
+                "journal": "Journal Of Nuclear Materials",
+                "issn": "0022-3115",
+                "volume": "475",
+                "pages": "81-86",
+                "issue": "N/A",
+                "doi": "http://dx.doi.org/10.1016/j.jnucmat.2016.03.031"
+            }
+        ],
+        "2017" :
+        [
+            {
+                "title": "Critical and compensation behavior of a mixed spin-3/2 and spin-5/2 Ising ferrimagnetic system in a graphene layer",
+                "authors": ["Juan David Alzate Cardona",
+                            "Daniel Alejandro Sabogal Suárez",
+                            "Elisabeth Restrepo Parra"],
+                "journal": "Journal Of Magnetism And Magnetic Materials",
+                "issn": "0304-8853",
+                "volume": "429",
+                "pages": "34-39",
+                "issue": "N/A",
+                "doi": "http://dx.doi.org/10.1016/j.jmmm.2017.01.004"
+            }
+        ]
+    }
+}
