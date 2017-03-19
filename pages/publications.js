@@ -19,13 +19,11 @@ export default class Index extends React.Component {
 
         <div>
             {_.map(bib, (papers, key) =>(
-                <ul>
+                <ol>
                     {_.map(papers, (paper, key2) =>(
                         <div>
                             <li>
-                                {_.map(paper.authors, (author, key3) => (
-                                    author + ", "
-                                ))}
+                                {paper.author + ", "}
                                 <b>{paper.title}</b>
                                 {", " + paper.journal +
                                 ", vol. " + paper.volume +
@@ -40,7 +38,7 @@ export default class Index extends React.Component {
                             </li>
                         </div>
                     ))}
-                </ul>
+                </ol>
             ))
             }
         </div>

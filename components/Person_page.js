@@ -2,7 +2,7 @@ import React from 'react';
 import _ from 'lodash'
 import bib from "../pages/people/bib";
 
-const Person_page = ({ name, email, picture, title, actual, education, research, publications, achievements}) => (
+const Person_page = ({ name, name_in_papers, email, picture, title, actual, education, research, publications, achievements}) => (
     <div className="person-page">
         <div className="person-page-initial">
             <img src={picture} alt="foto" className="person-page-picture" />
@@ -55,14 +55,12 @@ const Person_page = ({ name, email, picture, title, actual, education, research,
         <h2>Publications</h2>
         <div>
             {_.map(bib, (papers, key) =>(
-                <ul>
+                <ol>
                     {_.map(papers, (paper, key2) =>(
                         <div>
-                            {_.includes(paper.authors, name)? (
+                            {_.includes(paper.author, name_in_papers)? (
                                 <li>
-                                    {_.map(paper.authors, (author, key3) => (
-                                        author + ", "
-                                    ))}
+                                    {paper.author + ", "}
                                     <b>{paper.title}</b>
                                     {", " + paper.journal +
                                     ", vol. " + paper.volume +
@@ -70,7 +68,7 @@ const Person_page = ({ name, email, picture, title, actual, education, research,
                                     ", ("}
                                     <b>{paper.year}</b>
                                     {")" +
-                                    ", pp. " + paper.pages.split(" ")}.
+                                    ", pp. " + paper.pages}.
                                     <br/>
                                     {paper.doi && (<a href={paper.doi} target="_blank">DOI: {paper.doi}</a>) }
                                     {paper.link && (<a href={paper.link} target="_blank">Download</a>) }
@@ -78,7 +76,7 @@ const Person_page = ({ name, email, picture, title, actual, education, research,
                             ) : (<div/>) }
                         </div>
                     ))}
-                </ul>
+                </ol>
             ))
             }
         </div>

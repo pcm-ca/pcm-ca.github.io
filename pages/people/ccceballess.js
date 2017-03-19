@@ -12,11 +12,11 @@ export default class Index extends React.Component {
   render() {
     return (
       <div>
-        <Helmet title={config.siteTitle + ' | people | erestrepopa'} />
+        <Helmet title={config.siteTitle + ' | people | ccceballess'} />
         
         <Person_page
-              {...info.erestrepopa}
-              picture="../images/erestrepopa.jpg"
+              {...info.ccceballess}
+              picture="../images/ccceballess.jpg"
           />
       </div>
       
