@@ -1,5 +1,6 @@
 import React from 'react';
 import _ from 'lodash'
+import bib from "../pages/people/bib";
 
 const Person_page = ({ name, email, picture, title, actual, education, research, publications, achievements}) => (
     <div className="person-page">
@@ -53,34 +54,34 @@ const Person_page = ({ name, email, picture, title, actual, education, research,
         <hr/>
         <h2>Publications</h2>
         <div>
-            {_.map(publications, (papers_year, year) => (
+            {_.map(bib, (papers, key) =>(
                 <ul>
-                    <h3>
-                        {year}
-                    </h3>
-
-                    {_.map(papers_year, (paper, key) => (
-                        <ul>
-                            <li>
-                            {_.map(paper.authors, (author, key2) => (
-                                author + ", "
-                            ))}
-                            <b>{paper.title}</b>
-                            {", " + paper.journal +
-                             ", vol. " + paper.volume +
-                             ", " + paper.issue +
-                             ", (" + year + ")" +
-                             ", pp. " + paper.pages.split(" ")}.
-                            <br/>
-                            {paper.doi && (<a href={paper.doi} target="_blank">DOI: {paper.doi}</a>) }
-                            {paper.link && (<a href={paper.link} target="_blank">Download</a>) }
-                            </li>
-                        </ul>
+                    {_.map(papers, (paper, key2) =>(
+                        <div>
+                            {_.includes(paper.authors, name)? (
+                                <li>
+                                    {_.map(paper.authors, (author, key3) => (
+                                        author + ", "
+                                    ))}
+                                    <b>{paper.title}</b>
+                                    {", " + paper.journal +
+                                    ", vol. " + paper.volume +
+                                    ", " + paper.number +
+                                    ", ("}
+                                    <b>{paper.year}</b>
+                                    {")" +
+                                    ", pp. " + paper.pages.split(" ")}.
+                                    <br/>
+                                    {paper.doi && (<a href={paper.doi} target="_blank">DOI: {paper.doi}</a>) }
+                                    {paper.link && (<a href={paper.link} target="_blank">Download</a>) }
+                                </li>
+                            ) : (<div/>) }
+                        </div>
                     ))}
                 </ul>
-            ))}
+            ))
+            }
         </div>
-        <hr/>
         
 
     </div>

@@ -4,8 +4,9 @@ import Helmet from 'react-helmet'
 import { config } from 'config'
 import { prefixLink } from 'gatsby-helpers'
 
-import { Image } from 'react-bootstrap'; 
-
+import bib from './bib'
+import info from './info'
+import Person_page from '../../components/Person_page'
 
 export default class Index extends React.Component {
   render() {
@@ -13,13 +14,12 @@ export default class Index extends React.Component {
       <div>
         <Helmet title={config.siteTitle + ' | people | odarbelaeze'} />
         
-        <h1>
-          Óscar David Arbeláez Echeverri
-        </h1>
-
-        <Image src="../images/oscar_david_arbelaez_echeverri.jpg" rounded />
-      
+        <Person_page
+              {...info.odarbelaeze}
+              picture="../images/odarbelaeze.jpg"
+          />
       </div>
+      
       
        
     )

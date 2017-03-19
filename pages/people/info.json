@@ -1,11 +1,22 @@
 {
+    "erestrepopa":
+    {
+        "name": "Elisabeth Restrepo Parra",
+        "email": "erestrepopa@unal.edu.co",
+        "title": "Ph.D in Engineering",
+        "actual": "Professor, Researcher",
+        "education": ["B.Sc. in Electrical Engineering , Universidad Tecnológica de Pereira, 1990.",
+                      "M.Sc. in Science - Physics, Universidad Nacional de Colombia, 2001.",
+                      "Ph.D in Engineering, Universidad Nacional de Colombia, 2010."],
+        "achievements": ["Dirección Nacional de Investigaciones, Universidad Nacional de Colombia, 2009."]
+    },
     "jdalzatec":
     {
         "name": "Juan David Alzate Cardona",
         "email": "jdalzatec@unal.edu.co",
-        "title": "Physics Engineer",
+        "title": "Physical Engineer",
         "actual": "Student of Master in Science - Physics",
-        "education": ["B.Sc. in Physics Engineering, Universidad Nacional De Colombia, 2015."],
+        "education": ["B.Sc. in Engineering Physics, Universidad Nacional De Colombia, 2015."],
         "achievements": ["Honor Degree in the B. Sc."],
         "research": ["I don't know the name."]
     },
@@ -13,9 +24,9 @@
     {
         "name": "Sebastián Ramírez Ramírez",
         "email": "seramirezra@unal.edu.co",
-        "title": "Physics Engineer",
+        "title": "Physical Engineer",
         "actual": "Student of Master in Science - Physics",
-        "education": ["B.Sc. in Physics Engineering, Universidad Nacional De Colombia, 2014."],
+        "education": ["B.Sc. in Engineering Physics, Universidad Nacional De Colombia, 2014."],
         "research": ["I don't know the name."]
     },
     "dasabogals":
@@ -24,9 +35,29 @@
         "email": "dasabogals@unal.edu.co",
         "title": "M.Sc. Physics",
         "actual": "Researcher",
-        "education": ["B.Sc. in Physics Engineering, Universidad Nacional De Colombia, 2013.",
+        "education": ["B.Sc. in Engineering Physics, Universidad Nacional De Colombia, 2013.",
                       "M.Sc. in Science - Physics, Universidad Nacional de Colombia, 2016"],
         "achievements": ["Honor Degree in the B. Sc.", "Honor distinction in postgraduate thesis."],
         "research": ["I don't know the name."]
+    },
+    "odarbelaeze":
+    {
+        "name": "Óscar David Arbeláez Echeverri",
+        "email": "odarbelaeze@unal.edu.co",
+        "title": "M.Sc. Physics",
+        "actual": "Researcher",
+        "education": ["B.Sc. in Engineering Physics, Universidad Nacional De Colombia, 2012.",
+                      "M.Sc. in Science - Physics, Universidad Nacional de Colombia, 2016"],
+        "achievements": ["Honor Degree in the B. Sc.", "Honor distinction in postgraduate thesis."],
+        "research": ["I don't know the name."]
+    },
+    "yalopezmu":
+    {
+        "name": "Yamit López Muñoz",
+        "email": "yalopezmu@unal.edu.co",
+        "title": "Mathematician",
+        "actual": "M.Sc. Applied Mathematics",
+        "education": ["B.Sc. in Mathematics, Universidad Nacional De Colombia, 2015."],
+        "research": ["Sheaf Theory Applied to Digital Topology."]
     }
 }
