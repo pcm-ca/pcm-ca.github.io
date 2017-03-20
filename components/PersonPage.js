@@ -1,8 +1,11 @@
-import React from 'react';
+import React from 'react'
 import _ from 'lodash'
-import bib from "../pages/people/bib";
+import bib from '../pages/people/bib'
+import Paper from './Paper'
+import crypto from 'crypto'
 
-const PersonPage = ({ name, name_in_papers, email, picture, title, actual, education, research, publications, achievements}) => (
+
+const PersonPage = ({ name, nameInPapers, email, picture, title, actual, education, research, publications, achievements}) => (
     <div className="person-page">
         <div className="person-page-initial">
             <img src={picture} alt="foto" className="person-page-picture" />
@@ -18,7 +21,7 @@ const PersonPage = ({ name, name_in_papers, email, picture, title, actual, educa
         <h2>Education</h2>
         <div>
             {_.map(education, (props, key) => (
-                <ul>
+                <ul key={key}>
                     <li>{props}</li>
                 </ul>
             ))}
@@ -31,7 +34,7 @@ const PersonPage = ({ name, name_in_papers, email, picture, title, actual, educa
                     <h2>Achievements</h2>
                     <div>
                         {_.map(achievements, (props, key) => (
-                            <ul>
+                            <ul key={key}>
                                 <li>{props}</li>
                             </ul>
                         ))}
@@ -45,7 +48,7 @@ const PersonPage = ({ name, name_in_papers, email, picture, title, actual, educa
         <h2>Current Research</h2>
         <div>
             {_.map(research, (props, key) => (
-                <ul>
+                <ul key={key}>
                     <li>{props}</li>
                 </ul>
             ))}
@@ -54,37 +57,19 @@ const PersonPage = ({ name, name_in_papers, email, picture, title, actual, educa
         <hr/>
         <h2>Publications</h2>
         <div>
-            {_.map(bib, (papers, key) =>(
-                <ol>
-                    {_.map(papers, (paper, key2) =>(
-                        <div>
-                            {_.includes(paper.author, name_in_papers)? (
-                                <li>
-                                    {paper.author + ", "}
-                                    <b>{paper.title}</b>
-                                    {", " + paper.journal +
-                                    ", vol. " + paper.volume +
-                                    ", " + paper.number +
-                                    ", ("}
-                                    <b>{paper.year}</b>
-                                    {")" +
-                                    ", pp. " + paper.pages}.
-                                    <br/>
-                                    {paper.doi && (<a href={paper.doi} target="_blank">DOI: {paper.doi}</a>) }
-                                    {paper.link && (<a href={paper.link} target="_blank">Download</a>) }
-                                </li>
-                            ) : (<div/>) }
-                        </div>
-                    ))}
-                </ol>
-            ))
-            }
+            <ol>
+                {_.map(
+                    _.filter(bib.papers, paper => _.includes(paper.author, nameInPapers)),
+                    paper => (
+                        <li key={crypto.createHash('md5').update(paper.title).digest('hex')}>
+                            <Paper {...paper} />
+                        </li>
+                    )
+                )}
+            </ol>
         </div>
-        
-
     </div>
 );
-
 
 
 PersonPage.propTypes = {

@@ -2,7 +2,7 @@
     "erestrepopa":
     {
         "name": "Elisabeth Restrepo Parra",
-        "name_in_papers": "E. Restrepo-Parra",
+        "nameInPapers": "E. Restrepo-Parra",
         "email": "erestrepopa@unal.edu.co",
         "title": "Ph.D in Engineering",
         "actual": "Professor, Researcher",
@@ -14,7 +14,7 @@
     "jdalzatec":
     {
         "name": "Juan David Alzate Cardona",
-        "name_in_papers": "J.D. Alzate-Cardona",
+        "nameInPapers": "J.D. Alzate-Cardona",
         "email": "jdalzatec@unal.edu.co",
         "title": "Physical Engineer",
         "actual": "Student of Master in Science - Physics",
@@ -26,7 +26,7 @@
     {
         "name": "Sebastián Ramírez Ramírez",
         "email": "seramirezra@unal.edu.co",
-        "name_in_papers": "S. Ramírez-Ramírez",
+        "nameInPapers": "S. Ramírez-Ramírez",
         "title": "Physical Engineer",
         "actual": "Student of Master in Science - Physics",
         "education": ["B.Sc. in Engineering Physics, Universidad Nacional De Colombia, 2014."],
@@ -35,7 +35,7 @@
     "dasabogals":
     {
         "name": "Daniel Alejandro Sabogal Suárez",
-        "name_in_papers": "D. Sabogal-Suárez",
+        "nameInPapers": "D. Sabogal-Suárez",
         "email": "dasabogals@unal.edu.co",
         "title": "M.Sc. Physics",
         "actual": "Researcher",
@@ -47,7 +47,7 @@
     "odarbelaeze":
     {
         "name": "Óscar David Arbeláez Echeverri",
-        "name_in_papers": "O.D. Arbeláez-Echeverri",
+        "nameInPapers": "O.D. Arbeláez-Echeverri",
         "email": "odarbelaeze@unal.edu.co",
         "title": "M.Sc. Physics",
         "actual": "Researcher",
@@ -59,7 +59,7 @@
     "yalopezmu":
     {
         "name": "Yamit López Muñoz",
-        "name_in_papers": "Y. López-Muñoz",
+        "nameInPapers": "Y. López-Muñoz",
         "email": "yalopezmu@unal.edu.co",
         "title": "Mathematician",
         "actual": "M.Sc. Applied Mathematics",
@@ -69,7 +69,7 @@
     "jcrianoro":
     {
         "name": "Juan Carlos Riaño Rojas",
-        "name_in_papers": "J.C. Riaño-Rojas",
+        "nameInPapers": "J.C. Riaño-Rojas",
         "email": "jcrianoro@unal.edu.co",
         "title": "Ph.D in Engineering",
         "actual": "Professor, Researcher",
@@ -80,7 +80,7 @@
     "jdagudelog":
     {
         "name": "José Darío Agudelo Giraldo",
-        "name_in_papers": "J.D. Agudelo-Giraldo",
+        "nameInPapers": "J.D. Agudelo-Giraldo",
         "email": "jdagudelog@unal.edu.co",
         "title": "M.Sc. in Science - Physics",
         "actual": "Doctoral Researcher",
@@ -91,7 +91,7 @@
     "hhortiza":
     {
         "name": "Hugo Hernán Ortiz Álvarez",
-        "name_in_papers": "H.H Ortiz-Álvarez",
+        "nameInPapers": "H.H Ortiz-Álvarez",
         "email": "hhortiza@unal.edu.co",
         "title": "M.Sc. in Teaching Mathematics",
         "actual": "Doctoral Researcher",
@@ -102,7 +102,7 @@
     "juchenaolo":
     {
         "name": "Juan Camilo Henao Londoño",
-        "name_in_papers": "J.C Henao-Londoño",
+        "nameInPapers": "J.C Henao-Londoño",
         "email": "juchenaolo@unal.edu.co",
         "title": "M.Sc. in Science - Physics",
         "actual": "Researcher",
@@ -113,7 +113,7 @@
     "hdaristizabals":
     {
         "name": "Héctor Darío Aristizábal Soto",
-        "name_in_papers": "H.D. Aristizábal-Soto",
+        "nameInPapers": "H.D. Aristizábal-Soto",
         "email": "hdaristizabals@unal.edu.co",
         "title": "M.Sc. in Science - Physics",
         "actual": "Researcher",
@@ -123,7 +123,7 @@
     "dfdevian":
     {
         "name": "Diego Fernando Devia Narváez",
-        "name_in_papers": "D.F. Devia-Narváez",
+        "nameInPapers": "D.F. Devia-Narváez",
         "email": "dfdevian@unal.edu.co",
         "title": "M.Sc. in Engineering",
         "actual": "Doctoral Researcher",
@@ -133,7 +133,7 @@
     "cfospinat":
     {
         "name": "Carlos Fernando Ospina Trujillo",
-        "name_in_papers": "C.F. Ospina-Trujillo",
+        "nameInPapers": "C.F. Ospina-Trujillo",
         "email": "cfospinat@unal.edu.co",
         "title": "Mathematician",
         "actual": "Student of Master in Science - Mathematics",
@@ -142,7 +142,7 @@
     "javalenciaa":
     {
         "name": "José Antonio Valencia Aricapa",
-        "name_in_papers": "J.A. Valencia-Aricapa",
+        "nameInPapers": "J.A. Valencia-Aricapa",
         "email": "javalenciaa@unal.edu.co",
         "title": "Physical Engineer",
         "actual": "Student of Master in Science - Physics",
@@ -151,7 +151,7 @@
     "jcalderonc":
     {
         "name": "Jhonatan Calderón Cardona",
-        "name_in_papers": "J. Calderón-Cardona",
+        "nameInPapers": "J. Calderón-Cardona",
         "email": "jcalderonc@unal.edu.co",
         "title": "Mathematician",
         "actual": "Student of Master in Science - Mathematics",
@@ -160,7 +160,7 @@
     "ccceballess":
     {
         "name": "Cristian Camilo Ceballes Serrano",
-        "name_in_papers": "C.C. Ceballes-Serrano",
+        "nameInPapers": "C.C. Ceballes-Serrano",
         "email": "ccceballess@unal.edu.co",
         "title": "Mathematician",
         "actual": "Student of Master in Science - Mathematics",
@@ -169,7 +169,7 @@
     "vahurtadom":
     {
         "name": "Viviana Andrea Hurtado Marín",
-        "name_in_papers": "V.A. Hurtado-Marín",
+        "nameInPapers": "V.A. Hurtado-Marín",
         "email": "vahurtadom@unal.edu.co",
         "title": "Physical Engineer",
         "actual": "Student of Master in Science - Physics",
@@ -178,7 +178,7 @@
     "idbuitragot":
     {
         "name": "Ivan David Buitrago Torres",
-        "name_in_papers": "I.D. Buitrago-Torres",
+        "nameInPapers": "I.D. Buitrago-Torres",
         "email": "idbuitragot@unal.edu.co",
         "title": "",
         "actual": "Student of Engineering Physics"
@@ -186,7 +186,7 @@
     "marcbarreromor":
     {
         "name": "María Camila Barrero Moreno",
-        "name_in_papers": "M.C. Barrero-Moreno",
+        "nameInPapers": "M.C. Barrero-Moreno",
         "email": "marcbarreromor@unal.edu.co",
         "title": "",
         "actual": "Student of Engineering Physics"
@@ -194,7 +194,7 @@
     "ccgalindog":
     {
         "name": "Cristian Camilo Galindo González",
-        "name_in_papers": "C.C. Galindo-González",
+        "nameInPapers": "C.C. Galindo-González",
         "email": "ccgalindog@unal.edu.co",
         "title": "Electronics Engineer",
         "actual": "Student of Engineering Physics",
@@ -203,7 +203,7 @@
     "jussalcedoga":
     {
         "name": "Juan Sebastián Salcedo Gallo",
-        "name_in_papers": "J.S. Salcedo-Gallo",
+        "nameInPapers": "J.S. Salcedo-Gallo",
         "email": "jussalcedoga@unal.edu.co",
         "title": "",
         "actual": "Student of Engineering Physics"
@@ -211,7 +211,7 @@
     "dfrodriguezp":
     {
         "name": "Daniel Felipe Rodríguez Patiño",
-        "name_in_papers": "D.F. Rodríguez-Patiño",
+        "nameInPapers": "D.F. Rodríguez-Patiño",
         "email": "dfrodriguezp@unal.edu.co",
         "title": "",
         "actual": "Student of Engineering Physics"
