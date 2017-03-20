@@ -52,3 +52,21 @@ nav ul li a {
     display:inline-block; 
     margin-bottom: 40px;
 }
+
+.linksResources {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    &:hover {
+        color: crimson;
+    }
+}
+
+.resourcesDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.resourcesItems {
+    margin-right: 200px;
+}
