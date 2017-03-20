@@ -4,8 +4,8 @@ import { config } from 'config'
 import crypto from 'crypto'
 
 import _ from 'lodash'
-import bib from "./people/bib"
-import Paper from '../components/Paper'
+import bib from "../people/bib"
+import Paper from '../../components/Paper'
 
 export default class Index extends React.Component {
   render() {

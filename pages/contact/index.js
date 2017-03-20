@@ -4,14 +4,12 @@ import Helmet from 'react-helmet'
 import { config } from 'config'
 
 import { prefixLink } from 'gatsby-helpers'
-import _ from 'lodash'
-import bib from "./people/bib";
 
 export default class Index extends React.Component {
   render() {
     return (
       <div>
-        <Helmet title={config.siteTitle + ' | publications'} />
+        <Helmet title={config.siteTitle + ' | contact'} />
 
         <h1>
           Contact us
@@ -32,7 +30,7 @@ export default class Index extends React.Component {
             </div>
             
             <center><img src="/images/build_w.jpg" alt=""/></center>
-            <center>Build W, Campus La Nubia.</center>
+            <center>W Building, Campus La Nubia.</center>
 
         </p>
         
