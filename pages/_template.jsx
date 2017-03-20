@@ -15,7 +15,6 @@ module.exports = React.createClass({
     }
   },
   render() {
-    const {children, ...passDownProps} = this.props;
     return (
       <div>
         <Headroom
@@ -70,7 +69,7 @@ module.exports = React.createClass({
             paddingTop: 0,
           }}
         >
-          {React.cloneElement(children, passDownProps)}
+          {this.props.children}
         </Container>
 
 
