@@ -5,7 +5,7 @@ import { config } from 'config'
 import { prefixLink } from 'gatsby-helpers'
 
 import info from './info'
-import Person_page from '../../components/Person_page'
+import PersonPage from '../../components/PersonPage'
 
 export default class Index extends React.Component {
   render() {
@@ -13,7 +13,7 @@ export default class Index extends React.Component {
       <div>
         <Helmet title={config.siteTitle + ' | people | dasabogals'} />
         
-        <Person_page
+        <PersonPage
               {...info.dasabogals}
               picture="../images/dasabogals.jpg"
           />

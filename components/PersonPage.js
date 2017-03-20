@@ -2,7 +2,7 @@ import React from 'react';
 import _ from 'lodash'
 import bib from "../pages/people/bib";
 
-const Person_page = ({ name, name_in_papers, email, picture, title, actual, education, research, publications, achievements}) => (
+const PersonPage = ({ name, name_in_papers, email, picture, title, actual, education, research, publications, achievements}) => (
     <div className="person-page">
         <div className="person-page-initial">
             <img src={picture} alt="foto" className="person-page-picture" />
@@ -87,7 +87,7 @@ const Person_page = ({ name, name_in_papers, email, picture, title, actual, educ
 
 
 
-Person_page.propTypes = {
+PersonPage.propTypes = {
     name: React.PropTypes.string.isRequired,
     email: React.PropTypes.string.isRequired,
     picture: React.PropTypes.string.isRequired,
@@ -97,4 +97,4 @@ Person_page.propTypes = {
 }
 
 
-export default Person_page;
+export default PersonPage;
