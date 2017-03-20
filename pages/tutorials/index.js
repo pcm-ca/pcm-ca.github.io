@@ -12,8 +12,11 @@ export default class Index extends React.Component {
   render() {
     const sortedPages = sortBy(this.props.route.pages, 'data.date')
     // Posts are those with md extension that are not 404 pages OR have a date (meaning they're a react component post).
-    const visiblePages = sortedPages.filter(page => (
-      get(page, 'file.ext') === 'md' && !_.includes(page.path, '/404') || get(page, 'data.date')
+    const visibleTutorials = sortedPages.filter(page => (
+      (
+        get(page, 'file.ext') === 'md' && !_.includes(page.path, '/404')
+        || get(page, 'data.date')
+      ) && (_.includes(get(page, 'file.dir'), 'tutorials'))
     ))
 
     return (
@@ -23,16 +26,13 @@ export default class Index extends React.Component {
         <h1>
           Tutorials
         </h1>
-        {visiblePages.map((page) => (
-              <li>
+        {visibleTutorials.map((page) => (
+              <li key={page.path}>
                 <Link className="linksResources" to={prefixLink(page.path)}>
                     {get(page, 'data.title', page.path)}
                 </Link>
               </li>
           ))}
-        
-        
-
       </div>
     )
   }

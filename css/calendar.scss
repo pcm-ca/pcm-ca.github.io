@@ -1,0 +1,22 @@
+.calendar {
+    list-style: none;
+}
+
+.event {
+    display: flex;
+    flex-direction: row;
+}
+
+.event--venue, .event--info {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+}
+
+.event--venue {
+    align-items: flex-end;
+    border-right: 2px solid crimson;
+    margin-right: 20px;
+    min-width: 280px;
+}
