@@ -1,7 +1,9 @@
 import React from 'react'
 import moment from 'moment'
 import _ from 'lodash'
-
+import info from '../pages/people/info'
+import { Link } from 'react-router'
+import { prefixLink } from 'gatsby-helpers'
 
 class Event extends React.PureComponent {
     render() {
@@ -20,10 +22,23 @@ class Event extends React.PureComponent {
                 </div>
                 <div className="event--info">
                     <strong className="event--title">
-                        {this.props.data.title}
+                        <Link to={prefixLink(`/calendar/${this.props.file.name}/`)}>
+                            {this.props.data.title}
+                        </Link>
                     </strong>
                     <span className="event--in-charge">
-                        {this.props.data.inCharge}
+                        {_.map(this.props.data.inCharge, person =>
+                            <div>
+                                {_.has(info, person) ? (
+                                    <span><Link to={prefixLink(`/people/${person}/`)}>{person}</Link></span>
+                                )
+                                :
+                                (
+                                    <span>{person}</span>
+                                )
+                                }
+                            </div>
+                        )}
                     </span>
                 </div>
             </div>

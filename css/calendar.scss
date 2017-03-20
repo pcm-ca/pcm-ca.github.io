@@ -20,3 +20,29 @@
     margin-right: 20px;
     min-width: 280px;
 }
+
+.event--in-charge {
+    display: flex;
+    flex-direction: row;
+}
+
+.event--in-charge div span {
+    margin-right: 15px;
+    a {
+        text-decoration: underline;
+        color: inherit;
+        &:hover {
+            color: crimson;
+      }
+    }
+}
+
+.markdown {
+    p a {
+        text-decoration: underline;
+        color: inherit;
+        &:hover {
+            color: crimson;
+        }
+    }
+}

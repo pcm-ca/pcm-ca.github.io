@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router'
 import Helmet from 'react-helmet'
 import { config } from 'config'
-import people from './people'
+import info from './info'
 import { prefixLink } from 'gatsby-helpers'
 import _ from 'lodash'
 
@@ -22,11 +22,11 @@ export default class Index extends React.Component {
         <h2>The Bosses</h2>
 
         <div className='people'>
-          {_.map(people.bosses, (props, key) => (
+          {_.map(_.filter(info, {"level": "boss"}), person => (
             <Person
-              {...props}
-              link={prefixLink(`/people/${key}/`)}
-              key={key}
+              {...person}
+              link={prefixLink(`/people/${person.username}/`)}
+              key={person.username}
             />
           ))}
         </div>
@@ -35,11 +35,11 @@ export default class Index extends React.Component {
         <h2>Research Scientists / Doctoral Researchers</h2>
 
         <div className='people'>
-          {_.map(people.range1, (props, key) => (
+          {_.map(_.filter(info, {"level": "range1"}), person => (
             <Person
-              {...props}
-              link={prefixLink(`/people/${key}/`)}
-              key={key}
+              {...person}
+              link={prefixLink(`/people/${person.username}/`)}
+              key={person.username}
             />
           ))}
         </div>
@@ -48,11 +48,11 @@ export default class Index extends React.Component {
         <h2>Master students</h2>
 
         <div className='people'>
-          {_.map(people.range2, (props, key) => (
+          {_.map(_.filter(info, {"level": "range2"}), person => (
             <Person
-              {...props}
-              link={prefixLink(`/people/${key}/`)}
-              key={key}
+              {...person}
+              link={prefixLink(`/people/${person.username}/`)}
+              key={person.username}
             />
           ))}
         </div>
@@ -61,11 +61,11 @@ export default class Index extends React.Component {
         <h2>Undergraduate students</h2>
 
         <div className='people'>
-          {_.map(people.range3, (props, key) => (
+          {_.map(_.filter(info, {"level": "range3"}), person => (
             <Person
-              {...props}
-              link={prefixLink(`/people/${key}/`)}
-              key={key}
+              {...person}
+              link={prefixLink(`/people/${person.username}/`)}
+              key={person.username}
             />
           ))}
         </div>

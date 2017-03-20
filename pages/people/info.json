@@ -2,6 +2,9 @@
     "erestrepopa":
     {
         "name": "Elisabeth Restrepo Parra",
+        "username": "erestrepopa",
+        "picture": "./images/erestrepopa.jpg",
+        "level": "boss",
         "nameInPapers": "E. Restrepo-Parra",
         "email": "erestrepopa@unal.edu.co",
         "title": "Ph.D in Engineering",
@@ -14,6 +17,9 @@
     "jdalzatec":
     {
         "name": "Juan David Alzate Cardona",
+        "username": "jdalzatec",
+        "picture": "./images/jdalzatec.jpg",
+        "level": "range2",
         "nameInPapers": "J.D. Alzate-Cardona",
         "email": "jdalzatec@unal.edu.co",
         "title": "Physical Engineer",
@@ -25,6 +31,9 @@
     "seramirezra":
     {
         "name": "Sebastián Ramírez Ramírez",
+        "username": "seramirezra",
+        "picture": "./images/seramirezra.jpg",
+        "level": "range2",
         "email": "seramirezra@unal.edu.co",
         "nameInPapers": "S. Ramírez-Ramírez",
         "title": "Physical Engineer",
@@ -35,6 +44,9 @@
     "dasabogals":
     {
         "name": "Daniel Alejandro Sabogal Suárez",
+        "username": "dasabogals",
+        "picture": "./images/dasabogals.jpg",
+        "level": "range1",
         "nameInPapers": "D. Sabogal-Suárez",
         "email": "dasabogals@unal.edu.co",
         "title": "M.Sc. Physics",
@@ -47,6 +59,9 @@
     "odarbelaeze":
     {
         "name": "Óscar David Arbeláez Echeverri",
+        "username": "odarbelaeze",
+        "picture": "./images/odarbelaeze.jpg",
+        "level": "range1",
         "nameInPapers": "O.D. Arbeláez-Echeverri",
         "email": "odarbelaeze@unal.edu.co",
         "title": "M.Sc. Physics",
@@ -59,6 +74,9 @@
     "yalopezmu":
     {
         "name": "Yamit López Muñoz",
+        "username": "yalopezmu",
+        "picture": "./images/yalopezmu.jpg",
+        "level": "range2",
         "nameInPapers": "Y. López-Muñoz",
         "email": "yalopezmu@unal.edu.co",
         "title": "Mathematician",
@@ -69,6 +87,9 @@
     "jcrianoro":
     {
         "name": "Juan Carlos Riaño Rojas",
+        "username": "jcrianoro",
+        "picture": "./images/jcrianoro.jpg",
+        "level": "boss",
         "nameInPapers": "J.C. Riaño-Rojas",
         "email": "jcrianoro@unal.edu.co",
         "title": "Ph.D in Engineering",
@@ -80,6 +101,9 @@
     "jdagudelog":
     {
         "name": "José Darío Agudelo Giraldo",
+        "username": "jdagudelog",
+        "picture": "./images/jdagudelog.jpg",
+        "level": "range1",
         "nameInPapers": "J.D. Agudelo-Giraldo",
         "email": "jdagudelog@unal.edu.co",
         "title": "M.Sc. in Science - Physics",
@@ -91,6 +115,9 @@
     "hhortiza":
     {
         "name": "Hugo Hernán Ortiz Álvarez",
+        "username": "hhortiza",
+        "picture": "./images/hhortiza.jpg",
+        "level": "range1",
         "nameInPapers": "H.H Ortiz-Álvarez",
         "email": "hhortiza@unal.edu.co",
         "title": "M.Sc. in Teaching Mathematics",
@@ -102,6 +129,9 @@
     "juchenaolo":
     {
         "name": "Juan Camilo Henao Londoño",
+        "username": "juchenaolo",
+        "picture": "./images/juchenaolo.jpg",
+        "level": "range1",
         "nameInPapers": "J.C Henao-Londoño",
         "email": "juchenaolo@unal.edu.co",
         "title": "M.Sc. in Science - Physics",
@@ -113,6 +143,9 @@
     "hdaristizabals":
     {
         "name": "Héctor Darío Aristizábal Soto",
+        "username": "hdaristizabals",
+        "picture": "./images/hdaristizabals.jpg",
+        "level": "range1",
         "nameInPapers": "H.D. Aristizábal-Soto",
         "email": "hdaristizabals@unal.edu.co",
         "title": "M.Sc. in Science - Physics",
@@ -123,6 +156,9 @@
     "dfdevian":
     {
         "name": "Diego Fernando Devia Narváez",
+        "username": "dfdevian",
+        "picture": "./images/dfdevian.jpg",
+        "level": "range1",
         "nameInPapers": "D.F. Devia-Narváez",
         "email": "dfdevian@unal.edu.co",
         "title": "M.Sc. in Engineering",
@@ -133,6 +169,9 @@
     "cfospinat":
     {
         "name": "Carlos Fernando Ospina Trujillo",
+        "username": "cfospinat",
+        "picture": "./images/cfospinat.jpg",
+        "level": "range2",
         "nameInPapers": "C.F. Ospina-Trujillo",
         "email": "cfospinat@unal.edu.co",
         "title": "Mathematician",
@@ -142,6 +181,9 @@
     "javalenciaa":
     {
         "name": "José Antonio Valencia Aricapa",
+        "username": "javalenciaa",
+        "picture": "./images/javalenciaa.jpg",
+        "level": "range2",
         "nameInPapers": "J.A. Valencia-Aricapa",
         "email": "javalenciaa@unal.edu.co",
         "title": "Physical Engineer",
@@ -151,6 +193,9 @@
     "jcalderonc":
     {
         "name": "Jhonatan Calderón Cardona",
+        "username": "jcalderonc",
+        "picture": "./images/jcalderonc.jpg",
+        "level": "range2",
         "nameInPapers": "J. Calderón-Cardona",
         "email": "jcalderonc@unal.edu.co",
         "title": "Mathematician",
@@ -160,6 +205,9 @@
     "ccceballess":
     {
         "name": "Cristian Camilo Ceballes Serrano",
+        "username": "ccceballess",
+        "picture": "./images/ccceballess.jpg",
+        "level": "range2",
         "nameInPapers": "C.C. Ceballes-Serrano",
         "email": "ccceballess@unal.edu.co",
         "title": "Mathematician",
@@ -169,6 +217,9 @@
     "vahurtadom":
     {
         "name": "Viviana Andrea Hurtado Marín",
+        "username": "vahurtadom",
+        "picture": "./images/vahurtadom.jpg",
+        "level": "range2",
         "nameInPapers": "V.A. Hurtado-Marín",
         "email": "vahurtadom@unal.edu.co",
         "title": "Physical Engineer",
@@ -178,6 +229,9 @@
     "idbuitragot":
     {
         "name": "Ivan David Buitrago Torres",
+        "username": "idbuitragot",
+        "picture": "./images/idbuitragot.jpg",
+        "level": "range3",
         "nameInPapers": "I.D. Buitrago-Torres",
         "email": "idbuitragot@unal.edu.co",
         "title": "",
@@ -186,6 +240,9 @@
     "marcbarreromor":
     {
         "name": "María Camila Barrero Moreno",
+        "username": "marcbarreromor",
+        "picture": "./images/marcbarreromor.jpg",
+        "level": "range3",
         "nameInPapers": "M.C. Barrero-Moreno",
         "email": "marcbarreromor@unal.edu.co",
         "title": "",
@@ -194,6 +251,9 @@
     "ccgalindog":
     {
         "name": "Cristian Camilo Galindo González",
+        "username": "ccgalindog",
+        "picture": "./images/ccgalindog.jpg",
+        "level": "range3",
         "nameInPapers": "C.C. Galindo-González",
         "email": "ccgalindog@unal.edu.co",
         "title": "Electronics Engineer",
@@ -203,6 +263,9 @@
     "jussalcedoga":
     {
         "name": "Juan Sebastián Salcedo Gallo",
+        "username": "jussalcedoga",
+        "picture": "./images/jussalcedoga.jpg",
+        "level": "range3",
         "nameInPapers": "J.S. Salcedo-Gallo",
         "email": "jussalcedoga@unal.edu.co",
         "title": "",
@@ -211,6 +274,9 @@
     "dfrodriguezp":
     {
         "name": "Daniel Felipe Rodríguez Patiño",
+        "username": "dfrodriguezp",
+        "picture": "./images/dfrodriguezp.jpg",
+        "level": "range3",
         "nameInPapers": "D.F. Rodríguez-Patiño",
         "email": "dfrodriguezp@unal.edu.co",
         "title": "",
