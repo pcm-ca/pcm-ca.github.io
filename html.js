@@ -51,6 +51,7 @@ module.exports = React.createClass({
           {head.meta.toComponent()}
           <TypographyStyle typography={typography} />
           <GoogleFont typography={typography} />
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css" />
           {css}
         </head>
         <body>

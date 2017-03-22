@@ -18,15 +18,15 @@ export default class Index extends React.Component {
         <p>
             <div className="uptext">
               If you have some question about the group or about some work,
-              don't hesitate in write to the appropiate person (<Link to={prefixLink('/people/')}>People</Link>).
+              don't hesitate in write to the appropiate person (<Link className="link" to={prefixLink('/people/')}>People</Link>).
             </div>
 
             <div className="uptext">
               Universidad Nacional de Colombia<br/>
               Sede Manizales<br/>
               Campus La Nubia<br/>
-              W. 2__<br/>
-              Phone: +57 6 8879300 ext ____
+              W. 216<br/>
+              Phone: +57 6 8879300 ext 55631
             </div>
             
             <center><img src="/images/build_w.jpg" alt=""/></center>

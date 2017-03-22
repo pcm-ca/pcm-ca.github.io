@@ -23,11 +23,16 @@ export default class Index extends React.Component {
       <div>
         <Helmet title={config.siteTitle + ' | resources'} />
 
-        <h1>
-          Calendar
-        </h1>
-        
-        <Calendar events={visibleEvents} />
+        <div className="calendar--header">
+            <h1>
+              Calendar
+            </h1>
+            <div className="divUpcomingPast">
+              <a className="link" href="#upcoming">Upcoming</a>
+              <a className="link" href="#past">Past</a>
+            </div>
+        </div>
+        <Calendar events={visibleEvents}/>
 
       </div>
     )

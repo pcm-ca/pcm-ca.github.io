@@ -1,32 +1,36 @@
+.ulTutorials {
+    list-style: none;
+}
+
 .calendar {
     list-style: none;
 }
 
-.event {
+.tutorial {
     display: flex;
     flex-direction: row;
 }
 
-.event--venue, .event--info {
+.tutorial--venue, .tutorial--info {
     display: flex;
     flex-direction: column;
     padding: 10px;
     justify-content: center;
 }
 
-.event--venue {
+.tutorial--venue {
     align-items: flex-end;
     border-right: 2px solid crimson;
     margin-right: 20px;
     min-width: 280px;
 }
 
-.event--in-charge {
+.tutorial--in-charge {
     display: flex;
     flex-direction: row;
 }
 
-.event--in-charge div span {
+.tutorial--in-charge div span {
     margin-right: 15px;
     a {
         text-decoration: underline;
@@ -53,7 +57,7 @@
     text-align: right;
 }
 
-.linkUpcomingPast, .event--title {
+.linkUpcomingPast, .tutorial--title {
     text-decoration: underline;
     color: inherit;
     &:hover {

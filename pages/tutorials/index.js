@@ -2,15 +2,15 @@ import React from 'react'
 import { Link } from 'react-router'
 import Helmet from 'react-helmet'
 import { config } from 'config'
-import sortBy from 'lodash/sortBy'
 import get from 'lodash/get'
 import _ from 'lodash'
 
+import Tutorial from '../../components/Tutorial'
 import { prefixLink } from 'gatsby-helpers'
 
 export default class Index extends React.Component {
   render() {
-    const sortedPages = sortBy(this.props.route.pages, 'data.date')
+    const sortedPages = _.orderBy(this.props.route.pages, 'data.date', "desc")
     // Posts are those with md extension that are not 404 pages OR have a date (meaning they're a react component post).
     const visibleTutorials = sortedPages.filter(page => (
       (
@@ -18,7 +18,6 @@ export default class Index extends React.Component {
         || get(page, 'data.date')
       ) && (_.includes(get(page, 'file.dir'), 'tutorials'))
     ))
-
     return (
       <div>
         <Helmet title={config.siteTitle + ' | resources'} />
@@ -26,13 +25,13 @@ export default class Index extends React.Component {
         <h1>
           Tutorials
         </h1>
-        {visibleTutorials.map((page) => (
-              <li key={page.path}>
-                <Link className="linksResources" to={prefixLink(page.path)}>
-                    {get(page, 'data.title', page.path)}
-                </Link>
-              </li>
-          ))}
+        <ul className="ulTutorials">
+          {_.map(visibleTutorials, tutorial => (
+            <li key={tutorial.data.title + tutorial.data.date}>
+                <Tutorial {...tutorial} />
+            </li>
+            ))}
+        </ul>
       </div>
     )
   }

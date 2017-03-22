@@ -1,5 +1,6 @@
 @import './people';
 @import './calendar';
+@import './tutorial';
 
 
 h1, h2 {
@@ -14,8 +15,7 @@ h4 {
 
 p {
     color: black;
-    font-family: console;
-    font-size: x-large;
+    font-size: large;
 
 }
 
@@ -70,4 +70,22 @@ nav ul li a {
 
 .resourcesItems {
     margin-right: 200px;
+}
+
+.bottomText {
+    border-top: 2px solid crimson;
+    text-align: center;
+    font-size: small;
+    color: black;
+    span {
+        margin: 0px;
+    }
+}
+
+.link {
+    text-decoration: underline;
+    color: inherit;
+    &:hover {
+        color: crimson;
+    }
 }

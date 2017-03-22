@@ -37,6 +37,7 @@ module.exports = React.createClass({
           >
             <Link
               to={prefixLink('/')}
+              title="Home"
               style={{
                 color: 'black',
                 textDecoration: 'none',
@@ -72,7 +73,11 @@ module.exports = React.createClass({
           {this.props.children}
         </Container>
 
-
+        <div className="bottomText">
+          <span>PCM Computational Applications, designed by: {" "}
+            <Link className="link" to={prefixLink('/people/jdalzatec/')}>jdalzatec</Link>, {" "}
+            <Link className="link" to={prefixLink('/people/odarbelaeze/')}>odarbelaeze</Link></span>
+        </div>
       </div>
 
     )
