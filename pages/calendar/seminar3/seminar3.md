@@ -1,8 +1,13 @@
 ---
 type: SEMINAR
-title: I don't know the name, yet
+title: Hands on with the LLG equation
 date: 2017-03-24
 inCharge: [odarbelaeze]
 ---
+
+We will be implementing the Heun scheme to integrate the LLG equation
+the idea is to take the equation right out of an article and implement
+that into code, then do some tests and print out the precession of a
+single spin.
 
 [Download slides](seminar3.pdf)
