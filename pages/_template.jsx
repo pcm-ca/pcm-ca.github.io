@@ -43,7 +43,7 @@ module.exports = React.createClass({
                 textDecoration: 'none',
                 fontSize: 40,
                 fontWeight: "bold",
-                marginBottom: rhythm(1),
+                marginBottom: rhythm(0.5),
               }}
             >
               PCM Computational Applications
@@ -55,6 +55,7 @@ module.exports = React.createClass({
                 <li><Link activeStyle={{ color: 'crimson' }} to={prefixLink('/research/')}>Research</Link></li>
                 <li><Link activeStyle={{ color: 'crimson' }} to={prefixLink('/publications/')}>Publications</Link></li>
                 <li><Link activeStyle={{ color: 'crimson' }} to={prefixLink('/resources/')}>Resources</Link></li>
+                <li><Link activeStyle={{ color: 'crimson' }} to={prefixLink('/calendar/')}>Calendar</Link></li>
                 <li><Link activeStyle={{ color: 'crimson' }} to={prefixLink('/contact/')}>Contact us</Link></li>
 
               </ul>
@@ -66,7 +67,7 @@ module.exports = React.createClass({
         <Container
           style={{
             maxWidth: 960,
-            padding: `${rhythm(1)} ${rhythm(3 / 4)}`,
+            padding: `${rhythm(0.5)} ${rhythm(3 / 4)}`,
             paddingTop: 0,
           }}
         >

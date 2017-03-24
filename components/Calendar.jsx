@@ -30,7 +30,14 @@ class Event extends React.PureComponent {
                         {_.map(this.props.data.inCharge, person =>
                             <div>
                                 {_.has(info, person) ? (
-                                    <span><Link className="link" to={prefixLink(`/people/${person}/`)}>{person}</Link></span>
+                                    <span>
+                                        <Link 
+                                            className="link"
+                                            to={prefixLink(`/people/${person}/`)}
+                                        >
+                                            {info[person].name}
+                                        </Link>
+                                    </span>
                                 )
                                 :
                                 (

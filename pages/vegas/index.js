@@ -11,9 +11,8 @@ export default class Index extends React.Component {
       <div>
         <Helmet title={config.siteTitle + ' | resources'} />
 
-        <h1>
-          Vegas
-        </h1>
+        <center><img width={400} src="./images/vegas.png" alt=""/></center>
+        
 
       </div>
     )

@@ -19,7 +19,6 @@ export default class Index extends React.Component {
           <span className="resourcesItems">
             <ul>
               <li><Link className="linksResources" to={prefixLink('/tutorials/')}>Tutorials</Link></li>
-              <li><Link className="linksResources" to={prefixLink('/calendar/')}>Calendar</Link></li>
               <li><Link className="linksResources" to={prefixLink('/vegas/')}>Vegas</Link></li>
             </ul>
           </span>

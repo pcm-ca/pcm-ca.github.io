@@ -1,0 +1,68 @@
+.ulTopics {
+    list-style: none;
+}
+
+.topic {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid lightsalmon;
+    align-items: center;
+}
+
+.topic--image--div {
+    padding: 20px;
+    width: 1000px;
+}
+
+
+.topic--info {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+}
+
+.topic--in-charge {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.topic--abstract {
+    text-align: justify;
+}
+
+.topic--in-charge div span {
+    margin-left: 15px;
+    a {
+        text-decoration: underline;
+        color: inherit;
+        &:hover {
+            color: crimson;
+      }
+    }
+}
+
+.markdown {
+    p a {
+        text-decoration: underline;
+        color: inherit;
+        &:hover {
+            color: crimson;
+        }
+    }
+}
+
+.divUpcomingPast {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.linkUpcomingPast, .topic--title {
+    text-decoration: underline;
+    color: inherit;
+    &:hover {
+        color: crimson;
+    }
+}

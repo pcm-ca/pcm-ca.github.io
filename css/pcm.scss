@@ -1,10 +1,21 @@
 @import './people';
 @import './calendar';
 @import './tutorial';
+@import './topic';
 
 
 h1, h2 {
     color: crimson;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logoPCM {
+    margin-right: 10px;
 }
 
 h4 {
@@ -22,6 +33,8 @@ p {
 nav ul {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
     justify-content: space-between;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     list-style: none;
