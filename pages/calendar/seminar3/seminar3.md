@@ -10,4 +10,6 @@ the idea is to take the equation right out of an article and implement
 that into code, then do some tests and print out the precession of a
 single spin.
 
-[Download slides](seminar3.pdf)
+The code can be found [here](https://github.com/odarbelaeze/llg-rs)
+
+[Download slides](theory.pdf)
