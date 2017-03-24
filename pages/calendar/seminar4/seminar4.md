@@ -1,6 +1,6 @@
 ---
 type: SEMINAR
-title: Hall Effect influence in evolution and equilibria of magnetic fields in Neutrons Stars crust
+title: Hall Effect influence in evolution and equilibria of magnetic fields in Neutron Stars crust
 date: 2017-03-31
 inCharge: [seramirezra]
 ---
