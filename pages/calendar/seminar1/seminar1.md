@@ -1,7 +1,7 @@
 ---
 type: SEMINAR
 title: Parameter Estimation on Molecular Models of Complex Fluids by Stochastic Optimization Techniques
-date: 2017-03-13
+date: 2017-03-13 11:00:00
 inCharge: [cfospinat]
 ---
 

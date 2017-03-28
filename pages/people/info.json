@@ -281,5 +281,16 @@
         "email": "dfrodriguezp@unal.edu.co",
         "title": "",
         "actual": "Student of Engineering Physics"
+    },
+    "jscruzh":
+    {
+        "name": "Juan Sebastián Cruz Hoyos",
+        "username": "jscruzh",
+        "picture": "./images/jscruzh.jpg",
+        "level": "range3",
+        "nameInPapers": "J.S. Cruz-Hoyos",
+        "email": "jscruzh@unal.edu.co",
+        "title": "",
+        "actual": "Student of Engineering Physics"
     }
 }

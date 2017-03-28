@@ -1,7 +1,7 @@
 ---
 type: SEMINAR
 title: Hands on with the LLG equation
-date: 2017-03-24
+date: 2017-03-24 9:00:00
 inCharge: [odarbelaeze]
 ---
 
@@ -10,6 +10,6 @@ the idea is to take the equation right out of an article and implement
 that into code, then do some tests and print out the precession of a
 single spin.
 
-The code can be found [here](https://github.com/odarbelaeze/llg-rs)
+The code can be found [here](https://github.com/odarbelaeze/llg-rs).
 
 [Download slides](theory.pdf)
