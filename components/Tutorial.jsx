@@ -16,16 +16,21 @@ class Tutorial extends React.PureComponent {
                     </span>
                 </div>
                 <div className="tutorial--info">
-                    <strong>
-                        <Link className="link" to={prefixLink(`${this.props.path}`)}>
-                            {this.props.data.title}
-                        </Link>
-                    </strong>
+                    <Link className="link-bold" to={prefixLink(`${this.props.path}`)}>
+                        {this.props.data.title}
+                    </Link>
                     <span className="tutorial--in-charge">
                         {_.map(this.props.data.inCharge, person =>
                             <div>
                                 {_.has(info, person) ? (
-                                    <span><Link className="link" to={prefixLink(`/people/${person}/`)}>{person}</Link></span>
+                                    <span>
+                                        <Link 
+                                            className="link"
+                                            to={prefixLink(`/people/${person}/`)}
+                                        >
+                                            {info[person].name}
+                                        </Link>
+                                    </span>
                                 )
                                 :
                                 (

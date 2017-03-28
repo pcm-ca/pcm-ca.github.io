@@ -13,7 +13,7 @@ const PersonPage = ({ name, nameInPapers, email, picture, title, actual, educati
                 <h2>{name}</h2>
                 <strong>{title}</strong>
                 <strong>{actual}</strong>
-                <a href={"mailto:" + email}><strong>{email}</strong></a>
+                <a className="link" href={"mailto:" + email}><strong>{email}</strong></a>
             </div>
         </div>
 

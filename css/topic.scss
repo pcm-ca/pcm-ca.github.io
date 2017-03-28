@@ -5,13 +5,27 @@
 .topic {
     display: flex;
     flex-direction: row;
-    border: 2px solid lightsalmon;
+    border: 2px solid black;
     align-items: center;
+    border-radius: 10px;
+    &:hover {
+        .topic--image { 
+            filter: drop-shadow(0px 0px 10px black);
+        }
+    };
 }
 
 .topic--image--div {
     padding: 20px;
-    width: 1000px;
+}
+
+.topic--image {
+    width: 500px;
+    padding: 10px;
+    &:hover {
+        filter: drop-shadow(0px 0px 10px black);
+    };
+    border-radius: 20px
 }
 
 
@@ -20,6 +34,7 @@
     flex-direction: column;
     padding: 10px;
     justify-content: center;
+    width: 1500px;
 }
 
 .topic--in-charge {
@@ -34,35 +49,10 @@
 
 .topic--in-charge div span {
     margin-left: 15px;
-    a {
-        text-decoration: underline;
-        color: inherit;
-        &:hover {
-            color: crimson;
-      }
-    }
-}
-
-.markdown {
-    p a {
-        text-decoration: underline;
-        color: inherit;
-        &:hover {
-            color: crimson;
-        }
-    }
 }
 
 .divUpcomingPast {
     display: flex;
     flex-direction: column;
     text-align: right;
-}
-
-.linkUpcomingPast, .topic--title {
-    text-decoration: underline;
-    color: inherit;
-    &:hover {
-        color: crimson;
-    }
 }

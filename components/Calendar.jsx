@@ -21,11 +21,9 @@ class Event extends React.PureComponent {
                     </span>
                 </div>
                 <div className="event--info">
-                    <strong>
-                        <Link className="link" to={prefixLink(`${this.props.path}`)}>
+                        <Link className="link-bold" to={prefixLink(`${this.props.path}`)}>
                             {this.props.data.title}
                         </Link>
-                    </strong>
                     <span className="event--in-charge">
                         {_.map(this.props.data.inCharge, person =>
                             <div>

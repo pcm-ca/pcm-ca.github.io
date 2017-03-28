@@ -32,24 +32,8 @@
 
 .tutorial--in-charge div span {
     margin-right: 15px;
-    a {
-        text-decoration: underline;
-        color: inherit;
-        &:hover {
-            color: crimson;
-      }
-    }
 }
 
-.markdown {
-    p a {
-        text-decoration: underline;
-        color: inherit;
-        &:hover {
-            color: crimson;
-        }
-    }
-}
 
 .divUpcomingPast {
     display: flex;
@@ -57,10 +41,11 @@
     text-align: right;
 }
 
-.linkUpcomingPast, .tutorial--title {
-    text-decoration: underline;
-    color: inherit;
-    &:hover {
-        color: crimson;
-    }
+
+.logos-images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }

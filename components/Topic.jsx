@@ -11,16 +11,14 @@ class Topic extends React.PureComponent {
         return (
             <div className='topic'>
                 <div className="topic--image--div">
-                    <Link className="link" to={prefixLink(`${this.props.path}`)}>
-                    <img className="topic--image" src={this.props.path + this.props.data.figure} alt="Img"/>
+                    <Link to={prefixLink(`${this.props.path}`)}>
+                        <img className="topic--image" src={this.props.path + this.props.data.figure} alt="Img"/>
                     </Link>
                 </div>
                 <div className="topic--info">
-                    <strong>
-                        <Link className="link" to={prefixLink(`${this.props.path}`)}>
-                            {this.props.data.title}
-                        </Link>
-                    </strong>
+                    <Link className="link-bold" to={prefixLink(`${this.props.path}`)}>
+                        {this.props.data.title}
+                    </Link>
                     <span className="topic--abstract">
                         <b>Abstract:</b> {this.props.data.abstract}
                     </span>

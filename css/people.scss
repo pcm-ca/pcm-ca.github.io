@@ -8,7 +8,7 @@
     width: 250px;
     margin: 10px;
     padding: 10px;
-    border: 1px solid lightcoral;
+    border: 2px solid black;
     border-radius: 10px;
     text-decoration: none;
     color: inherit;
@@ -16,7 +16,7 @@
 
 .person:hover {
     .person--picture {
-        filter: sepia();
+        filter: drop-shadow(0px 0px 10px black);
     }
 }
 
@@ -30,10 +30,6 @@
 .person--picture {
     align-self: center;
     border-radius: 20px;
-}
-
-.person--name {
-    font-family: Courier New, Courier, monospace;
 }
 
 .person-page {

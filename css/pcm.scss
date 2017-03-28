@@ -27,7 +27,6 @@ h4 {
 p {
     color: black;
     font-size: large;
-
 }
 
 nav ul {
@@ -36,7 +35,6 @@ nav ul {
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-between;
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     list-style: none;
     font-weight: bold;
     margin: 0;
@@ -44,11 +42,8 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
-    margin: 0;
-    &:hover {
-        color: crimson;
-    }
+    margin: 0px;
+    padding: 0px;
 }
 
 nav ul li a {
@@ -67,7 +62,26 @@ nav ul li a {
     margin-bottom: 40px;
 }
 
-.linksResources {
+.link {
+    text-decoration: underline;
+    color: inherit;
+    &:hover {
+        color: crimson;
+    }
+}
+
+.markdown {
+    p a {
+        text-decoration: underline;
+        color: inherit;
+        &:hover {
+            color: crimson;
+        }
+    }
+}
+
+
+.link-bold {
     text-decoration: none;
     color: inherit;
     font-weight: bold;
@@ -86,19 +100,40 @@ nav ul li a {
 }
 
 .bottomText {
-    border-top: 2px solid crimson;
+    vertical-align: bottom;
+    border-top: 2px solid black;
     text-align: center;
     font-size: small;
     color: black;
-    span {
+    div {
         margin: 0px;
     }
 }
 
-.link {
-    text-decoration: underline;
-    color: inherit;
+.logo-and-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 0px;
+}
+
+.link-logo-and-name-pcm {
+    margin: 0px;
     &:hover {
-        color: crimson;
+        filter: drop-shadow(0px 0px 10px crimson)
     }
+}
+
+.logo-pcm {
+    width: 72px;
+    height: 72px;
+    margin: 0px;
+}
+
+.name-pcm {
+    margin: 0px;
+    margin-left: 10px;
 }

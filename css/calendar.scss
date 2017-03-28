@@ -28,35 +28,12 @@
 
 .event--in-charge div span {
     margin-right: 15px;
-    a {
-        text-decoration: underline;
-        color: inherit;
-        &:hover {
-            color: crimson;
-      }
-    }
 }
 
-.markdown {
-    p a {
-        text-decoration: underline;
-        color: inherit;
-        &:hover {
-            color: crimson;
-        }
-    }
-}
+
 
 .divUpcomingPast {
     display: flex;
     flex-direction: column;
     text-align: right;
-}
-
-.linkUpcomingPast, .event--title {
-    text-decoration: underline;
-    color: inherit;
-    &:hover {
-        color: crimson;
-    }
 }

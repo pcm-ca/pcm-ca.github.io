@@ -19,23 +19,27 @@ module.exports = React.createClass({
       <div>
         <Headroom
           wrapperStyle={{
-            marginBottom: rhythm(1),
+            marginBottom: rhythm(0.5),
           }}
           style={{
-            background: 'skyblue',
+            background: '#B9BDEF',
+            borderBottom: '2px solid black'
           }}
         >
           <Container
             style={{
               maxWidth: 960,
               paddingTop: 0,
-              padding: `${rhythm(1)} ${rhythm(3 / 4)}`,
+              padding: `${rhythm(0.5)} ${rhythm(3 / 4)}`,
+              paddingBottom: 10,
               display: 'flex',
               flexDirection: 'column',
               textAlign: 'center',
             }}
           >
-            <Link
+            
+              
+            <Link className="link-logo-and-name-pcm"
               to={prefixLink('/')}
               title="Home"
               style={{
@@ -43,20 +47,26 @@ module.exports = React.createClass({
                 textDecoration: 'none',
                 fontSize: 40,
                 fontWeight: "bold",
-                marginBottom: rhythm(0.5),
+                marginBottom: rhythm(0.0),
               }}
             >
-              PCM Computational Applications
+              <Container className="logo-and-name">
+                <img className="logo-pcm" src={prefixLink('/android-icon-72x72.png')} alt=""/>
+                <div className="name-pcm">
+                  PCM Computational Applications
+                </div>
+              </Container>
             </Link>
+
 
             <nav>
               <ul>
-                <li><Link activeStyle={{ color: 'crimson' }} to={prefixLink('/people/')}>People</Link></li>
-                <li><Link activeStyle={{ color: 'crimson' }} to={prefixLink('/research/')}>Research</Link></li>
-                <li><Link activeStyle={{ color: 'crimson' }} to={prefixLink('/publications/')}>Publications</Link></li>
-                <li><Link activeStyle={{ color: 'crimson' }} to={prefixLink('/resources/')}>Resources</Link></li>
-                <li><Link activeStyle={{ color: 'crimson' }} to={prefixLink('/calendar/')}>Calendar</Link></li>
-                <li><Link activeStyle={{ color: 'crimson' }} to={prefixLink('/contact/')}>Contact us</Link></li>
+                <li><Link className="link-bold" activeStyle={{ color: 'crimson' }} to={prefixLink('/people/')}>People</Link></li>
+                <li><Link className="link-bold" activeStyle={{ color: 'crimson' }} to={prefixLink('/research/')}>Research</Link></li>
+                <li><Link className="link-bold" activeStyle={{ color: 'crimson' }} to={prefixLink('/publications/')}>Publications</Link></li>
+                <li><Link className="link-bold" activeStyle={{ color: 'crimson' }} to={prefixLink('/resources/')}>Resources</Link></li>
+                <li><Link className="link-bold" activeStyle={{ color: 'crimson' }} to={prefixLink('/calendar/')}>Calendar</Link></li>
+                <li><Link className="link-bold" activeStyle={{ color: 'crimson' }} to={prefixLink('/contact/')}>Contact us</Link></li>
 
               </ul>
             </nav>
@@ -75,9 +85,9 @@ module.exports = React.createClass({
         </Container>
 
         <div className="bottomText">
-          <span>PCM Computational Applications, designed by: {" "}
+          <div>PCM Computational Applications, designed by: {" "}
             <Link className="link" to={prefixLink('/people/jdalzatec/')}>jdalzatec</Link>, {" "}
-            <Link className="link" to={prefixLink('/people/odarbelaeze/')}>odarbelaeze</Link></span>
+            <Link className="link" to={prefixLink('/people/odarbelaeze/')}>odarbelaeze</Link></div>
         </div>
       </div>
 

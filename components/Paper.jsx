@@ -9,8 +9,8 @@ class Paper extends React.PureComponent {
                 {paper.author}, <strong>{paper.title}</strong>, <em>{paper.journal}</em>,
                 {paper.volume}, {paper.number}, (<strong>{paper.year}</strong>), pp. {paper.pages}.
                 <br/>
-                {paper.doi && (<a href={paper.doi} target="_blank">DOI: {paper.doi}</a>)}
-                {paper.link && (<a href={paper.link} target="_blank">Download</a>) }
+                {paper.doi && (<a className="link" href={paper.doi} target="_blank">DOI: {paper.doi}</a>)}
+                {paper.link && (<a className="link" href={paper.link} target="_blank">Download</a>) }
             </span>
         )
     }

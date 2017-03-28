@@ -15,11 +15,11 @@ export default class Index extends React.Component {
           Resources
         </h1>
         
-        <div className="resourcesDiv">
+        <div className="resourcesDiv" width={1000}>
           <span className="resourcesItems">
             <ul>
-              <li><Link className="linksResources" to={prefixLink('/tutorials/')}>Tutorials</Link></li>
-              <li><Link className="linksResources" to={prefixLink('/vegas/')}>Vegas</Link></li>
+              <li><Link className="link-bold" to={prefixLink('/tutorials/')}>Tutorials</Link></li>
+              <li><Link className="link-bold" to={prefixLink('/vegas/')}>Vegas</Link></li>
             </ul>
           </span>
         </div>
