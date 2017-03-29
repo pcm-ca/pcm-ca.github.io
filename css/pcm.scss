@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 @import './people';
 @import './calendar';
 @import './tutorial';
@@ -73,6 +77,13 @@ nav ul li a {
 
 .markdown {
     p a {
+        text-decoration: underline;
+        color: inherit;
+        &:hover {
+            color: crimson;
+        }
+    }
+    div ul li a {
         text-decoration: underline;
         color: inherit;
         &:hover {

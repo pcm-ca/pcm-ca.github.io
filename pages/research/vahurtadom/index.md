@@ -2,7 +2,7 @@
 title: Application of a physical model in the study of dynamic co-authorship networks formed from scientific articles
 date: 2016-01-30
 inCharge: [vahurtadom]
-figure: "fig.png"
+figure: "fig.jpeg"
 abstract: "Since the 1970s the application of physics to social situations has been an issue of interest to the scientific community. This branch of physics applies laws and theories to societal behavior at the collective level. These behaviors emerge from the interactions that occur between people. With the present work is carried out an investigation about the scientific community formed from the publications of articles in indexed journals."
 ---
 
