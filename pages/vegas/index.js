@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router'
 import Helmet from 'react-helmet'
 import { config } from 'config'
-
 import { prefixLink } from 'gatsby-helpers'
 
 export default class Index extends React.Component {
@@ -33,7 +32,28 @@ export default class Index extends React.Component {
         </p>
 
         <ul>
-          <li><Link className="link-bold" to={prefixLink('/vegas/installation/')}>Installation</Link></li>
+          <li>
+              <Link className="link-bold" to={prefixLink("/vegas/installation/")}>
+                Installation
+              </Link>
+          </li>
+          <li>
+              <Link className="link-bold" to={prefixLink("/vegas/sample-build/")}>
+                Sample build
+              </Link>
+              <ul>
+                <li>
+                  <Link className="link-bold" to={prefixLink("/vegas/sample-build/update-policies/")}>
+                    Spin update policies
+                  </Link>
+                </li>
+                <li>
+                  <Link className="link-bold" to={prefixLink("/vegas/sample-build/sample-build-examples/")}>
+                    Examples
+                  </Link>
+                </li>
+              </ul>
+          </li>
         </ul>
 
       </div>
