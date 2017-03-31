@@ -1,7 +1,7 @@
 ---
 type: SEMINAR
 title: Hands on with the LLG equation
-date: 2017-03-24 9:00:00
+date: 2017-03-24 9:00:00 -05:00
 inCharge: [odarbelaeze]
 ---
 

@@ -1,7 +1,7 @@
 ---
 type: SEMINAR
 title: Revisión de modelos y algoritmos de predicción de redes cristalinas
-date: 2017-03-17 9:00:00
+date: 2017-03-17 9:00:00 -05:00
 inCharge: [idbuitragot]
 ---
 

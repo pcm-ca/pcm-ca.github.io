@@ -12,7 +12,7 @@ class Tutorial extends React.PureComponent {
             <div className='tutorial'>
                 <div className="tutorial--venue">
                     <span className="tutorial--date">
-                        {moment.utc(this.props.data.date).calendar()}
+                        {moment.tz(this.props.data.date, "America/Bogota").format('DD/MM/YYYY')}
                     </span>
                 </div>
                 <div className="tutorial--info">

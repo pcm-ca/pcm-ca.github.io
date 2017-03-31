@@ -19,6 +19,7 @@
     "markdown-it-katex": "^1.0.0",
     "markdown-it-sub": "^1.0.0",
     "moment": "^2.18.0",
+    "moment-timezone": "^0.5.11",
     "object-assign": "^4.1.1",
     "react-bootstrap": "^0.30.8",
     "react-headroom": "^2.1.2",

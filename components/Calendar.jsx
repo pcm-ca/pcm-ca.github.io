@@ -1,5 +1,5 @@
 import React from 'react'
-import moment from 'moment'
+import moment from 'moment-timezone'
 import _ from 'lodash'
 import info from '../pages/people/info'
 import { Link } from 'react-router'
@@ -14,7 +14,7 @@ class Event extends React.PureComponent {
                         {_.get(this, 'props.data.type', 'seminar').toUpperCase()}
                     </span>
                     <span className="event--date">
-                        {moment.utc(this.props.data.date).calendar()}
+                        {moment.tz(this.props.data.date, "America/Bogota").calendar()}
                     </span>
                     <span className="event--address">
                         @ {_.get(this, 'props.data.address', 'PCM')}
@@ -70,7 +70,7 @@ class Calendar extends React.PureComponent {
                     {_.map(events_old_first, event => (
                         <li key={event.data.title + event.data.date}>
                             {
-                                moment.utc(event.data.date) > moment.utc() ?
+                                moment.tz(event.data.date, "America/Bogota") > moment.tz("America/Bogota") ?
                                 (<Event {...event} />)
                                 :
                                 (<span/>)
@@ -85,7 +85,7 @@ class Calendar extends React.PureComponent {
                     {_.map(events_new_first, event => (
                         <li key={event.data.title + event.data.date}>
                             {
-                                moment.utc(event.data.date) < moment.utc() ?
+                                moment.tz(event.data.date, "America/Bogota") < moment.tz("America/Bogota") ?
                                 (<Event {...event} />)
                                 :
                                 (<span/>)
