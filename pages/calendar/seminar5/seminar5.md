@@ -1,7 +1,7 @@
 ---
 type: SEMINAR
 title: I don't know the name, yet
-date: 2017-04-17 -05:00
+date: 2017-04-21 9:00:00 -05:00
 inCharge: [javalenciaa]
 ---
 

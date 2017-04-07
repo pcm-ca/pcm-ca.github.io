@@ -161,3 +161,20 @@ nav ul li a {
     margin: 0px;
     margin-left: 10px;
 }
+
+div ul li, div ol li {
+    text-align: justify;
+}
+
+.img-research-seramirezra {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    img {
+        max-width:400px;
+        max-height:700px;
+        width: auto;
+        height: auto;
+    }
+}
