@@ -152,7 +152,11 @@ nav ul li a {
 }
 
 .logo-pcm {
-    width: 72px;
+    height: 72px;
+    margin: 0px;
+}
+
+.logo-un {
     height: 72px;
     margin: 0px;
 }
@@ -160,6 +164,7 @@ nav ul li a {
 .name-pcm {
     margin: 0px;
     margin-left: 10px;
+    margin-right: 10px;
 }
 
 div ul li, div ol li {

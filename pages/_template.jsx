@@ -28,7 +28,7 @@ module.exports = React.createClass({
         >
           <Container
             style={{
-              maxWidth: 960,
+              maxWidth: 1000,
               paddingTop: 0,
               padding: `${rhythm(0.5)} ${rhythm(3 / 4)}`,
               paddingBottom: 10,
@@ -55,6 +55,7 @@ module.exports = React.createClass({
                 <div className="name-pcm">
                   PCM Computational Applications
                 </div>
+                <img className="logo-un" src={prefixLink('/images/logo-un.png')} alt=""/>
               </Container>
             </Link>
 
@@ -76,7 +77,7 @@ module.exports = React.createClass({
 
         <Container
           style={{
-            maxWidth: 960,
+            maxWidth: 1000,
             padding: `${rhythm(0.5)} ${rhythm(3 / 4)}`,
             paddingTop: 0,
           }}

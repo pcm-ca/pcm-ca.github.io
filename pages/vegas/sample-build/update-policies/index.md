@@ -42,7 +42,8 @@ title: "Spin update policies"
     
     $$\mathbf{S^{\prime}} = \left|\mathbf{S}\right| \frac{\frac{\mathbf{S}}{\left|\mathbf{S}\right|}+\sigma_{g}\mathbf{\Gamma}}{\left|\frac{\mathbf{S}}{\left|\mathbf{S}\right|}+\sigma_{g}\mathbf{\Gamma}\right|}$$
 
-    where $\mathbf{\Gamma}$ is a Gaussian distributed random vector and $\sigma_{g}$ is the width of the cone around the initial spin $\mathbf{S}$. Note that, initially, the spin $\mathbf{S}$ is normalized in order to add $\sigma_{g}\mathbf{\Gamma}$. The new expression is normalized again and mutiplied by the spin norm to keep the magnitud of the spin.
+    where $\mathbf{\Gamma}$ is a Gaussian distributed random vector and $\sigma_{g}$ is the width of the cone around the initial spin $\mathbf{S}$. Note that, initially, the spin $\mathbf{S}$ is normalized in order to add $\sigma_{g}\mathbf{\Gamma}$. The new expression is normalized again and mutiplied by the spin norm to keep the magnitud of the spin. The value of $\sigma_{g}$ is generally chosen to be a temperature function of the form
+
 
 
 - **Hinze-Nowak**
