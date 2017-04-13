@@ -9,7 +9,4 @@ abstract: "The effects of the non-linear Hall drift on the evolution of the magn
 
 The effects of the non-linear Hall drift on the evolution of the magnetic field in neutron stars have been subject of research during last decades. Several authors have made theoretical research progress in this direction and have found analytical configurations which are solutions of the linear term of the induction equation (Ohmic modes). However, a general stability study of these solutions is still required. As a result of this idea, We study the stability of these configurations against arbitrary non-axisymetric (3D) perturbations.  The final purpose to check the stability or instability of these Ohmic modes, We study the transfer of energy between the poloidal and toroidal multipoles, caused by their non-linear coupling through the Hall effect.
 
-<div class="img-research-seramirezra">
-    <img src="5.jpg" alt="Image">
-    <img src="30.jpg" alt="Image">
-<div>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/iPKlPX29qMU" frameborder="0" allowfullscreen></iframe></center>

@@ -101,7 +101,7 @@ export default class Index extends React.Component {
           the mathematics students and his name is <a className="link" href="mailto:jcrianoro@unal.edu.co">Juan Carlos Riaño Rojas</a>.
           Both of them are teachers of the Universidad Nacional de Colombia
           and belong to the Faculty of exact and natural sciences.</p>
-          <h2>Do you want to know other things?</h2>
+          <h2>Do you want to know another things?</h2>
           <p>Please write us.</p>
       </div>
     )
