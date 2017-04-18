@@ -1,7 +1,7 @@
 ---
 type: SEMINAR
 title: Application of a physical model in the study of dynamic co-authorship networks formed from scientific articles
-date: 2017-04-10 9:00:00 -05:00
+date: 2017-04-17 9:00:00 -05:00
 inCharge: [vahurtadom]
 ---
 

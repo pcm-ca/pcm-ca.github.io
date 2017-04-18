@@ -5,6 +5,8 @@ import { prefixLink } from 'gatsby-helpers'
 import Headroom from 'react-headroom'
 import '../css/markdown-styles'
 import '../css/pcm'
+import { browserHistory } from 'react-router'
+
 
 import { rhythm } from '../utils/typography'
 
@@ -28,7 +30,7 @@ module.exports = React.createClass({
         >
           <Container
             style={{
-              maxWidth: 1000,
+              maxWidth: "75%",
               paddingTop: 0,
               padding: `${rhythm(0.5)} ${rhythm(3 / 4)}`,
               paddingBottom: 10,
@@ -71,27 +73,30 @@ module.exports = React.createClass({
 
               </ul>
             </nav>
-
           </Container>
         </Headroom>
-
+        
         <Container
           style={{
-            maxWidth: 1000,
-            padding: `${rhythm(0.5)} ${rhythm(3 / 4)}`,
+            maxWidth: "75%",
+            padding: `${rhythm(0)} ${rhythm(3 / 4)}`,
             paddingTop: 0,
           }}
         >
           {this.props.children}
         </Container>
 
-        <div className="bottomText">
-          <div>PCM Computational Applications, designed by: {" "}
-            <Link className="link" to={prefixLink('/people/jdalzatec/')}>jdalzatec</Link>, {" "}
-            <Link className="link" to={prefixLink('/people/odarbelaeze/')}>odarbelaeze</Link></div>
-        </div>
-      </div>
+        {/*<Link to={prefixLink('/vegas/')} className="back-button" style={{left: "0%"}}></Link>
+        <Link to={prefixLink('/vegas/')} className="forward-button" style={{left: "90%"}}></Link>*/}
 
+        <div className="bottomText">
+            <div>
+              PCM Computational Applications, designed by:
+              <Link className="link" to={prefixLink('/people/jdalzatec/')}>jdalzatec</Link>,
+              <Link className="link" to={prefixLink('/people/odarbelaeze/')}>odarbelaeze</Link>
+            </div>
+        </div>
+      </div>    
     )
   },
 })

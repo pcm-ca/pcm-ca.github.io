@@ -293,5 +293,27 @@
         "email": "jscruzh@unal.edu.co",
         "title": "",
         "actual": "Student of Engineering Physics"
+    },
+    "dsalcedoe":
+    {
+        "name": "Daniela Salcedo Escobar",
+        "username": "dsalcedoe",
+        "picture": "./images/dsalcedoe.jpg",
+        "level": "range3",
+        "nameInPapers": "D. Salcedo-Escobar",
+        "email": "dsalcedoe@unal.edu.co",
+        "title": "",
+        "actual": "Student of Engineering Physics"
+    },
+    "jucmunozar":
+    {
+        "name": "Juan Camilo Muñoz Arenas",
+        "username": "jucmunozar",
+        "picture": "./images/jucmunozar.jpg",
+        "level": "range3",
+        "nameInPapers": "D. Salcedo-Escobar",
+        "email": "jucmunozar@unal.edu.co",
+        "title": "",
+        "actual": "Student of Engineering Physics"
     }
 }
