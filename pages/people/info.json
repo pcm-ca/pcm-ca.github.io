@@ -141,19 +141,6 @@
                       "M.Sc. in Science - Physics, Universidad Nacional de Colombia, 2015."],
         "achievements": ["Programme des Futurs Leaders dans les Amériques (PFLA), Ministère des affaires étrangères et du commerce international Canada, 2013."]
     },
-    "hdaristizabals":
-    {
-        "name": "Héctor Darío Aristizábal Soto",
-        "username": "hdaristizabals",
-        "picture": "./images/hdaristizabals.jpg",
-        "level": "range1",
-        "nameInPapers": "H.D. Aristizábal-Soto",
-        "email": "hdaristizabals@unal.edu.co",
-        "title": "M.Sc. in Science - Physics",
-        "actual": "Researcher",
-        "education": ["B.Sc. in Engineering Physics, Universidad Nacional De Colombia, 2008.",
-                      "M.Sc. in Science - Physics, Universidad Nacional de Colombia, 2016."]
-    },
     "dfdevian":
     {
         "name": "Diego Fernando Devia Narváez",
