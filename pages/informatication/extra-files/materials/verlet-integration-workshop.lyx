@@ -1,0 +1,1403 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\AtBeginDocument{\renewcommand{\eqref}[1]{Eq.~(\ref{eq:#1})}}
+\AtBeginDocument{\renewcommand{\figref}[1]{Fig.~\ref{fig:#1}}}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip smallskip
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Taller Integración de Verlet
+\end_layout
+
+\begin_layout Author
+Oscar David Arbeláez Echeverri
+\end_layout
+
+\begin_layout Part
+Teoría
+\end_layout
+
+\begin_layout Section
+Integración de Verlet
+\end_layout
+
+\begin_layout Subsection
+Teoría básica
+\end_layout
+
+\begin_layout Standard
+Para una ecuación diferencial de la forma,
+\begin_inset Formula 
+\begin{equation}
+\ddot{y}\left(t\right)=f\left(t,\,y\left(t\right)\right)
+\end{equation}
+
+\end_inset
+
+si se conocen
+\begin_inset Formula 
+\begin{align}
+y\left(t_{0}\right) & =y_{0}\\
+\dot{y}\left(t_{0}\right) & =\dot{y}_{0}
+\end{align}
+
+\end_inset
+
+el método de Störmer–Verlet básico propone una solución para 
+\begin_inset Formula $y_{n}\approx y\left(t_{n}\right)$
+\end_inset
+
+ para 
+\begin_inset Formula $t_{n}=t_{0}+n\Delta t$
+\end_inset
+
+ en dos pasos:
+\end_layout
+
+\begin_layout Enumerate
+Encuentre 
+\begin_inset Formula $y_{1}$
+\end_inset
+
+ usando la fórmula:
+\begin_inset Formula 
+\begin{equation}
+y_{1}=y_{0}+\dot{y}_{0}\Delta t+\dfrac{1}{2}f\left(t_{0},\,y_{0}\right)\Delta t^{2}+\mathcal{O}\left(\Delta t^{3}\right)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Luego para 
+\begin_inset Formula $n=1,\,2,\,\ldots$
+\end_inset
+
+ encuentre 
+\begin_inset Formula $y_{n+1}$
+\end_inset
+
+ usando la fórmula:
+\begin_inset Formula 
+\begin{equation}
+y_{n+1}=2y_{n}-y_{n-1}+f\left(t_{n},\,y_{n}\right)\Delta t^{2}+\mathcal{O}\left(\Delta t^{4}\right)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Opcionalmente se puede calcular 
+\begin_inset Formula $\dot{y}_{n}\approx\dot{y}\left(t_{n}\right)$
+\end_inset
+
+ como,
+\begin_inset Formula 
+\begin{equation}
+\dot{y}_{n}=\dfrac{y_{n+1}-y_{n-1}}{2\Delta t}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Aplicación a la dinámica de Newton
+\end_layout
+
+\begin_layout Standard
+Los problemas de dinámica de Newton en física usualmente se modela usando
+ la ecuación diferencial,
+\begin_inset Formula 
+\begin{align}
+\vec{F} & =m\vec{a}\\
+ & =m\ddot{\vec{r}}
+\end{align}
+
+\end_inset
+
+visto desde el punto de vista de la integración de Verlet,
+\begin_inset Formula 
+\begin{equation}
+\ddot{\vec{r}}\left(t\right)=\dfrac{1}{m}\vec{F}\left(t,\,\vec{r}\left(t\right)\right)
+\end{equation}
+
+\end_inset
+
+la función 
+\begin_inset Formula $\vec{F}\left(t,\,\vec{r}\left(t\right)\right)$
+\end_inset
+
+ permite modelar distintos sistemas, por ejemplo, para una caída libre,
+ la fuerza sobre el objeto cayendo es constante,
+\begin_inset Formula 
+\begin{equation}
+\vec{F}\left(t,\,\vec{r}\left(t\right)\right)=-mg\hat{k}
+\end{equation}
+
+\end_inset
+
+y para un oscilador cuya posición de equilibrio es cero, la fuerza se puede
+ determinar usando la ley de Hooke,
+\begin_inset Formula 
+\begin{equation}
+\vec{F}\left(t,\,\vec{r}\left(t\right)\right)=-k\left\Vert \vec{r}\left(t\right)\right\Vert =-kr\left(t\right)
+\end{equation}
+
+\end_inset
+
+finalmente, si se introduce una fuerza periódica en alguna dirección 
+\begin_inset Formula $\hat{u}$
+\end_inset
+
+, la fuerza puede escribirse
+\begin_inset Formula 
+\begin{equation}
+\vec{F}\left(t,\,\vec{r}\left(t\right)\right)=-kr\left(t\right)-A\cos\left(\omega t+\phi\right)\hat{u}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Como ejemplo, para resolver el problema del oscilador armónico, se pueden
+ adaptar los pasos de Verlet de la siguiente manera,
+\end_layout
+
+\begin_layout Enumerate
+Encuentre 
+\begin_inset Formula $\vec{r}_{1}$
+\end_inset
+
+ usando la fórmula:
+\begin_inset Formula 
+\begin{equation}
+\vec{r}_{1}=\vec{r}_{0}+\vec{v}_{0}\Delta t+\dfrac{1}{2}\left[-k\left\Vert \vec{r}_{0}\right\Vert \right]\Delta t^{2}+\mathcal{O}\left(\Delta t^{3}\right)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Luego para 
+\begin_inset Formula $n=1,\,2,\,\ldots$
+\end_inset
+
+ encuentre 
+\begin_inset Formula $\vec{r}_{n+1}$
+\end_inset
+
+ usando la fórmula:
+\begin_inset Formula 
+\begin{equation}
+\vec{r}_{n+1}=2\vec{r}_{n}-\vec{r}_{n-1}+\left[-k\left\Vert \vec{r}_{n}\right\Vert \right]\Delta t^{2}+\mathcal{O}\left(\Delta t^{4}\right)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Aplicación a dinámica de muchos cuerpos
+\end_layout
+
+\begin_layout Standard
+La aplicación a dinámica de Newton muestra como 
+\begin_inset Formula $y$
+\end_inset
+
+ puede convertirse en en un vector perteneciente a 
+\begin_inset Formula $\mathbb{R}^{3}$
+\end_inset
+
+ y 
+\begin_inset Formula $f$
+\end_inset
+
+ se convierte trivialmente en una función de 
+\begin_inset Formula $\mathbb{R}^{3}$
+\end_inset
+
+ en 
+\begin_inset Formula $\mathbb{R}^{3}$
+\end_inset
+
+, la dinámica de muchos cuerpos requiere simplemente idear una 
+\begin_inset Formula $y$
+\end_inset
+
+ que pueda representar muchos cuerpos y una 
+\begin_inset Formula $f$
+\end_inset
+
+ que pueda representar la 
+\emph on
+aceleración
+\emph default
+ de cada uno de ellos, definamos para 
+\begin_inset Formula $n$
+\end_inset
+
+ cuerpos una variable 
+\begin_inset Formula 
+\begin{equation}
+\boldsymbol{R}\left(t\right)=\left[\begin{array}{c}
+\vec{r}^{\left(0\right)}\left(t\right)\\
+\vec{r}^{\left(1\right)}\left(t\right)\\
+\vec{r}^{\left(2\right)}\left(t\right)\\
+\vdots\\
+\vec{r}^{\left(n\right)}\left(t\right)
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+adicionalmente, definamos una variable 
+\begin_inset Formula $\boldsymbol{A}$
+\end_inset
+
+ que contiene todas las aceleraciones de los 
+\begin_inset Formula $n$
+\end_inset
+
+ cuerpos
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\boldsymbol{A}\left(t,\,\boldsymbol{R}\right)=\left[\begin{array}{c}
+\nicefrac{1}{m^{(0)}}\vec{F}^{\left(0\right)}\left(t,\,\boldsymbol{R}\right)\\
+\nicefrac{1}{m^{(1)}}\vec{F}^{\left(1\right)}\left(t,\,\boldsymbol{R}\right)\\
+\nicefrac{1}{m^{(2)}}\vec{F}^{\left(2\right)}\left(t,\,\boldsymbol{R}\right)\\
+\vdots\\
+\nicefrac{1}{m^{(n)}}\vec{F}^{\left(n\right)}\left(t,\,\boldsymbol{R}\right)
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+note que la fuerza sobre cada cuerpo 
+\begin_inset Formula $i$
+\end_inset
+
+, 
+\begin_inset Formula $\vec{F}^{\left(i\right)}\left(t,\,\boldsymbol{R}\right)$
+\end_inset
+
+ puede depender de las posiciones de todos los demás cuerpos, esto permite
+ tener en cuenta interacciones entre ellos.
+ Con estas variables, podemos plantear la ecuación
+\begin_inset Formula 
+\[
+\ddot{\boldsymbol{R}}\left(t\right)=\boldsymbol{A}\left(t,\,\boldsymbol{R}\right)
+\]
+
+\end_inset
+
+que tiene la forma requerida para la integración de Verlet, los pasos para
+ encontrar 
+\begin_inset Formula $\boldsymbol{R}_{n}\approx\boldsymbol{R}\left(t_{n}\right)$
+\end_inset
+
+ para 
+\begin_inset Formula $t_{n}=t_{0}+n\Delta t$
+\end_inset
+
+ son los siguientes,Encuentre 
+\begin_inset Formula $\boldsymbol{R}_{1}$
+\end_inset
+
+ usando la fórmula:
+\begin_inset Formula 
+\begin{equation}
+\boldsymbol{R}_{1}=\boldsymbol{R}_{0}+\dot{\boldsymbol{R}}_{0}\Delta t+\dfrac{1}{2}\boldsymbol{A}\left(t,\,\boldsymbol{R}\right)\Delta t^{2}+\mathcal{O}\left(\Delta t^{3}\right)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Luego para 
+\begin_inset Formula $n=1,\,2,\,\ldots$
+\end_inset
+
+ encuentre 
+\begin_inset Formula $\vec{r}_{n+1}$
+\end_inset
+
+ usando la fórmula:
+\begin_inset Formula 
+\begin{equation}
+\boldsymbol{R}_{n+1}=2\boldsymbol{R}_{n}-\boldsymbol{R}_{n-1}+\boldsymbol{A}\left(t,\,\boldsymbol{R}\right)\Delta t^{2}+\mathcal{O}\left(\Delta t^{4}\right)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Fuerzas generadas por un resorte
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename spring-forces.png
+	lyxscale 80
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:spring-forces"
+
+\end_inset
+
+Fuerzas generadas por un resorte.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Para entender las fuerzas generadas por un resorte, considere el resorte
+ de la 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:spring-forces"
+
+\end_inset
+
+.
+ En el primer ejemplo las terminaciones del resorte (
+\begin_inset Formula $\blacksquare$
+\end_inset
+
+ y 
+\begin_inset Formula $\CIRCLE$
+\end_inset
+
+) se encuentran a una distancia de equilibrio que llamaremos 
+\begin_inset Formula $r_{o}$
+\end_inset
+
+, en el segundo ejemplo, el resorte se encuentra comprimido, es decir la
+ distancia entre las terminaciones del resorte que podemos llamar 
+\begin_inset Formula $r_{\blacksquare\CIRCLE}$
+\end_inset
+
+ es menor que la distancia 
+\begin_inset Formula $r_{o}$
+\end_inset
+
+, esto produce una fuerza que se opone a la compresión del resorte.
+ Es importante notar que las fuerzas en 
+\begin_inset Formula $\blacksquare$
+\end_inset
+
+ y 
+\begin_inset Formula $\CIRCLE$
+\end_inset
+
+ son iguales en magnitud pero opuestas en dirección.
+ En el tercer ejemplo, el resorte se encuentra elongado, es decir 
+\begin_inset Formula $r_{\blacksquare\CIRCLE}>r_{o}$
+\end_inset
+
+ esto a su vez produce una fuerza que se opone a la elongación, nuevamente
+ las fuerzas en 
+\begin_inset Formula $\blacksquare$
+\end_inset
+
+ y 
+\begin_inset Formula $\CIRCLE$
+\end_inset
+
+ son equivalentes y opuestas.
+ Las fuerzas en el resorte son restitutivas, esto quiere decir, son fuerzas
+ que provienen de la elongación o compresión del resorte y tratan de devolverlo
+ a su estado original.
+\end_layout
+
+\begin_layout Standard
+Para calcular las fuerzas en cada una de las terminaciones del resorte,
+ supongamos que la terminación 
+\begin_inset Formula $\blacksquare$
+\end_inset
+
+ se encuentra en la posición 
+\begin_inset Formula $\vec{r}_{i}$
+\end_inset
+
+ y la terminación 
+\begin_inset Formula $\CIRCLE$
+\end_inset
+
+ se encuentra en la posición 
+\begin_inset Formula $\vec{r}_{j}$
+\end_inset
+
+ definamos los vectores distancia entre las dos terminaciones como,
+\begin_inset Formula 
+\begin{align}
+\vec{r}_{ij} & =\vec{r}_{j}-\vec{r}_{i}\\
+\vec{r}_{ji} & =-\vec{r}_{ij}
+\end{align}
+
+\end_inset
+
+ahora, podemos calcular la magnitud de la fuerza en cada extremo de acuerdo
+ a la ley de Hooke,
+\begin_inset Formula 
+\begin{align}
+F_{\blacksquare}=F_{\CIRCLE} & =k\left|\left\Vert \vec{r}_{ij}\right\Vert -r_{o}\right|\\
+ & =k\left|r_{ij}-r_{o}\right|
+\end{align}
+
+\end_inset
+
+donde 
+\begin_inset Formula $k$
+\end_inset
+
+ es la constante de resorte.
+ Para calcular la dirección, consideremos la terminación 
+\begin_inset Formula $\blacksquare$
+\end_inset
+
+, cuando 
+\begin_inset Formula $\left\Vert \vec{r}_{ij}\right\Vert -r_{o}$
+\end_inset
+
+ es menor que cero, el resorte se encuentra en compresión, y podemos notar
+ que la fuerza aplicada en 
+\begin_inset Formula $\blacksquare$
+\end_inset
+
+ es paralela a 
+\begin_inset Formula $\vec{r}_{ij}$
+\end_inset
+
+ y opuesta a su dirección, mientras que cuando 
+\begin_inset Formula $\left\Vert \vec{r}_{ij}\right\Vert -r_{o}$
+\end_inset
+
+ es mayor que cero, el resorte se encuentra en elongación y la fuerza sigue
+ siendo paralela 
+\begin_inset Formula $\vec{r}_{ij}$
+\end_inset
+
+ pero ya no es opuesta a su dirección, en ecuaciones,
+\begin_inset Formula 
+\begin{align}
+\vec{F}_{\blacksquare}=\vec{F}_{i} & =k\left(\left\Vert \vec{r}_{ij}\right\Vert -r_{o}\right)\hat{r}_{ij}\\
+ & =-k\left(\left\Vert \vec{r}_{ij}\right\Vert -r_{o}\right)\hat{r}_{ji}\\
+ & =-\vec{F}_{\CIRCLE}=-\vec{F}_{j}\label{eq:equivalent-and-opposed}
+\end{align}
+
+\end_inset
+
+donde,
+\begin_inset Formula 
+\begin{equation}
+\hat{r}_{ij}=\dfrac{\vec{r}_{ij}}{\left\Vert \vec{r}_{ij}\right\Vert }
+\end{equation}
+
+\end_inset
+
+y la 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "eq:equivalent-and-opposed"
+
+\end_inset
+
+ deriva de que las fuerzas en ambos extremos del resorte son siempre equivalente
+s y opuestas.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename spring-forces-anchor-point.png
+	lyxscale 80
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:spring-forces-anchor-point"
+
+\end_inset
+
+Fuerzas generadas por un resorte.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Para terminar, considere ahora el caso de la 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:spring-forces-anchor-point"
+
+\end_inset
+
+, en este caso una de las terminaciones del resorte se encuentra anclada
+ a una pared.
+ Intuitivamente se podría pensar, dado que la terminación 
+\begin_inset Formula $\blacksquare$
+\end_inset
+
+ no se mueve, que la fuerza en la terminación 
+\begin_inset Formula $\CIRCLE$
+\end_inset
+
+ es mayor comparada con el caso de la 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:spring-forces"
+
+\end_inset
+
+.
+ Sin embargo, para los mismos valores de 
+\begin_inset Formula $k$
+\end_inset
+
+ y 
+\begin_inset Formula $\left\Vert \vec{r}_{ij}\right\Vert -r_{o}$
+\end_inset
+
+ se tendrá el mismo valor de 
+\begin_inset Formula $\vec{F}_{\CIRCLE}$
+\end_inset
+
+ en ambos casos.
+ Como se ilustra en la 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:spring-forces-anchor-point"
+
+\end_inset
+
+, la pared va a generar una fuerza normal 
+\begin_inset Formula $\vec{F}_{N}=-\vec{F}_{\blacksquare}$
+\end_inset
+
+ para prevenir el movimiento de la terminación 
+\begin_inset Formula $\blacksquare$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Part
+Ejercicios
+\end_layout
+
+\begin_layout Section
+Oscilador doble
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename double-oscillator.png
+	lyxscale 50
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:double-oscillator"
+
+\end_inset
+
+Oscilador doble.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Considere el sistema indicado en la 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:double-oscillator"
+
+\end_inset
+
+, usando la teoría para fuerzas en resortes y el algoritmo de Verlet modificado
+ para muchos cuerpos:
+\end_layout
+
+\begin_layout Enumerate
+Construya un programa para obtener la trayectoria de cada una de las masas.
+ Use constantes de resorte diferentes pero comparables, por ejemplo 
+\begin_inset Formula $k^{(1)}=2k^{(2)}$
+\end_inset
+
+, y haga lo mismo con las masas, para facilitar el análisis de resultados
+ puede dejar las distancias de equilibrio de ambos resortes iguales 
+\begin_inset Formula $r_{o}^{(1)}=r_{o}^{(2)}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Trate de encontrar la periodicidad del movimiento, para esto, calcule la
+ velocidad de cada una de las masas y fíjese en los puntos para los cuales
+ la velocidad de una de las masas es cero.
+\end_layout
+
+\begin_layout Enumerate
+Realice un informe que incluya:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Una introducción, presentando el problema a resolver.
+\end_layout
+
+\begin_layout Enumerate
+Una metodología, presentando las ecuaciones principales (de resortes y Verlet),
+ detalles de la implementación del programa y las condiciones de simulación
+ (constantes de resorte, masas, posiciones iniciales, velocidades iniciales,
+ ...)
+\end_layout
+
+\begin_layout Enumerate
+Unos resultados que incluyan la trayectoria del movimiento y su respectivo
+ análisis sobre la periodicidad del movimiento.
+ Si el problema tiene solución analítica, compare sus resultados.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 0
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width ""
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Extra
+\end_layout
+
+\end_inset
+
+ Encuentre la forma de realizar animaciones con 
+\begin_inset Formula $\text{{\color{blue}matpotlib}}$
+\end_inset
+
+ y realice una animación simple de la trayectoria del movimiento (no trate
+ de poner resortes y otros elementos gráficos con un par de cajas en movimiento
+ es más que suficiente).
+\end_layout
+
+\begin_layout Section
+Simulación y experimento, caída libre
+\end_layout
+
+\begin_layout Subsection
+Simulación
+\end_layout
+
+\begin_layout Standard
+Usando integración de Verlet y la fuerza para un cuerpo en caída libre,
+\end_layout
+
+\begin_layout Enumerate
+Simule la caída de un cuerpo desde diferentes alturas, en el rango de 
+\begin_inset Formula $0$
+\end_inset
+
+ a 
+\begin_inset Formula $20$
+\end_inset
+
+ metros estaría bien.
+\end_layout
+
+\begin_layout Enumerate
+Usando la trayectoria y tiempo de simulación registre el tiempo de caída
+ para cada una de las alturas simuladas.
+\end_layout
+
+\begin_layout Enumerate
+Ajuste los datos de altura y tiempo de vuelo y relacionelos con un modelo
+ físico.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 0
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width ""
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Extra
+\end_layout
+
+\end_inset
+
+ Encuentre la forma de incluir una fuente de error para el tiempo en su
+ simulación, en el este tiempo será tomado por una persona con un cronómetro
+ usualmente la persona va a tardar cierto tiempo en reaccionar despues de
+ ver el cuerpo llegar al suelo.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 0
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width ""
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Extra
+\end_layout
+
+\end_inset
+
+ Para cuerpos pequeños comparados con la altura el concepto de velocidad
+ límite empieza a ser importante, consulte este fenómeno y encuentre la
+ manera de incluir la fricción del aire dentro de su simulación.
+\end_layout
+
+\begin_layout Subsection
+Experimento
+\end_layout
+
+\begin_layout Standard
+Usando una cinta métrica o una cuerda que pueda medir, muchas piedras y
+ un cronómetro.
+ Busque plataformas de diferentes alturas (balcones, corredores del bloque
+ P, ...) y,
+\end_layout
+
+\begin_layout Enumerate
+Usando la cinta métrica o la cuerda mida la altura de la plataforma y regístrela.
+\end_layout
+
+\begin_layout Enumerate
+Deje caer varias piedras (al menos 10) desde la plataforma y mida su tiempo
+ de caída, registre cada tiempo de caída junto con la altura de la plataforma.
+\end_layout
+
+\begin_layout Enumerate
+Tome una foto de la plataforma y edítela para indicar el punto aproximado
+ desde el que dejó caer las piedras.
+\end_layout
+
+\begin_layout Enumerate
+Realice un 
+\begin_inset Formula $\text{{\color{blue}boxplot}}$
+\end_inset
+
+ de los datos obtenidos usando 
+\begin_inset Formula $\text{{\color{blue}matpotlib}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Obtenga la media de los tiempos de caída y ajuste los datos a un modelo
+ físico.
+\end_layout
+
+\begin_layout Enumerate
+Estime el error de medida.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 0
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width ""
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Extra
+\end_layout
+
+\end_inset
+
+ Determine el coeficiente de fricción sobre sus piedras y calcule la velocidad
+ límite.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 0
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width ""
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Extra
+\end_layout
+
+\end_inset
+
+ Determine el impacto de la fricción sobre sus datos experimentales.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 0
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width ""
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Extra
+\end_layout
+
+\end_inset
+
+ Determine el impacto de la velocidad de respuesta de la persona manejando
+ el cronómetro sobre sus datos experimentales.
+\end_layout
+
+\begin_layout Subsection
+Informe
+\end_layout
+
+\begin_layout Standard
+Realice un informe detallado donde incluya,
+\end_layout
+
+\begin_layout Enumerate
+Introducción, exponiendo la simulación, el experimento realizado y los modelos
+ físicos correspondientes.
+\end_layout
+
+\begin_layout Enumerate
+Metodología, incluyendo,
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Para la simulación: las ecuaciones principales (de caída libre y Verlet),
+ detalles de la implementación del programa y las condiciones de simulación
+ (alturas, posiciones iniciales, velocidades iniciales, etc)
+\end_layout
+
+\begin_layout Enumerate
+Para el experimento: los materiales utilizados, calculos de fricción en
+ las rocas, alturas de las plataformas seleccionadas y fotos de las mismas.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Resultados, incluyendo los resultados de la simulación y resultados experimental
+es y comparaciones entre los mismos.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 0
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width ""
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Extra
+\end_layout
+
+\end_inset
+
+ Resultados incluyendo cada una de las causas de error.
+\end_layout
+
+\begin_layout Section
+Cadena lineal
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout LyX-Code
+\noindent
+\align center
+\begin_inset Graphics
+	filename linear-chain.png
+	lyxscale 50
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:linear-chain"
+
+\end_inset
+
+Modelo de cadena lineal.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+En física de estado sólido, uno de los primeros modelos que se estudian
+ es la cadena lineal mono-atómica y di-atómica, este modelo lo podemos apreciar
+ esencialmente en la 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:linear-chain"
+
+\end_inset
+
+, los átomos se toman como esferas amarradas entre si con resortes, la distancia
+ de equilibrio de los resortes es 
+\begin_inset Formula $a$
+\end_inset
+
+, 
+\begin_inset Formula $a$
+\end_inset
+
+ es conocido como la 
+\begin_inset Quotes fld
+\end_inset
+
+constante de red
+\begin_inset Quotes frd
+\end_inset
+
+ del material, para facilitar los calculos analíticos se asume que cada
+ uno de los átomos tiene la misma masa y cada uno de los resortes la misma
+ constante de resorte y distancia de equilibrio.
+ En la cadena lineal di-atómica, se hace más complejo el sistema considerando
+ que cada segundo átomo tiene una masa diferente.
+\end_layout
+
+\begin_layout Standard
+Noten que la fuerza sobre cada uno de los átomos en la configuración inicial
+ debería ser cero y para que el sistema inicie un movimiento debe darse
+ un estímulo, otra vez, para facilitar las cosas solo se consideran los
+ estímulos indicados en el segundo y tercer ejemplo de la 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:linear-chain"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Usando esta teoría, y el algoritmo de Verlet para muchos cuerpos,
+\end_layout
+
+\begin_layout Enumerate
+Realice un programa que pueda simular la trayectoria de una cadena lineal
+ de 
+\begin_inset Formula $n$
+\end_inset
+
+ átomos.
+\end_layout
+
+\begin_layout Enumerate
+Usando el programa, estudie la propagación de los estímulos indicados en
+ la 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:linear-chain"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Trate de encontrar alguna periodicidad en el movimiento.
+\end_layout
+
+\begin_layout Enumerate
+Realice un informe incluyendo,
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Introducción
+\end_layout
+
+\begin_layout Enumerate
+Metodología
+\end_layout
+
+\begin_layout Enumerate
+Resultados
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 0
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width ""
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Extra
+\end_layout
+
+\end_inset
+
+ Realice una animación de cada una de las simulaciones.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 0
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width ""
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Extra
+\end_layout
+
+\end_inset
+
+ Agregue una temperatura a la simulación usando una distribución de velocidades
+ iniciales.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 0
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width ""
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Extra
+\end_layout
+
+\end_inset
+
+ Consulte el programa 
+\begin_inset Formula $\text{{\color{blue}VMD}}$
+\end_inset
+
+ (visual molecular dynamics) y trate de realizar animaciones del movimiento
+ usando este programa.
+\end_layout
+
+\end_body
+\end_document
