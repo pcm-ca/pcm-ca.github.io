@@ -27,13 +27,13 @@ cmake --version
 In this point you have all the dependencies that you need to install **𝕍egas**. Download **𝕍egas** from the master branch from [here](https://github.com/jdalzatec/vegas/archive/master.zip), unzip and enter in the respective folder. When you run ```ls```, you should get the following output
 
 ```bash
-cmake  CMakeLists.txt  include  main.cc  src
+code compilers executables README.md
 ```
 
-where **cmake**, **include** and **src** are folders and *CMakeLists.txt* and *main.cc* are files. To build with ```cmake```, create a folder named build, enter in this, run ```cmake ..``` and run ```make```. You can do the before with the following
+where **code**, **compilers** and **executables** are folders and ~Readme.md~ is a file. To build with ```cmake``` in Linux, enter in **compilers/linux/** and create a folder named build, enter in this, run ```cmake ..``` and run ```make```. You can do the before with the following
 
 ```bash
-mkdir build && cd build && cmake .. && make
+mkdir compilers/linux/build && cd compilers/linux/build && cmake .. && make
 ```
 
 You should get in console some information like
@@ -54,16 +54,18 @@ You should get in console some information like
 -- Detecting C compile features
 -- Detecting C compile features - done
 -- Found HDF5: /usr/lib/x86_64-linux-gnu/hdf5/serial/lib/libhdf5.so;/usr/lib/x86_64-linux-gnu/libpthread.so;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libz.so;/usr/lib/x86_64-linux-gnu/libdl.so;/usr/lib/x86_64-linux-gnu/libm.so (found version "1.8.16") 
+-- /usr/include/hdf5/serial
 -- Found jsoncpp: /usr/include  
+-- /usr/include/jsoncpp/json
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/jdalzatec/Desktop/vegas-master/build
+-- Build files have been written to: /home/jdalzatec/Desktop/vegas-master/compilers/linux/build
 Scanning dependencies of target vegas
-[ 16%] Building CXX object CMakeFiles/vegas.dir/main.cc.o
-[ 33%] Building CXX object CMakeFiles/vegas.dir/src/lattice.cc.o
-[ 50%] Building CXX object CMakeFiles/vegas.dir/src/reporter.cc.o
-[ 66%] Building CXX object CMakeFiles/vegas.dir/src/system.cc.o
-[ 83%] Building CXX object CMakeFiles/vegas.dir/src/atom.cc.o
+[ 16%] Building CXX object CMakeFiles/vegas.dir/home/jdalzatec/Desktop/vegas-master/code/main.cc.o
+[ 33%] Building CXX object CMakeFiles/vegas.dir/home/jdalzatec/Desktop/vegas-master/code/src/lattice.cc.o
+[ 50%] Building CXX object CMakeFiles/vegas.dir/home/jdalzatec/Desktop/vegas-master/code/src/reporter.cc.o
+[ 66%] Building CXX object CMakeFiles/vegas.dir/home/jdalzatec/Desktop/vegas-master/code/src/system.cc.o
+[ 83%] Building CXX object CMakeFiles/vegas.dir/home/jdalzatec/Desktop/vegas-master/code/src/atom.cc.o
 [100%] Linking CXX executable vegas
 [100%] Built target vegas
 ```

@@ -2,8 +2,30 @@
     "papers" :
     [
         {
-            "title" : "Critical and compensation behavior of a mixed spin-3/2 and spin-5/2 Ising ferrimagnetic system in a graphene layer ",
-            "journal" : "Journal of Magnetism and Magnetic Materials ",
+            "title" : "Magnetization switching process in a torus nanoring with easy-plane surface anisotropy",
+            "journal" : "Journal of Magnetism and Magnetic Materials",
+            "volume" : "442",
+            "number" : "",
+            "pages" : "231 - 235",
+            "year" : "2017",
+            "issn" : "0304-8853",
+            "doi" : "http://dx.doi.org/10.1016/j.jmmm.2017.06.130",
+            "author" : "J.D. Alzate-Cardona and D. Sabogal-Suárez and E. Restrepo-Parra"
+        },
+        {
+            "title" : "Spontaneous Perpendicular Anisotropy in Ultra-thin Ferromagnetic Films",
+            "journal" : "Journal of Superconductivity and Novel Magnetism",
+            "volume" : "30",
+            "number" : "8",
+            "pages" : "34 - 39",
+            "year" : "2017",
+            "issn" : "1557-1939",
+            "doi" : "http://dx.doi.org/10.1007/s10948-017-4005-9",
+            "author" : "J.C. Henao-Londoño and O.D. Arbeláez-Echeverri and J.D. Agudelo-Giraldo and E. Restrepo-Parra"
+        },
+        {
+            "title" : "Critical and compensation behavior of a mixed spin-3/2 and spin-5/2 Ising ferrimagnetic system in a graphene layer",
+            "journal" : "Journal of Magnetism and Magnetic Materials",
             "volume" : "429",
             "number" : "",
             "pages" : "34 - 39",
@@ -14,7 +36,7 @@
         },
         {
             "title" : "Implementation details of a variational method to solve the time independent Schrodinger equation",
-            "journal" : "Revista Mexicana de Física E ",
+            "journal" : "Revista Mexicana de Física E",
             "volume" : "63",
             "number" : "",
             "pages" : "12 - 20",
@@ -24,19 +46,19 @@
             "author" : "J.D. Alzate-Cardona and O.D. Arbeláez-Echeverri and E. Restrepo-Parra"
         },
         {
-            "title" : "Magnetic Atomistic Modelling and Simulation of Nanocrystalline Thin Films ",
-            "journal" : "Superlattices and Microstructures ",
-            "volume" : "",
+            "title" : "Magnetic Atomistic Modelling and Simulation of Nanocrystalline Thin Films",
+            "journal" : "Superlattices and Microstructures",
+            "volume" : "105",
             "number" : "",
-            "pages" : " - ",
+            "pages" : "90 - 98",
             "year" : "2017",
             "issn" : "0749-6036",
             "doi" : "http://dx.doi.org/10.1016/j.spmi.2017.02.032",
             "author" : "J.D. Agudelo-Giraldo and H.H. Ortiz-Álvarez and J. Restrepo and E. Restrepo-Parra"
         },
         {
-            "title" : "Surface anisotropy and particle size influence on hysteresis loops in nanoparticles: A simulation approach ",
-            "journal" : "Journal of Magnetism and Magnetic Materials ",
+            "title" : "Surface anisotropy and particle size influence on hysteresis loops in nanoparticles: A simulation approach",
+            "journal" : "Journal of Magnetism and Magnetic Materials",
             "volume" : "424",
             "number" : "",
             "pages" : "451 - 458",
@@ -46,8 +68,8 @@
             "author" : "J.D. Alzate-Cardona and S. Ruta and R.W. Chantrell and O.D. Arbeláez-Echeverri and E. Restrepo-Parra"
         },
         {
-            "title" : "Influence of radial and tangential anisotropy components in single wall magnetic nanotubes. A Monte Carlo approach ",
-            "journal" : "Physica A: Statistical Mechanics and its Applications ",
+            "title" : "Influence of radial and tangential anisotropy components in single wall magnetic nanotubes. A Monte Carlo approach",
+            "journal" : "Physica A: Statistical Mechanics and its Applications",
             "volume" : "466",
             "number" : "",
             "pages" : "440 - 449",
@@ -57,8 +79,8 @@
             "author" : "J.D. Agudelo-Giraldo and S. Morales-Rojas and V.A. Hurtado-Marín and E. Restrepo-Parra"
         },
         {
-            "title" : "Rocking curves of gold nitride species prepared by arc pulsed - physical assisted plasma vapor deposition ",
-            "journal" : "Surface and Coatings Technology ",
+            "title" : "Rocking curves of gold nitride species prepared by arc pulsed - physical assisted plasma vapor deposition",
+            "journal" : "Surface and Coatings Technology",
             "volume" : "309",
             "number" : "",
             "pages" : "249 - 257",
@@ -79,8 +101,8 @@
             "year": "2016"
         },
         {
-            "title" : "Atomistic simulation of static magnetic properties of bit patterned media ",
-            "journal" : "Physica E: Low-dimensional Systems and Nanostructures ",
+            "title" : "Atomistic simulation of static magnetic properties of bit patterned media",
+            "journal" : "Physica E: Low-dimensional Systems and Nanostructures",
             "volume" : "83",
             "number" : "",
             "pages" : "486 - 490",
@@ -90,8 +112,8 @@
             "author" : "O.D. Arbeláez-Echeverri and J.D. Agudelo-Giraldo and E. Restrepo-Parra"
         },
         {
-            "title" : "Role of iron in the ferromagnetic-antiferromagnetic boundary of La0.5Ca0.5Mn1-xFexO3+δ (0≤x≤0.5) manganites ",
-            "journal" : "Ceramics International ",
+            "title" : "Role of iron in the ferromagnetic-antiferromagnetic boundary of La0.5Ca0.5Mn1-xFexO3+δ (0≤x≤0.5) manganites",
+            "journal" : "Ceramics International",
             "volume" : "42",
             "number" : "11",
             "pages" : "12606 - 12612",
@@ -101,8 +123,8 @@
             "author" : "H.A. Martínez-Rodríguez and J.F. Jurado and J. Restrepo and O. Arnache and E. Restrepo-Parra"
         },
         {
-            "title" : "Correlation between vacancies and magnetoresistance changes in FM manganites using the Monte Carlo method ",
-            "journal" : "Journal of Magnetism and Magnetic Materials ",
+            "title" : "Correlation between vacancies and magnetoresistance changes in FM manganites using the Monte Carlo method",
+            "journal" : "Journal of Magnetism and Magnetic Materials",
             "volume" : "391",
             "number" : "",
             "pages" : "129 - 135",
@@ -112,19 +134,19 @@
             "author" : "J.D. Agudelo-Giraldo and E. Restrepo-Parra and J. Restrepo"
         },
         {
-            "title" : "Retraction notice to “Structure adhesion and corrosion resistance study of tungsten bisulfide doped with titanium deposited by DC magnetron co-sputtering” [Appl. Surf. Sci. 320 (2014) 538–543] ",
-            "journal" : "Applied Surface Science ",
+            "title" : "Retraction notice to “Structure adhesion and corrosion resistance study of tungsten bisulfide doped with titanium deposited by DC magnetron co-sputtering” [Appl. Surf. Sci. 320 (2014) 538–543]",
+            "journal" : "Applied Surface Science",
             "volume" : "349",
             "number" : "",
-            "pages" : "997 - ",
+            "pages" : "997 -",
             "year" : "2015",
             "issn" : "0169-4332",
             "doi" : "http://dx.doi.org/10.1016/j.apsusc.2015.06.013",
             "author" : "J. De La Roche and J.M. González and E. Restrepo-Parra and F. Sequeda and V. Alleh and T.W. Scharf"
         },
         {
-            "title" : "Static and dynamic critical behavior of thin magnetic Ising films ",
-            "journal" : "Physica A: Statistical Mechanics and its Applications ",
+            "title" : "Static and dynamic critical behavior of thin magnetic Ising films",
+            "journal" : "Physica A: Statistical Mechanics and its Applications",
             "volume" : "434",
             "number" : "",
             "pages" : "60 - 67",
@@ -134,8 +156,8 @@
             "author" : "D. Sabogal-Suárez and J.D. Alzate-Cardona and E. Restrepo-Parra"
         },
         {
-            "title" : "Modeling and simulation of the deposition/relaxation processes of polycrystalline diatomic structures of metallic nitride films ",
-            "journal" : "Journal of Crystal Growth ",
+            "title" : "Modeling and simulation of the deposition/relaxation processes of polycrystalline diatomic structures of metallic nitride films",
+            "journal" : "Journal of Crystal Growth",
             "volume" : "418",
             "number" : "",
             "pages" : "70 - 78",
@@ -145,8 +167,8 @@
             "author" : "M.F. García and E. Restrepo-Parra and J.C. Riaño-Rojas"
         },
         {
-            "title" : "Microstructure, residual stress and hardness study of nanocrystalline titanium–zirconium nitride thin films ",
-            "journal" : "Ceramics International ",
+            "title" : "Microstructure, residual stress and hardness study of nanocrystalline titanium–zirconium nitride thin films",
+            "journal" : "Ceramics International",
             "volume" : "41",
             "number" : "1, Part B",
             "pages" : "947 - 952",
@@ -154,6 +176,17 @@
             "issn" : "0272-8842",
             "doi" : "http://dx.doi.org/10.1016/j.ceramint.2014.09.012",
             "author" : "D. Escobar and R. Ospina and A.G. Gómez and E. Restrepo-Parra"
+        },
+        {
+            "title" : "Hysteresis loop behaviors of ferroelectric thin films: A Monte Carlo simulation study",
+            "journal" : "Chinese Physics B",
+            "volume" : "24",
+            "number" : "11",
+            "pages" : "117701",
+            "year" : "2015",
+            "issn" : "1674-1056",
+            "doi" : "http://dx.doi.org/10.1088/1674-1056/24/11/117701",
+            "author" : "C.M. Bedoya-Hincapié and H.H. Ortiz-Álvarez and E. Restrepo-Parra and J.J. Olaya-Flórez and J.E. Alfonso"
         },
         {
             "title": "Thermal Stability of WC Coatings Produced by DC Magnetron Sputtering",
@@ -167,8 +200,8 @@
             "year": "2014"
         },
         {
-            "title" : "Monte Carlo simulation of charge mediated magnetoelectricity in multiferroic bilayers ",
-            "journal" : "Physica B: Condensed Matter ",
+            "title" : "Monte Carlo simulation of charge mediated magnetoelectricity in multiferroic bilayers",
+            "journal" : "Physica B: Condensed Matter",
             "volume" : "454",
             "number" : "",
             "pages" : "235 - 239",
@@ -178,8 +211,8 @@
             "author" : "H.H. Ortiz-Álvarez and C.M. Bedoya-Hincapié and E. Restrepo-Parra"
         },
         {
-            "title" : "RETRACTED: Structure adhesion and corrosion resistance study of tungsten bisulfide doped with titanium deposited by DC magnetron co-sputtering ",
-            "journal" : "Applied Surface Science ",
+            "title" : "RETRACTED: Structure adhesion and corrosion resistance study of tungsten bisulfide doped with titanium deposited by DC magnetron co-sputtering",
+            "journal" : "Applied Surface Science",
             "volume" : "320",
             "number" : "",
             "pages" : "538 - 543",
@@ -189,8 +222,8 @@
             "author" : "J. De La Roche and J.M. González and E. Restrepo-Parra and F. Sequeda and V. Alleh and T.W. Scharf"
         },
         {
-            "title" : "Ferroelectric behavior of bismuth titanate thin films grown via magnetron sputtering ",
-            "journal" : "Ceramics International ",
+            "title" : "Ferroelectric behavior of bismuth titanate thin films grown via magnetron sputtering",
+            "journal" : "Ceramics International",
             "volume" : "40",
             "number" : "8, Part A",
             "pages" : "11831 - 11836",
@@ -200,8 +233,8 @@
             "author" : "C.M. Bedoya-Hincapié and E. Restrepo-Parra and J.J. Olaya-Flórez and J.E. Alfonso and F.J. Flores-Ruiz and F.J. Espinoza-Beltrán"
         },
         {
-            "title" : "Effect of substrate temperature on the mechanical and tribological properties of W/WC produced by DC magnetron sputtering ",
-            "journal" : "Ceramics International ",
+            "title" : "Effect of substrate temperature on the mechanical and tribological properties of W/WC produced by DC magnetron sputtering",
+            "journal" : "Ceramics International",
             "volume" : "40",
             "number" : "5",
             "pages" : "7037 - 7042",
@@ -211,8 +244,8 @@
             "author" : "L.C. Agudelo-Morimitsu and J. De La Roche and A. Ruden and D. Escobar and E. Restrepo-Parra"
         },
         {
-            "title" : "Thickness and bilayer number dependence on exchange bias in ferromagnetic/antiferromagnetic multilayers based on La1−xCaxMnO3 ",
-            "journal" : "Physica B: Condensed Matter ",
+            "title" : "Thickness and bilayer number dependence on exchange bias in ferromagnetic/antiferromagnetic multilayers based on La1−xCaxMnO3",
+            "journal" : "Physica B: Condensed Matter",
             "volume" : "440",
             "number" : "",
             "pages" : "61 - 66",
@@ -222,8 +255,8 @@
             "author" : "E. Restrepo-Parra and J.D. Agudelo-Giraldo and J. Restrepo"
         },
         {
-            "title" : "Magnetocaloric properties in La1−xCaxMnO3 thin films: Monte Carlo simulations ",
-            "journal" : "Journal of Magnetism and Magnetic Materials ",
+            "title" : "Magnetocaloric properties in La1−xCaxMnO3 thin films: Monte Carlo simulations",
+            "journal" : "Journal of Magnetism and Magnetic Materials",
             "volume" : "351",
             "number" : "",
             "pages" : "65 - 69",
@@ -233,8 +266,8 @@
             "author" : "E. Restrepo-Parra and L. Ramos-Rivera and J. Londoño-Navarro"
         },
         {
-            "title" : "X-ray microstructural analysis of nanocrystalline TiZrN thin films by diffraction pattern modeling ",
-            "journal" : "Materials Characterization ",
+            "title" : "X-ray microstructural analysis of nanocrystalline TiZrN thin films by diffraction pattern modeling",
+            "journal" : "Materials Characterization",
             "volume" : "88",
             "number" : "",
             "pages" : "119 - 126",
@@ -244,8 +277,8 @@
             "author" : "D. Escobar and R. Ospina and A.G. Gómez and E. Restrepo-Parra and P.J. Arango"
         },
         {
-            "title" : "Monte Carlo simulation of roughness effect on magnetic and magnetotransport behavior of La2/3Ca1/3MnO3/La1/3Ca2/3MnO3 bilayers ",
-            "journal" : "Physica B: Condensed Matter ",
+            "title" : "Monte Carlo simulation of roughness effect on magnetic and magnetotransport behavior of La2/3Ca1/3MnO3/La1/3Ca2/3MnO3 bilayers",
+            "journal" : "Physica B: Condensed Matter",
             "volume" : "434",
             "number" : "",
             "pages" : "149 - 154",
@@ -255,8 +288,8 @@
             "author" : "J.D. Agudelo-Giraldo and E. Restrepo-Parra and J. Restrepo"
         },
         {
-            "title" : "Structural and chemical composition analysis of WCN produced by pulsed vacuum arc discharge ",
-            "journal" : "Surface and Coatings Technology ",
+            "title" : "Structural and chemical composition analysis of WCN produced by pulsed vacuum arc discharge",
+            "journal" : "Surface and Coatings Technology",
             "volume" : "232",
             "number" : "",
             "pages" : "96 - 100",
@@ -266,8 +299,8 @@
             "author" : "R. Ospina and D. Escobar-Rincón and P.J. Arango and E. Restrepo-Parra and J.F. Jurado"
         },
         {
-            "title" : "Interface exchange parameters in La2/3Ca1/3Mn3O/La1/3Ca2/3Mn3O bilayers: a Monte Carlo approach ",
-            "journal" : "Journal of Magnetism and Magnetic Materials ",
+            "title" : "Interface exchange parameters in La2/3Ca1/3Mn3O/La1/3Ca2/3Mn3O bilayers: a Monte Carlo approach",
+            "journal" : "Journal of Magnetism and Magnetic Materials",
             "volume" : "344",
             "number" : "",
             "pages" : "1 - 7",
@@ -277,8 +310,8 @@
             "author" : "E. Restrepo-Parra and J. Londoño-Navarro and J. Restrepo"
         },
         {
-            "title" : "Monte Carlo simulation of surface anisotropy in La2/3Ca1/3MnO3 nanoparticles ",
-            "journal" : "Journal of Magnetism and Magnetic Materials ",
+            "title" : "Monte Carlo simulation of surface anisotropy in La2/3Ca1/3MnO3 nanoparticles",
+            "journal" : "Journal of Magnetism and Magnetic Materials",
             "volume" : "344",
             "number" : "",
             "pages" : "44 - 48",
@@ -288,8 +321,8 @@
             "author" : "E. Restrepo-Parra and G. Orozco-Hernández and J.C. Riaño-Rojas"
         },
         {
-            "title" : "Substrate heating and post-annealing effect on tungsten/tungsten carbide bilayers grown by non-reactive DC magnetron sputtering ",
-            "journal" : "Ceramics International ",
+            "title" : "Substrate heating and post-annealing effect on tungsten/tungsten carbide bilayers grown by non-reactive DC magnetron sputtering",
+            "journal" : "Ceramics International",
             "volume" : "39",
             "number" : "7",
             "pages" : "7355 - 7365",
@@ -299,8 +332,8 @@
             "author" : "L.C. Agudelo-Morimitsu and J. De La Roche and D. Escobar and R. Ospina and E. Restrepo-Parra"
         },
         {
-            "title" : "Stoichiometry behavior of TaN, TaCN and TaC thin films produced by magnetron sputtering ",
-            "journal" : "Applied Surface Science ",
+            "title" : "Stoichiometry behavior of TaN, TaCN and TaC thin films produced by magnetron sputtering",
+            "journal" : "Applied Surface Science",
             "volume" : "279",
             "number" : "",
             "pages" : "7 - 12",
@@ -310,8 +343,8 @@
             "author" : "M. Vargas and H.A. Castillo and E. Restrepo-Parra and W. De La Cruz"
         },
         {
-            "title" : "Magnetotransport properties in magnetic nanotubes studied using Monte Carlo simulations ",
-            "journal" : "Physica E: Low-dimensional Systems and Nanostructures ",
+            "title" : "Magnetotransport properties in magnetic nanotubes studied using Monte Carlo simulations",
+            "journal" : "Physica E: Low-dimensional Systems and Nanostructures",
             "volume" : "52",
             "number" : "",
             "pages" : "86 - 91",
@@ -321,8 +354,8 @@
             "author" : "C.D. Salazar-Enriquez and E. Restrepo-Parra and J. Restrepo"
         },
         {
-            "title" : "Mechanical and tribological behavior of W/WCN bilayers grown by pulsed vacuum arc discharge ",
-            "journal" : "Tribology International ",
+            "title" : "Mechanical and tribological behavior of W/WCN bilayers grown by pulsed vacuum arc discharge",
+            "journal" : "Tribology International",
             "volume" : "62",
             "number" : "",
             "pages" : "124 - 129",
@@ -332,8 +365,8 @@
             "author" : "R. Ospina and D. Escobar and E. Restrepo-Parra and P.J. Arango and J.F. Jurado"
         },
         {
-            "title" : "Corrosion resistance of CrN thin films produced by dc magnetron sputtering ",
-            "journal" : "Applied Surface Science ",
+            "title" : "Corrosion resistance of CrN thin films produced by dc magnetron sputtering",
+            "journal" : "Applied Surface Science",
             "volume" : "270",
             "number" : "",
             "pages" : "150 - 156",
@@ -343,30 +376,30 @@
             "author" : "A. Ruden and E. Restrepo-Parra and A.U. Paladines and F. Sequeda"
         },
         {
-            "title" : "Erratum to “TiAlN coatings deposited by triode magnetron sputtering varying the bias voltage” [Appl. Surf. Sci. 257 (2011) 6181–6185] ",
-            "journal" : "Applied Surface Science ",
+            "title" : "Erratum to “TiAlN coatings deposited by triode magnetron sputtering varying the bias voltage” [Appl. Surf. Sci. 257 (2011) 6181–6185]",
+            "journal" : "Applied Surface Science",
             "volume" : "258",
             "number" : "22",
-            "pages" : "9103 - ",
+            "pages" : "9103 -",
             "year" : "2012",
             "issn" : "0169-4332",
             "doi" : "http://dx.doi.org/10.1016/j.apsusc.2012.01.078",
             "author" : "D.M. Devia and E. Restrepo-Parra and P.J. Arango and A.P. Tschiptschin and J.M. Velez"
         },
         {
-            "title" : "Erratum to “Comparative study of titanium carbide and nitride coatings grown by cathodic vacuum arc technique” [Appl. Surf. Sci. 258 (2011) 1164–1174] ",
-            "journal" : "Applied Surface Science ",
+            "title" : "Erratum to “Comparative study of titanium carbide and nitride coatings grown by cathodic vacuum arc technique” [Appl. Surf. Sci. 258 (2011) 1164–1174]",
+            "journal" : "Applied Surface Science",
             "volume" : "258",
             "number" : "22",
-            "pages" : "9104 - ",
+            "pages" : "9104 -",
             "year" : "2012",
             "issn" : "0169-4332",
             "doi" : "http://dx.doi.org/10.1016/j.apsusc.2012.01.077",
             "author" : "D.M. Devia and E. Restrepo-Parra and P.J. Arango"
         },
         {
-            "title" : "Monte Carlo simulation of ferroelectric properties in bismuth titanate (Bi4Ti3O12) thin films ",
-            "journal" : "Computational Materials Science ",
+            "title" : "Monte Carlo simulation of ferroelectric properties in bismuth titanate (Bi4Ti3O12) thin films",
+            "journal" : "Computational Materials Science",
             "volume" : "62",
             "number" : "",
             "pages" : "131 - 135",
@@ -376,8 +409,8 @@
             "author" : "C.M. Bedoya-Hincapié and E. Restrepo-Parra and J.C. Riaño Rojas and J.J. Olaya-Flores and J.E. Alfonso"
         },
         {
-            "title" : "Effect of annealing process on TiN/TiC bilayers grown by pulsed arc discharge ",
-            "journal" : "Physica B: Condensed Matter ",
+            "title" : "Effect of annealing process on TiN/TiC bilayers grown by pulsed arc discharge",
+            "journal" : "Physica B: Condensed Matter",
             "volume" : "407",
             "number" : "16",
             "pages" : "3248 - 3251",
@@ -387,8 +420,8 @@
             "author" : "L. Ramos-Rivera and D. Escobar and V. Benavides-Palacios and P.J. Arango and E. Restrepo-Parra"
         },
         {
-            "title" : "Substrate temperature influence on W/WCNx bilayers grown by pulsed vacuum arc discharge ",
-            "journal" : "Applied Surface Science ",
+            "title" : "Substrate temperature influence on W/WCNx bilayers grown by pulsed vacuum arc discharge",
+            "journal" : "Applied Surface Science",
             "volume" : "258",
             "number" : "12",
             "pages" : "5100 - 5104",
@@ -398,8 +431,8 @@
             "author" : "R. Ospina and D. Escobar and E. Restrepo-Parra and P.J. Arango and J.F. Jurado"
         },
         {
-            "title" : "Influence of the structural properties on the pseudocritical magnetic behavior of single-wall ferromagnetic nanotubes ",
-            "journal" : "Journal of Magnetism and Magnetic Materials ",
+            "title" : "Influence of the structural properties on the pseudocritical magnetic behavior of single-wall ferromagnetic nanotubes",
+            "journal" : "Journal of Magnetism and Magnetic Materials",
             "volume" : "324",
             "number" : "8",
             "pages" : "1631 - 1636",
@@ -409,8 +442,8 @@
             "author" : "C.D. Salazar-Enríquez and E. Restrepo-Parra and J. Restrepo"
         },
         {
-            "title" : "Molecular dynamics simulations of the temperature effect in the hardness on Cr and CrN films ",
-            "journal" : "Applied Surface Science ",
+            "title" : "Molecular dynamics simulations of the temperature effect in the hardness on Cr and CrN films",
+            "journal" : "Applied Surface Science",
             "volume" : "258",
             "number" : "10",
             "pages" : "4473 - 4477",
@@ -420,8 +453,8 @@
             "author" : "S. Amaya- Roncancio and D.F. Arias-Mateus and M.M. Gómez-Hermida and J.C. Riaño-Rojas and E. Restrepo-Parra"
         },
         {
-            "title" : "Comparative study of titanium carbide and nitride coatings grown by cathodic vacuum arc technique ",
-            "journal" : "Applied Surface Science ",
+            "title" : "Comparative study of titanium carbide and nitride coatings grown by cathodic vacuum arc technique",
+            "journal" : "Applied Surface Science",
             "volume" : "258",
             "number" : "3",
             "pages" : "1164 - 1174",
@@ -431,8 +464,8 @@
             "author" : "D.M. Devia and E. Restrepo-Parra and P.J. Arango"
         },
         {
-            "title" : "Magnetic phase diagram simulation of La1−xCaxMnO3 system by using Monte Carlo, Metropolis algorithm and Heisenberg model ",
-            "journal" : "Journal of Magnetism and Magnetic Materials ",
+            "title" : "Magnetic phase diagram simulation of La1−xCaxMnO3 system by using Monte Carlo, Metropolis algorithm and Heisenberg model",
+            "journal" : "Journal of Magnetism and Magnetic Materials",
             "volume" : "323",
             "number" : "11",
             "pages" : "1477 - 1483",
@@ -442,8 +475,8 @@
             "author" : "E. Restrepo-Parra and C.D. Salazar-Enríquez and J. Londoño-Navarro and J.F. Jurado and J. Restrepo"
         },
         {
-            "title" : "TiAlN coatings deposited by triode magnetron sputtering varying the bias voltage ",
-            "journal" : "Applied Surface Science ",
+            "title" : "TiAlN coatings deposited by triode magnetron sputtering varying the bias voltage",
+            "journal" : "Applied Surface Science",
             "volume" : "257",
             "number" : "14",
             "pages" : "6181 - 6185",
@@ -453,8 +486,8 @@
             "author" : "D.M. Devia and E. Restrepo-Parra and P.J. Arango and A.P. Tschiptschin and J.M. Velez"
         },
         {
-            "title" : "Substrate temperature influence on boron carbide coatings grown by the PLD technique ",
-            "journal" : "Surface and Coatings Technology ",
+            "title" : "Substrate temperature influence on boron carbide coatings grown by the PLD technique",
+            "journal" : "Surface and Coatings Technology",
             "volume" : "205",
             "number" : "12",
             "pages" : "3607 - 3612",
@@ -464,8 +497,8 @@
             "author" : "H.A. Castillo and E. Restrepo-Parra and J.M. Vélez and W. de la Cruz"
         },
         {
-            "title" : "Chemical and morphological difference between TiN/DLC and a-C:H/DLC grown by pulsed vacuum arc techniques ",
-            "journal" : "Applied Surface Science ",
+            "title" : "Chemical and morphological difference between TiN/DLC and a-C:H/DLC grown by pulsed vacuum arc techniques",
+            "journal" : "Applied Surface Science",
             "volume" : "257",
             "number" : "7",
             "pages" : "2665 - 2668",
@@ -475,8 +508,8 @@
             "author" : "H.A. Castillo and E. Restrepo-Parra and P.J. Arango-Arango"
         },
         {
-            "title" : "Structural and morphological characterization WCxNy thin films grown by pulsed vacuum arc discharge in an argon–nitrogen atmosphere ",
-            "journal" : "Surface and Coatings Technology ",
+            "title" : "Structural and morphological characterization WCxNy thin films grown by pulsed vacuum arc discharge in an argon–nitrogen atmosphere",
+            "journal" : "Surface and Coatings Technology",
             "volume" : "205",
             "number" : "7",
             "pages" : "2191 - 2196",
@@ -486,8 +519,8 @@
             "author" : "R. Ospina-Ospina and J.F. Jurado and J.M. Vélez and P.J. Arango and C. Salazar-Enríquez and E. Restrepo-Parra"
         },
         {
-            "title" : "Monte Carlo study of the critical behavior and magnetic properties of La2/3Ca1/3MnO3 thin films ",
-            "journal" : "Journal of Magnetism and Magnetic Materials ",
+            "title" : "Monte Carlo study of the critical behavior and magnetic properties of La2/3Ca1/3MnO3 thin films",
+            "journal" : "Journal of Magnetism and Magnetic Materials",
             "volume" : "322",
             "number" : "21",
             "pages" : "3514 - 3518",
@@ -497,8 +530,8 @@
             "author" : "E. Restrepo-Parra and C.M. Bedoya-Hincapié and F.J. Jurado and J.C. Riaño-Rojas and J. Restrepo"
         },
         {
-            "title" : "Substrate temperature influence on the trombogenicity in amorphous carbon nitride thin coatings ",
-            "journal" : "Applied Surface Science ",
+            "title" : "Substrate temperature influence on the trombogenicity in amorphous carbon nitride thin coatings",
+            "journal" : "Applied Surface Science",
             "volume" : "256",
             "number" : "24",
             "pages" : "7484 - 7489",
@@ -508,8 +541,8 @@
             "author" : "D.S. Galeano-Osorio and S. Vargas and L.M. López-Córdoba and R. Ospina and E. Restrepo-Parra and P.J. Arango"
         },
         {
-            "title" : "Synthesis and characterization of cubic BC2N grown by reactive laser ablation ",
-            "journal" : "Surface and Coatings Technology ",
+            "title" : "Synthesis and characterization of cubic BC2N grown by reactive laser ablation",
+            "journal" : "Surface and Coatings Technology",
             "volume" : "204",
             "number" : "24",
             "pages" : "4051 - 4056",
@@ -519,8 +552,8 @@
             "author" : "H.A. Castillo and P.J. Arango and J.M. Vélez and E. Restrepo-Parra and G. Soto and W. De la Cruz"
         },
         {
-            "title" : "ZnO thin films growth by pulsed vacuum arc discharge ",
-            "journal" : "Surface and Coatings Technology ",
+            "title" : "ZnO thin films growth by pulsed vacuum arc discharge",
+            "journal" : "Surface and Coatings Technology",
             "volume" : "204",
             "number" : "3",
             "pages" : "271 - 276",
@@ -530,8 +563,8 @@
             "author" : "E. Restrepo-Parra and L.E. Moreno-Montoya and P.J. Arango-Arango"
         },
         {
-            "title" : "On the influence of a TiN interlayer on DLC coatings produced by pulsed vacuum arc discharge: Compositional and morphological study ",
-            "journal" : "Applied Surface Science ",
+            "title" : "On the influence of a TiN interlayer on DLC coatings produced by pulsed vacuum arc discharge: Compositional and morphological study",
+            "journal" : "Applied Surface Science",
             "volume" : "256",
             "number" : "1",
             "pages" : "136 - 141",
@@ -541,8 +574,8 @@
             "author" : "B. Segura-Giraldo and E. Restrepo-Parra and P.J. Arango-Arango"
         },
         {
-            "title" : "Finite elements modeling of multilayers of Cr/CrN ",
-            "journal" : "Microelectronics Journal ",
+            "title" : "Finite elements modeling of multilayers of Cr/CrN",
+            "journal" : "Microelectronics Journal",
             "volume" : "39",
             "number" : "11",
             "pages" : "1336 - 1338",
@@ -552,8 +585,8 @@
             "author" : "S. Amaya-Roncancio and E. Restrepo-Parra"
         },
         {
-            "title" : "Simulation of band structure for CrN lattices by using a 3D array of range-limited circularly symmetric attractive potential ",
-            "journal" : "Superlattices and Microstructures ",
+            "title" : "Simulation of band structure for CrN lattices by using a 3D array of range-limited circularly symmetric attractive potential",
+            "journal" : "Superlattices and Microstructures",
             "volume" : "43",
             "number" : "5–6",
             "pages" : "559 - 563",
@@ -563,8 +596,8 @@
             "author" : "E. Restrepo-Parra and S. Amaya-Roncancio and C.M. Bedoya-Hincapie and J.C. Riaño-Rojas"
         },
         {
-            "title" : "On the application of digital image processing to surfaces of different nitride coatings ",
-            "journal" : "Superlattices and Microstructures ",
+            "title" : "On the application of digital image processing to surfaces of different nitride coatings",
+            "journal" : "Superlattices and Microstructures",
             "volume" : "43",
             "number" : "5–6",
             "pages" : "564 - 569",

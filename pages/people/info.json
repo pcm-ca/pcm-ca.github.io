@@ -119,7 +119,7 @@
         "username": "hhortiza",
         "picture": "./images/hhortiza.jpg",
         "level": "range1",
-        "nameInPapers": "H.H Ortiz-Álvarez",
+        "nameInPapers": "H.H. Ortiz-Álvarez",
         "email": "hhortiza@unal.edu.co",
         "title": "M.Sc. in Teaching Mathematics",
         "actual": "Doctoral Researcher",
@@ -133,7 +133,7 @@
         "username": "juchenaolo",
         "picture": "./images/juchenaolo.jpg",
         "level": "range1",
-        "nameInPapers": "J.C Henao-Londoño",
+        "nameInPapers": "J.C. Henao-Londoño",
         "email": "juchenaolo@unal.edu.co",
         "title": "M.Sc. in Science - Physics",
         "actual": "Researcher",
@@ -267,6 +267,39 @@
         "level": "range3",
         "nameInPapers": "D.F. Rodríguez-Patiño",
         "email": "dfrodriguezp@unal.edu.co",
+        "title": "",
+        "actual": "Student of Engineering Physics"
+    },
+    "lufvelasquezgo":
+    {
+        "name": "Luisa Fernanda Velásquez González",
+        "username": "lufvelasquezgo",
+        "picture": "./images/lufvelasquezgo.jpg",
+        "level": "range3",
+        "nameInPapers": "L.F. Velásquez-González",
+        "email": "lufvelasquezgo@unal.edu.co",
+        "title": "",
+        "actual": "Student of Engineering Physics"
+    },
+    "judalzategi":
+    {
+        "name": "Juan Diego Alzate Giraldo",
+        "username": "judalzategi",
+        "picture": "./images/judalzategi.jpg",
+        "level": "range3",
+        "nameInPapers": "J.D. Alzate-Giraldo",
+        "email": "judalzategi@unal.edu.co",
+        "title": "",
+        "actual": "Student of Engineering Physics"
+    },
+    "nacardonago":
+    {
+        "name": "Natalia Cardona Gómez",
+        "username": "nacardonago",
+        "picture": "./images/nacardonago.jpg",
+        "level": "range3",
+        "nameInPapers": "N. Cardona-Gómez",
+        "email": "nacardonago@unal.edu.co",
         "title": "",
         "actual": "Student of Engineering Physics"
     },
