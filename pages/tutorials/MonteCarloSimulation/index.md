@@ -3,7 +3,7 @@ title: Construcción de Programa Monte Carlo para Simulación de un sistema Isin
 date: 2017-01-30
 inCharge: [jdalzatec]
 ---
-#### Todo este tutorial se encuentra en un scritp de ipython notebook. Lo puedes descargar de [aquí](MonteCarloIsing2D.ipynb).
+###### Todo este tutorial se encuentra en un scritp de ipython notebook. Lo puedes descargar de [aquí](MonteCarloIsing2D.ipynb).
 
 Este tutorial está elaborado con el fin de proporcionar una guía práctica para la elaboración de un programa Monte Carlo para la simulación de un sistema Ising 2D. El programa está construido en **python3**. Es cierto que la complejidad del programa es mínima, pero la eficiencia de los ciclos en python es mínima. Es por ello que cabe resaltar que es recomendable emplear otro lenguaje, sea **C++** o **Fortran**, para la implementación del paso Monte Carlo y el algoritmo de Metrópolis.
 

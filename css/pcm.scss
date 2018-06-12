@@ -8,7 +8,7 @@
 @import './topic';
 
 
-h1, h2 {
+h1, h2, h3, h4 {
     color: crimson;
 }
 
@@ -22,7 +22,7 @@ h1, h2 {
     margin-right: 10px;
 }
 
-h4 {
+h6 {
     color: black;
     background-color: gold;
     margin-top: 5px;
@@ -199,4 +199,13 @@ nav ul li a {
 
 div ul li, div ol li {
     text-align: justify;
+}
+
+.markdown div ul li a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    &:hover {
+        color: crimson;
+    }
 }

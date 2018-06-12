@@ -1,5 +1,5 @@
 ---
-title: "Sample build"
+title: "System building"
 ---
 
 **𝕍egas** has a defined format to build the samples.
