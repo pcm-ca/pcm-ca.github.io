@@ -31,7 +31,7 @@ export default class Index extends React.Component {
                 <img height={300} src="images/fig_0.jpg"/>
               </center>
               <Carousel.Caption>
-                <h4>Final configurations for different anisotropy surface values of a manganite nanoparticle.</h4>
+                <h6>Final configurations for different anisotropy surface values of a manganite nanoparticle.</h6>
               </Carousel.Caption>
             </Carousel.Item>
 
@@ -40,7 +40,7 @@ export default class Index extends React.Component {
                 <img height={300} src="images/fig_1.jpg"/>
               </center>
               <Carousel.Caption>
-                <h4>Simulation of a Bit Patterned Media of Cobalt.</h4>
+                <h6>Simulation of a Bit Patterned Media of Cobalt.</h6>
               </Carousel.Caption>
             </Carousel.Item>
 
@@ -49,7 +49,7 @@ export default class Index extends React.Component {
                 <img height={300} src="images/fig_2.jpg"/>
               </center>
               <Carousel.Caption>
-                <h4>Simulation of heat assisted magnetic recording of a magnetic nanotorus.</h4>
+                <h6>Simulation of heat assisted magnetic recording of a magnetic nanotorus.</h6>
               </Carousel.Caption>
             </Carousel.Item>
 
@@ -58,7 +58,7 @@ export default class Index extends React.Component {
                 <img height={300} src="images/fig_3.jpg"/>
               </center>
               <Carousel.Caption>
-                <h4>Simulation of fission gas release in pellets of uranium oxide.</h4>
+                <h6>Simulation of fission gas release in pellets of uranium oxide.</h6>
               </Carousel.Caption>
             </Carousel.Item>
 
@@ -67,7 +67,7 @@ export default class Index extends React.Component {
                 <img height={300} src="images/fig_4.jpg"/>
               </center>
               <Carousel.Caption>
-                <h4>Scheme of a magnetic graphene to study magnetic compensation phenomena.</h4>
+                <h6>Scheme of a magnetic graphene to study magnetic compensation phenomena.</h6>
               </Carousel.Caption>
             </Carousel.Item>
 
@@ -76,7 +76,7 @@ export default class Index extends React.Component {
                 <img height={300} src="images/fig_5.jpg"/>
               </center>
               <Carousel.Caption>
-                <h4>Schemes of Core/Shell nanoparticles to study the influence of the interfacial roughness.</h4>
+                <h6>Schemes of Core/Shell nanoparticles to study the influence of the interfacial roughness.</h6>
               </Carousel.Caption>
             </Carousel.Item>
             

@@ -68,7 +68,6 @@ module.exports = React.createClass({
                 <li><Link className="link-bold" activeStyle={{ color: 'crimson' }} to={prefixLink('/research/')}>Research</Link></li>
                 <li><Link className="link-bold" activeStyle={{ color: 'crimson' }} to={prefixLink('/publications/')}>Publications</Link></li>
                 <li><Link className="link-bold" activeStyle={{ color: 'crimson' }} to={prefixLink('/resources/')}>Resources</Link></li>
-                <li><Link className="link-bold" activeStyle={{ color: 'crimson' }} to={prefixLink('/calendar/')}>Calendar</Link></li>
                 <li><Link className="link-bold" activeStyle={{ color: 'crimson' }} to={prefixLink('/contact/')}>Contact us</Link></li>
 
               </ul>
@@ -93,6 +92,7 @@ module.exports = React.createClass({
             <div>
               PCM Computational Applications, designed by:
               <Link className="link" to={prefixLink('/people/jdalzatec/')}>jdalzatec</Link>,
+              <Link className="link" to={prefixLink('/people/dasabogals/')}>dasabogals</Link>,
               <Link className="link" to={prefixLink('/people/odarbelaeze/')}>odarbelaeze</Link>
             </div>
         </div>

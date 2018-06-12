@@ -5,12 +5,12 @@ title: "Tutorials"
 
 ## Sample building
 
-- [Building a bulk system](/vegas/tutorials/system-building/building-a-bcc-fe/)
-- [Building a core/shell nanoparticle](/vegas/tutorials/system-building/building-a-core-shell-nanoparticle/)
+- [Building a bulk system](/vegas/examples/system-building/building-a-bcc-fe/)
+- [Building a core/shell nanoparticle](/vegas/examples/system-building/building-a-core-shell-nanoparticle/)
 
 ## Simulation and data analysis
 
-- [Thermal properties of a bulk system](/vegas/tutorials/simulation-and-data-analysis/m-vs-t-Fe/)
+- [Thermal properties of a bulk system](/vegas/examples/simulation-and-data-analysis/m-vs-t-Fe/)
 
 ***
 

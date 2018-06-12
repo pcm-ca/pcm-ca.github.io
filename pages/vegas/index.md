@@ -22,4 +22,4 @@ The model and method, installation, system building, simulation and data analysi
 * [Installation](/vegas/installation/)
 * [System building](/vegas/system-building/)
 * [Simulation and data analysis](/vegas/simulation-and-data-analysis/)
-* [Tutorials](/vegas/tutorials/)
+* [Tutorials](/vegas/examples/)
