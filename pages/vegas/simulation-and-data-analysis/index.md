@@ -3,22 +3,22 @@ title: "Simulation and data analysis"
 ---
 
 
-In this section, the general features of the simulation and data analysis processes are presented. Further explanation applied to different examples can be found in the [**Tutorials**](eeeeeeaaaaaaaa) section.
+In this section, the general features of the simulation and data analysis processes are presented. Further explanation applied to different examples can be found in the [Tutorials](/vegas/examples/) section.
 
 ## Simulation
 
 ### Input files
 
-Vegas requires some input files to perform a simulation:
+Vegas takes in some input files to perform a simulation:
 
 * Configuration file
 * Sample file
-* Anisotropy file
-* Initial state file
+* Anisotropy file (optional)
+* Initial state file (optional)
 
 #### Configuration file
 
-In this file, the simulation parameters are defined using a [**JSON**](https://www.w3schools.com/js/js_json_intro.asp) file format. The following attributes can be defined in this file:
+In this file, the simulation parameters are defined using a [JSON](https://www.w3schools.com/js/js_json_intro.asp) file format. The following attributes can be defined in this file:
 
 * sample (string - required): Path to the sample file.
 * anisotropy (string or list of strings - optional - default: None): Path to the anisotropy file(s).
@@ -46,7 +46,7 @@ An example of a configuration file is shown below:
 }
 ```
 
-In this example the system is simulated at a temperature of $100\ arb. units$ without presence of external magnetic field. There are different ways to input the values of the "field" and "temperature" attributes: 
+In this example, the system is simulated at a temperature of $100\ arb. units$ without presence of external magnetic field. There are different ways to input the values of the "field" and "temperature" attributes: 
 
 If the "field" is a float and the "temperature" a list, the system is simulated using the same inputed "field" float at each "temperature" value, and vice versa:
 
@@ -93,14 +93,14 @@ Using this structure, the magnetic field is varied from $2.0$ to $-2.0\ arb. uni
 
 #### Sample, anisotropy and initial state files
 
-The sample and anisotropy files contain the structural and magnetic characteristics of the system that will be simulated. The initial state file contains a system magnetization state that will be used to start the simulation. However, this file is optional, and if no file is given, the system would start in a random magnetization state. The name of these files must match the filenames in the path of the "sample", "anisotropy" and "initialstate" attributes in the configuration file. The format and construction of these files is explained in the [**System building**](ahhhhhhhhhhhhhhh) section.
+The sample and anisotropy files contain the structural and magnetic characteristics of the system that will be simulated. The initial state file contains a system magnetization state that will be used to start the simulation. However, this file is optional, and if no file is given, the system would start in a random magnetization state. The name of these files must match the filenames in the path of the "sample", "anisotropy" and "initialstate" attributes in the configuration file. The format and construction of these files is explained in the [System building](/vegas/system-building/) section.
 
 ### Starting the simulation
 
-Once all the files have been created, they must be located in the same folder. To start the simulation, open a terminal and change directory to the folder. If the name of the configuration file is config.json, execute:
+Once all the files have been created, to start the simulation, open a terminal and change directory to the folder. If the name of the configuration file is config.json, execute:
 
 ``` shell
-vegas config_M_vs_T.json
+vegas config.json
 ```
 
 Then, a message like this should appear:
@@ -119,14 +119,14 @@ Finally, an output file (results.h5) must has been created. This file contains a
 
 Simulation results are stored in a set of variables and attributes. Variables include the temperature, external magnetic field and energy values, ions spatial positions, final magnetization states, spatial components of the magnetization per ion type and spatial components of the total magnetization. The final magnetization states correspond to the magnetization state of the system at the last Monte Carlo step per temperature/magnetic field pair point. Attributes include the number of Monte Carlo steps, random number seed and Boltzmann constant value.
 
-[**HDFView**](https://support.hdfgroup.org/products/java/hdfview/) is an useful tool to visualize the contents of the output file. If the output file is opened with this tool, something like this is observed:
+[HDFView](https://support.hdfgroup.org/products/java/hdfview/) is an useful tool to visualize the contents of the output file. If the output file is opened with this tool, something like this is observed:
 
 ![hdfview.png](hdfview.png)
 
 However, to handle the data and facilitate its analysis, it is better to create and use python scripts to extract and visualize the data of interest of the results output file. 
 
-* [**Home**](http://perras.com)
-* [**Model and method**](http://perras.com)
-* [**Installation**](http://perras.com)
-* [**System building**](http://perras.com)
-* [**Tutorials**](http://perras.com)
+* [Home](/vegas/)
+* [Model and method](/vegas/model-and-method/)
+* [Installation](/vegas/installation/)
+* [System building](/vegas/system-building/)
+* [Tutorials](/vegas/examples/)

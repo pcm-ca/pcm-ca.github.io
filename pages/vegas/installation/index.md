@@ -2,9 +2,9 @@
 title: "Installation"
 ---
 
-Until date, it is so easy to install **𝕍egas** in Ubuntu 14.* and 16.*. In the future. the installation will be so easy. We are working in this.
+Until date, it is so easy to install 𝕍egas in Ubuntu 14.* and 16.*. In the future. the installation will be so easy. We are working in this.
 
-In order to install **𝕍egas** you need to have installed in your computer the libraries for [HDF5](https://support.hdfgroup.org/HDF5/), [JSON](https://en.wikibooks.org/wiki/JsonCpp) and, ofcourse, g++. Let's talk about HDF5 and JSON. HDF5 is a data model, library, and file format for storing and managing data. Data is saved in binary such that the writing and reading is so fast. We use HDF5 because the simulation history usually is huge. If we would save the data in text, a simulation history could have a size until 30 Gb ... that is a bad idea. For this reason we decided to use HDF5. On the other hand, we used JSON to read the input for the simulation. It is a pretty format for inputs.
+In order to install 𝕍egas you need to have installed in your computer the libraries for [HDF5](https://support.hdfgroup.org/HDF5/), [JSON](https://en.wikibooks.org/wiki/JsonCpp) and, ofcourse, g++. Let's talk about HDF5 and JSON. HDF5 is a data model, library, and file format for storing and managing data. Data is saved in binary such that the writing and reading is so fast. We use HDF5 because the simulation history usually is huge. If we would save the data in text, a simulation history could have a size until 30 Gb ... that is a bad idea. For this reason we decided to use HDF5. On the other hand, we used JSON to read the input for the simulation. It is a pretty format for inputs.
 
 To install HDF5, JSON and g++ in your PC, you need to get the libhdf5-dev, libjsoncpp-dev and g++ libraries with the following command
 
@@ -24,13 +24,13 @@ To check the version of cmake, run
 cmake --version
 ```
 
-In this point you have all the dependencies that you need to install **𝕍egas**. Download **𝕍egas** from the master branch from [here](https://github.com/jdalzatec/vegas/archive/master.zip), unzip and enter in the respective folder. When you run ```ls```, you should get the following output
+In this point you have all the dependencies that you need to install 𝕍egas. Download 𝕍egas from the master branch from [here](https://github.com/jdalzatec/vegas/archive/master.zip), unzip and enter in the respective folder. When you run ```ls```, you should get the following output
 
 ```bash
-code compilers executables README.md
+analyzers  code  compilers  Dockerfile  executables  README.md
 ```
 
-where **code**, **compilers** and **executables** are folders and ~Readme.md~ is a file. To build with ```cmake``` in Linux, enter in **compilers/linux/** and create a folder named build, enter in this, run ```cmake ..``` and run ```make```. You can do the before with the following
+where **analyzers**, **code**, **compilers** and **executables** are folders and ~Readme.md~ and ~Dockerfile~ are files. To build with ```cmake``` in Linux, enter in **compilers/linux/** and create a folder named build, enter in this, run ```cmake ..``` and run ```make```. You can do the before with the following
 
 ```bash
 mkdir compilers/linux/build && cd compilers/linux/build && cmake .. && make
@@ -70,12 +70,21 @@ Scanning dependencies of target vegas
 [100%] Built target vegas
 ```
 
-and in your **build** folder some files and a folder were created. Moreover, a executable file named **vegas** was created. This is the part of vegas to run the simulations. You can have this file in all folder where you are going to run a simulation. But it is better have the **vegas** executable into your ```/usr/bin/``` folder such that **𝕍egas** can be executed wherever. If you want this, run ```sudo make install``` and **𝕍egas** will be into ```/usr/bin/```.
+and in your **build** folder some files and a folder were created. Moreover, a executable file named 𝕍egas was created. This is the part of 𝕍egas to run the simulations. You can have this file in all folder where you are going to run a simulation. But it is better have the 𝕍egas executable into your ```/usr/bin/``` folder such that 𝕍egas can be executed wherever. If you want this, run ```sudo make install``` and 𝕍egas will be into ```/usr/bin/```.
 
-If all was fine, when you run in your terminal the command **vegas**, a message like this should be showed
+If all was fine, when you run in your terminal the command 𝕍egas, a message like this should be showed
 
 <center>
     <img src="output.png" alt="Image"/>
 </center>
 
-In this point, you need to have a JSON file to run **𝕍egas**. Let's go to learn how to make this file in the next section. But firts, let me to show you how you should to [build the sample](../sample-build/).
+In this point, you need to have a JSON file to run 𝕍egas. Let's go to learn how to make this file in the next section. But firts, let me to show you how you should to [build the sample](/vegas/system-building/).
+
+
+---
+
+* [Home](/vegas/)
+* [Model and method](/vegas/model-and-method/)
+* [System building](/vegas/system-building/)
+* [Simulation and data analysis](/vegas/simulation-and-data-analysis/)
+* [Tutorials](/vegas/examples/)

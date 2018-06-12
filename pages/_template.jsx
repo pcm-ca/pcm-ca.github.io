@@ -2,7 +2,6 @@ import React from 'react'
 import { Container } from 'react-responsive-grid'
 import { Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
-import Headroom from 'react-headroom'
 import '../css/markdown-styles'
 import '../css/pcm'
 import { browserHistory } from 'react-router'
@@ -19,9 +18,9 @@ module.exports = React.createClass({
   render() {
     return (
       <div>
-        <Headroom
+        <p
           wrapperStyle={{
-            marginBottom: rhythm(0.5),
+            marginBottom: rhythm(1.0),
           }}
           style={{
             background: '#B9BDEF',
@@ -30,7 +29,7 @@ module.exports = React.createClass({
         >
           <Container
             style={{
-              maxWidth: "75%",
+              maxWidth: "80%",
               paddingTop: 0,
               padding: `${rhythm(0.5)} ${rhythm(3 / 4)}`,
               paddingBottom: 10,
@@ -67,17 +66,18 @@ module.exports = React.createClass({
                 <li><Link className="link-bold" activeStyle={{ color: 'crimson' }} to={prefixLink('/people/')}>People</Link></li>
                 <li><Link className="link-bold" activeStyle={{ color: 'crimson' }} to={prefixLink('/research/')}>Research</Link></li>
                 <li><Link className="link-bold" activeStyle={{ color: 'crimson' }} to={prefixLink('/publications/')}>Publications</Link></li>
+                <li><Link className="link-bold" activeStyle={{ color: 'crimson' }} to={prefixLink('/vegas/')}>𝕍egas</Link></li>
                 <li><Link className="link-bold" activeStyle={{ color: 'crimson' }} to={prefixLink('/resources/')}>Resources</Link></li>
                 <li><Link className="link-bold" activeStyle={{ color: 'crimson' }} to={prefixLink('/contact/')}>Contact us</Link></li>
 
               </ul>
             </nav>
           </Container>
-        </Headroom>
+        </p>
         
         <Container
           style={{
-            maxWidth: "75%",
+            maxWidth: "80%",
             padding: `${rhythm(0)} ${rhythm(3 / 4)}`,
             paddingTop: 0,
           }}

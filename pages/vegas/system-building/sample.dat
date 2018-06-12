@@ -1,0 +1,7002 @@
+1000 6000 1
+generic
+0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+1 0.0 0.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+2 0.0 0.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+3 0.0 0.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+4 0.0 0.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+5 0.0 0.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+6 0.0 0.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+7 0.0 0.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+8 0.0 0.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+9 0.0 0.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+10 0.0 1.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+11 0.0 1.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+12 0.0 1.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+13 0.0 1.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+14 0.0 1.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+15 0.0 1.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+16 0.0 1.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+17 0.0 1.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+18 0.0 1.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+19 0.0 1.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+20 0.0 2.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+21 0.0 2.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+22 0.0 2.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+23 0.0 2.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+24 0.0 2.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+25 0.0 2.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+26 0.0 2.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+27 0.0 2.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+28 0.0 2.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+29 0.0 2.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+30 0.0 3.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+31 0.0 3.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+32 0.0 3.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+33 0.0 3.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+34 0.0 3.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+35 0.0 3.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+36 0.0 3.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+37 0.0 3.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+38 0.0 3.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+39 0.0 3.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+40 0.0 4.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+41 0.0 4.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+42 0.0 4.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+43 0.0 4.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+44 0.0 4.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+45 0.0 4.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+46 0.0 4.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+47 0.0 4.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+48 0.0 4.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+49 0.0 4.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+50 0.0 5.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+51 0.0 5.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+52 0.0 5.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+53 0.0 5.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+54 0.0 5.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+55 0.0 5.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+56 0.0 5.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+57 0.0 5.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+58 0.0 5.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+59 0.0 5.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+60 0.0 6.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+61 0.0 6.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+62 0.0 6.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+63 0.0 6.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+64 0.0 6.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+65 0.0 6.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+66 0.0 6.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+67 0.0 6.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+68 0.0 6.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+69 0.0 6.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+70 0.0 7.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+71 0.0 7.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+72 0.0 7.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+73 0.0 7.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+74 0.0 7.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+75 0.0 7.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+76 0.0 7.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+77 0.0 7.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+78 0.0 7.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+79 0.0 7.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+80 0.0 8.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+81 0.0 8.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+82 0.0 8.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+83 0.0 8.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+84 0.0 8.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+85 0.0 8.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+86 0.0 8.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+87 0.0 8.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+88 0.0 8.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+89 0.0 8.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+90 0.0 9.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+91 0.0 9.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+92 0.0 9.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+93 0.0 9.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+94 0.0 9.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+95 0.0 9.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+96 0.0 9.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+97 0.0 9.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+98 0.0 9.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+99 0.0 9.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+100 1.0 0.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+101 1.0 0.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+102 1.0 0.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+103 1.0 0.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+104 1.0 0.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+105 1.0 0.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+106 1.0 0.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+107 1.0 0.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+108 1.0 0.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+109 1.0 0.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+110 1.0 1.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+111 1.0 1.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+112 1.0 1.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+113 1.0 1.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+114 1.0 1.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+115 1.0 1.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+116 1.0 1.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+117 1.0 1.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+118 1.0 1.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+119 1.0 1.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+120 1.0 2.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+121 1.0 2.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+122 1.0 2.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+123 1.0 2.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+124 1.0 2.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+125 1.0 2.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+126 1.0 2.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+127 1.0 2.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+128 1.0 2.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+129 1.0 2.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+130 1.0 3.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+131 1.0 3.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+132 1.0 3.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+133 1.0 3.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+134 1.0 3.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+135 1.0 3.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+136 1.0 3.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+137 1.0 3.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+138 1.0 3.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+139 1.0 3.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+140 1.0 4.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+141 1.0 4.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+142 1.0 4.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+143 1.0 4.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+144 1.0 4.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+145 1.0 4.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+146 1.0 4.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+147 1.0 4.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+148 1.0 4.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+149 1.0 4.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+150 1.0 5.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+151 1.0 5.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+152 1.0 5.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+153 1.0 5.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+154 1.0 5.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+155 1.0 5.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+156 1.0 5.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+157 1.0 5.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+158 1.0 5.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+159 1.0 5.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+160 1.0 6.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+161 1.0 6.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+162 1.0 6.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+163 1.0 6.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+164 1.0 6.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+165 1.0 6.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+166 1.0 6.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+167 1.0 6.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+168 1.0 6.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+169 1.0 6.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+170 1.0 7.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+171 1.0 7.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+172 1.0 7.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+173 1.0 7.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+174 1.0 7.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+175 1.0 7.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+176 1.0 7.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+177 1.0 7.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+178 1.0 7.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+179 1.0 7.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+180 1.0 8.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+181 1.0 8.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+182 1.0 8.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+183 1.0 8.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+184 1.0 8.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+185 1.0 8.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+186 1.0 8.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+187 1.0 8.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+188 1.0 8.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+189 1.0 8.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+190 1.0 9.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+191 1.0 9.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+192 1.0 9.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+193 1.0 9.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+194 1.0 9.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+195 1.0 9.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+196 1.0 9.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+197 1.0 9.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+198 1.0 9.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+199 1.0 9.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+200 2.0 0.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+201 2.0 0.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+202 2.0 0.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+203 2.0 0.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+204 2.0 0.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+205 2.0 0.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+206 2.0 0.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+207 2.0 0.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+208 2.0 0.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+209 2.0 0.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+210 2.0 1.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+211 2.0 1.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+212 2.0 1.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+213 2.0 1.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+214 2.0 1.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+215 2.0 1.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+216 2.0 1.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+217 2.0 1.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+218 2.0 1.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+219 2.0 1.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+220 2.0 2.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+221 2.0 2.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+222 2.0 2.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+223 2.0 2.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+224 2.0 2.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+225 2.0 2.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+226 2.0 2.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+227 2.0 2.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+228 2.0 2.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+229 2.0 2.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+230 2.0 3.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+231 2.0 3.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+232 2.0 3.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+233 2.0 3.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+234 2.0 3.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+235 2.0 3.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+236 2.0 3.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+237 2.0 3.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+238 2.0 3.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+239 2.0 3.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+240 2.0 4.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+241 2.0 4.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+242 2.0 4.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+243 2.0 4.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+244 2.0 4.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+245 2.0 4.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+246 2.0 4.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+247 2.0 4.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+248 2.0 4.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+249 2.0 4.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+250 2.0 5.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+251 2.0 5.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+252 2.0 5.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+253 2.0 5.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+254 2.0 5.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+255 2.0 5.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+256 2.0 5.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+257 2.0 5.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+258 2.0 5.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+259 2.0 5.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+260 2.0 6.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+261 2.0 6.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+262 2.0 6.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+263 2.0 6.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+264 2.0 6.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+265 2.0 6.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+266 2.0 6.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+267 2.0 6.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+268 2.0 6.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+269 2.0 6.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+270 2.0 7.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+271 2.0 7.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+272 2.0 7.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+273 2.0 7.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+274 2.0 7.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+275 2.0 7.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+276 2.0 7.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+277 2.0 7.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+278 2.0 7.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+279 2.0 7.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+280 2.0 8.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+281 2.0 8.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+282 2.0 8.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+283 2.0 8.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+284 2.0 8.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+285 2.0 8.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+286 2.0 8.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+287 2.0 8.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+288 2.0 8.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+289 2.0 8.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+290 2.0 9.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+291 2.0 9.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+292 2.0 9.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+293 2.0 9.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+294 2.0 9.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+295 2.0 9.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+296 2.0 9.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+297 2.0 9.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+298 2.0 9.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+299 2.0 9.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+300 3.0 0.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+301 3.0 0.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+302 3.0 0.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+303 3.0 0.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+304 3.0 0.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+305 3.0 0.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+306 3.0 0.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+307 3.0 0.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+308 3.0 0.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+309 3.0 0.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+310 3.0 1.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+311 3.0 1.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+312 3.0 1.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+313 3.0 1.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+314 3.0 1.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+315 3.0 1.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+316 3.0 1.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+317 3.0 1.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+318 3.0 1.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+319 3.0 1.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+320 3.0 2.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+321 3.0 2.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+322 3.0 2.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+323 3.0 2.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+324 3.0 2.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+325 3.0 2.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+326 3.0 2.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+327 3.0 2.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+328 3.0 2.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+329 3.0 2.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+330 3.0 3.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+331 3.0 3.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+332 3.0 3.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+333 3.0 3.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+334 3.0 3.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+335 3.0 3.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+336 3.0 3.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+337 3.0 3.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+338 3.0 3.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+339 3.0 3.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+340 3.0 4.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+341 3.0 4.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+342 3.0 4.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+343 3.0 4.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+344 3.0 4.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+345 3.0 4.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+346 3.0 4.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+347 3.0 4.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+348 3.0 4.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+349 3.0 4.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+350 3.0 5.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+351 3.0 5.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+352 3.0 5.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+353 3.0 5.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+354 3.0 5.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+355 3.0 5.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+356 3.0 5.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+357 3.0 5.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+358 3.0 5.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+359 3.0 5.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+360 3.0 6.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+361 3.0 6.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+362 3.0 6.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+363 3.0 6.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+364 3.0 6.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+365 3.0 6.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+366 3.0 6.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+367 3.0 6.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+368 3.0 6.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+369 3.0 6.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+370 3.0 7.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+371 3.0 7.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+372 3.0 7.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+373 3.0 7.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+374 3.0 7.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+375 3.0 7.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+376 3.0 7.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+377 3.0 7.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+378 3.0 7.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+379 3.0 7.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+380 3.0 8.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+381 3.0 8.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+382 3.0 8.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+383 3.0 8.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+384 3.0 8.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+385 3.0 8.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+386 3.0 8.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+387 3.0 8.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+388 3.0 8.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+389 3.0 8.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+390 3.0 9.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+391 3.0 9.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+392 3.0 9.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+393 3.0 9.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+394 3.0 9.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+395 3.0 9.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+396 3.0 9.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+397 3.0 9.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+398 3.0 9.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+399 3.0 9.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+400 4.0 0.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+401 4.0 0.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+402 4.0 0.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+403 4.0 0.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+404 4.0 0.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+405 4.0 0.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+406 4.0 0.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+407 4.0 0.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+408 4.0 0.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+409 4.0 0.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+410 4.0 1.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+411 4.0 1.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+412 4.0 1.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+413 4.0 1.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+414 4.0 1.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+415 4.0 1.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+416 4.0 1.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+417 4.0 1.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+418 4.0 1.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+419 4.0 1.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+420 4.0 2.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+421 4.0 2.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+422 4.0 2.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+423 4.0 2.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+424 4.0 2.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+425 4.0 2.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+426 4.0 2.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+427 4.0 2.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+428 4.0 2.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+429 4.0 2.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+430 4.0 3.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+431 4.0 3.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+432 4.0 3.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+433 4.0 3.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+434 4.0 3.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+435 4.0 3.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+436 4.0 3.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+437 4.0 3.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+438 4.0 3.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+439 4.0 3.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+440 4.0 4.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+441 4.0 4.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+442 4.0 4.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+443 4.0 4.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+444 4.0 4.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+445 4.0 4.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+446 4.0 4.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+447 4.0 4.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+448 4.0 4.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+449 4.0 4.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+450 4.0 5.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+451 4.0 5.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+452 4.0 5.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+453 4.0 5.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+454 4.0 5.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+455 4.0 5.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+456 4.0 5.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+457 4.0 5.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+458 4.0 5.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+459 4.0 5.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+460 4.0 6.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+461 4.0 6.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+462 4.0 6.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+463 4.0 6.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+464 4.0 6.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+465 4.0 6.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+466 4.0 6.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+467 4.0 6.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+468 4.0 6.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+469 4.0 6.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+470 4.0 7.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+471 4.0 7.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+472 4.0 7.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+473 4.0 7.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+474 4.0 7.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+475 4.0 7.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+476 4.0 7.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+477 4.0 7.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+478 4.0 7.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+479 4.0 7.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+480 4.0 8.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+481 4.0 8.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+482 4.0 8.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+483 4.0 8.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+484 4.0 8.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+485 4.0 8.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+486 4.0 8.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+487 4.0 8.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+488 4.0 8.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+489 4.0 8.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+490 4.0 9.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+491 4.0 9.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+492 4.0 9.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+493 4.0 9.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+494 4.0 9.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+495 4.0 9.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+496 4.0 9.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+497 4.0 9.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+498 4.0 9.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+499 4.0 9.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+500 5.0 0.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+501 5.0 0.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+502 5.0 0.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+503 5.0 0.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+504 5.0 0.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+505 5.0 0.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+506 5.0 0.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+507 5.0 0.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+508 5.0 0.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+509 5.0 0.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+510 5.0 1.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+511 5.0 1.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+512 5.0 1.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+513 5.0 1.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+514 5.0 1.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+515 5.0 1.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+516 5.0 1.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+517 5.0 1.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+518 5.0 1.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+519 5.0 1.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+520 5.0 2.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+521 5.0 2.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+522 5.0 2.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+523 5.0 2.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+524 5.0 2.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+525 5.0 2.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+526 5.0 2.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+527 5.0 2.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+528 5.0 2.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+529 5.0 2.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+530 5.0 3.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+531 5.0 3.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+532 5.0 3.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+533 5.0 3.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+534 5.0 3.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+535 5.0 3.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+536 5.0 3.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+537 5.0 3.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+538 5.0 3.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+539 5.0 3.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+540 5.0 4.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+541 5.0 4.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+542 5.0 4.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+543 5.0 4.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+544 5.0 4.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+545 5.0 4.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+546 5.0 4.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+547 5.0 4.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+548 5.0 4.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+549 5.0 4.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+550 5.0 5.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+551 5.0 5.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+552 5.0 5.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+553 5.0 5.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+554 5.0 5.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+555 5.0 5.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+556 5.0 5.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+557 5.0 5.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+558 5.0 5.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+559 5.0 5.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+560 5.0 6.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+561 5.0 6.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+562 5.0 6.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+563 5.0 6.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+564 5.0 6.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+565 5.0 6.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+566 5.0 6.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+567 5.0 6.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+568 5.0 6.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+569 5.0 6.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+570 5.0 7.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+571 5.0 7.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+572 5.0 7.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+573 5.0 7.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+574 5.0 7.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+575 5.0 7.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+576 5.0 7.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+577 5.0 7.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+578 5.0 7.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+579 5.0 7.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+580 5.0 8.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+581 5.0 8.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+582 5.0 8.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+583 5.0 8.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+584 5.0 8.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+585 5.0 8.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+586 5.0 8.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+587 5.0 8.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+588 5.0 8.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+589 5.0 8.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+590 5.0 9.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+591 5.0 9.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+592 5.0 9.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+593 5.0 9.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+594 5.0 9.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+595 5.0 9.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+596 5.0 9.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+597 5.0 9.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+598 5.0 9.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+599 5.0 9.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+600 6.0 0.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+601 6.0 0.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+602 6.0 0.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+603 6.0 0.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+604 6.0 0.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+605 6.0 0.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+606 6.0 0.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+607 6.0 0.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+608 6.0 0.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+609 6.0 0.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+610 6.0 1.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+611 6.0 1.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+612 6.0 1.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+613 6.0 1.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+614 6.0 1.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+615 6.0 1.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+616 6.0 1.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+617 6.0 1.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+618 6.0 1.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+619 6.0 1.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+620 6.0 2.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+621 6.0 2.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+622 6.0 2.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+623 6.0 2.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+624 6.0 2.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+625 6.0 2.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+626 6.0 2.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+627 6.0 2.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+628 6.0 2.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+629 6.0 2.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+630 6.0 3.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+631 6.0 3.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+632 6.0 3.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+633 6.0 3.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+634 6.0 3.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+635 6.0 3.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+636 6.0 3.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+637 6.0 3.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+638 6.0 3.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+639 6.0 3.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+640 6.0 4.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+641 6.0 4.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+642 6.0 4.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+643 6.0 4.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+644 6.0 4.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+645 6.0 4.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+646 6.0 4.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+647 6.0 4.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+648 6.0 4.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+649 6.0 4.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+650 6.0 5.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+651 6.0 5.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+652 6.0 5.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+653 6.0 5.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+654 6.0 5.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+655 6.0 5.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+656 6.0 5.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+657 6.0 5.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+658 6.0 5.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+659 6.0 5.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+660 6.0 6.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+661 6.0 6.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+662 6.0 6.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+663 6.0 6.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+664 6.0 6.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+665 6.0 6.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+666 6.0 6.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+667 6.0 6.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+668 6.0 6.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+669 6.0 6.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+670 6.0 7.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+671 6.0 7.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+672 6.0 7.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+673 6.0 7.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+674 6.0 7.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+675 6.0 7.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+676 6.0 7.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+677 6.0 7.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+678 6.0 7.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+679 6.0 7.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+680 6.0 8.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+681 6.0 8.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+682 6.0 8.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+683 6.0 8.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+684 6.0 8.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+685 6.0 8.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+686 6.0 8.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+687 6.0 8.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+688 6.0 8.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+689 6.0 8.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+690 6.0 9.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+691 6.0 9.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+692 6.0 9.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+693 6.0 9.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+694 6.0 9.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+695 6.0 9.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+696 6.0 9.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+697 6.0 9.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+698 6.0 9.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+699 6.0 9.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+700 7.0 0.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+701 7.0 0.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+702 7.0 0.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+703 7.0 0.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+704 7.0 0.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+705 7.0 0.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+706 7.0 0.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+707 7.0 0.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+708 7.0 0.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+709 7.0 0.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+710 7.0 1.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+711 7.0 1.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+712 7.0 1.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+713 7.0 1.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+714 7.0 1.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+715 7.0 1.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+716 7.0 1.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+717 7.0 1.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+718 7.0 1.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+719 7.0 1.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+720 7.0 2.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+721 7.0 2.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+722 7.0 2.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+723 7.0 2.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+724 7.0 2.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+725 7.0 2.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+726 7.0 2.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+727 7.0 2.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+728 7.0 2.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+729 7.0 2.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+730 7.0 3.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+731 7.0 3.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+732 7.0 3.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+733 7.0 3.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+734 7.0 3.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+735 7.0 3.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+736 7.0 3.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+737 7.0 3.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+738 7.0 3.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+739 7.0 3.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+740 7.0 4.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+741 7.0 4.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+742 7.0 4.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+743 7.0 4.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+744 7.0 4.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+745 7.0 4.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+746 7.0 4.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+747 7.0 4.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+748 7.0 4.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+749 7.0 4.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+750 7.0 5.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+751 7.0 5.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+752 7.0 5.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+753 7.0 5.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+754 7.0 5.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+755 7.0 5.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+756 7.0 5.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+757 7.0 5.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+758 7.0 5.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+759 7.0 5.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+760 7.0 6.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+761 7.0 6.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+762 7.0 6.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+763 7.0 6.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+764 7.0 6.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+765 7.0 6.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+766 7.0 6.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+767 7.0 6.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+768 7.0 6.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+769 7.0 6.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+770 7.0 7.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+771 7.0 7.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+772 7.0 7.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+773 7.0 7.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+774 7.0 7.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+775 7.0 7.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+776 7.0 7.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+777 7.0 7.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+778 7.0 7.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+779 7.0 7.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+780 7.0 8.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+781 7.0 8.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+782 7.0 8.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+783 7.0 8.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+784 7.0 8.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+785 7.0 8.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+786 7.0 8.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+787 7.0 8.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+788 7.0 8.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+789 7.0 8.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+790 7.0 9.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+791 7.0 9.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+792 7.0 9.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+793 7.0 9.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+794 7.0 9.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+795 7.0 9.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+796 7.0 9.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+797 7.0 9.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+798 7.0 9.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+799 7.0 9.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+800 8.0 0.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+801 8.0 0.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+802 8.0 0.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+803 8.0 0.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+804 8.0 0.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+805 8.0 0.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+806 8.0 0.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+807 8.0 0.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+808 8.0 0.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+809 8.0 0.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+810 8.0 1.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+811 8.0 1.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+812 8.0 1.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+813 8.0 1.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+814 8.0 1.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+815 8.0 1.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+816 8.0 1.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+817 8.0 1.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+818 8.0 1.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+819 8.0 1.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+820 8.0 2.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+821 8.0 2.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+822 8.0 2.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+823 8.0 2.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+824 8.0 2.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+825 8.0 2.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+826 8.0 2.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+827 8.0 2.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+828 8.0 2.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+829 8.0 2.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+830 8.0 3.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+831 8.0 3.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+832 8.0 3.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+833 8.0 3.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+834 8.0 3.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+835 8.0 3.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+836 8.0 3.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+837 8.0 3.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+838 8.0 3.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+839 8.0 3.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+840 8.0 4.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+841 8.0 4.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+842 8.0 4.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+843 8.0 4.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+844 8.0 4.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+845 8.0 4.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+846 8.0 4.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+847 8.0 4.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+848 8.0 4.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+849 8.0 4.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+850 8.0 5.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+851 8.0 5.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+852 8.0 5.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+853 8.0 5.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+854 8.0 5.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+855 8.0 5.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+856 8.0 5.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+857 8.0 5.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+858 8.0 5.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+859 8.0 5.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+860 8.0 6.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+861 8.0 6.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+862 8.0 6.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+863 8.0 6.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+864 8.0 6.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+865 8.0 6.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+866 8.0 6.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+867 8.0 6.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+868 8.0 6.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+869 8.0 6.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+870 8.0 7.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+871 8.0 7.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+872 8.0 7.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+873 8.0 7.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+874 8.0 7.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+875 8.0 7.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+876 8.0 7.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+877 8.0 7.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+878 8.0 7.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+879 8.0 7.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+880 8.0 8.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+881 8.0 8.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+882 8.0 8.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+883 8.0 8.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+884 8.0 8.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+885 8.0 8.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+886 8.0 8.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+887 8.0 8.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+888 8.0 8.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+889 8.0 8.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+890 8.0 9.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+891 8.0 9.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+892 8.0 9.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+893 8.0 9.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+894 8.0 9.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+895 8.0 9.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+896 8.0 9.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+897 8.0 9.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+898 8.0 9.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+899 8.0 9.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+900 9.0 0.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+901 9.0 0.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+902 9.0 0.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+903 9.0 0.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+904 9.0 0.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+905 9.0 0.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+906 9.0 0.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+907 9.0 0.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+908 9.0 0.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+909 9.0 0.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+910 9.0 1.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+911 9.0 1.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+912 9.0 1.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+913 9.0 1.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+914 9.0 1.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+915 9.0 1.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+916 9.0 1.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+917 9.0 1.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+918 9.0 1.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+919 9.0 1.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+920 9.0 2.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+921 9.0 2.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+922 9.0 2.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+923 9.0 2.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+924 9.0 2.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+925 9.0 2.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+926 9.0 2.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+927 9.0 2.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+928 9.0 2.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+929 9.0 2.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+930 9.0 3.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+931 9.0 3.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+932 9.0 3.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+933 9.0 3.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+934 9.0 3.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+935 9.0 3.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+936 9.0 3.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+937 9.0 3.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+938 9.0 3.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+939 9.0 3.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+940 9.0 4.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+941 9.0 4.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+942 9.0 4.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+943 9.0 4.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+944 9.0 4.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+945 9.0 4.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+946 9.0 4.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+947 9.0 4.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+948 9.0 4.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+949 9.0 4.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+950 9.0 5.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+951 9.0 5.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+952 9.0 5.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+953 9.0 5.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+954 9.0 5.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+955 9.0 5.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+956 9.0 5.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+957 9.0 5.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+958 9.0 5.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+959 9.0 5.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+960 9.0 6.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+961 9.0 6.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+962 9.0 6.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+963 9.0 6.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+964 9.0 6.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+965 9.0 6.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+966 9.0 6.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+967 9.0 6.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+968 9.0 6.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+969 9.0 6.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+970 9.0 7.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+971 9.0 7.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+972 9.0 7.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+973 9.0 7.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+974 9.0 7.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+975 9.0 7.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+976 9.0 7.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+977 9.0 7.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+978 9.0 7.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+979 9.0 7.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+980 9.0 8.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+981 9.0 8.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+982 9.0 8.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+983 9.0 8.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+984 9.0 8.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+985 9.0 8.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+986 9.0 8.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+987 9.0 8.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+988 9.0 8.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+989 9.0 8.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+990 9.0 9.0 0.0 1.0 0.0 0.0 1.0 generic adaptive
+991 9.0 9.0 1.0 1.0 0.0 0.0 1.0 generic adaptive
+992 9.0 9.0 2.0 1.0 0.0 0.0 1.0 generic adaptive
+993 9.0 9.0 3.0 1.0 0.0 0.0 1.0 generic adaptive
+994 9.0 9.0 4.0 1.0 0.0 0.0 1.0 generic adaptive
+995 9.0 9.0 5.0 1.0 0.0 0.0 1.0 generic adaptive
+996 9.0 9.0 6.0 1.0 0.0 0.0 1.0 generic adaptive
+997 9.0 9.0 7.0 1.0 0.0 0.0 1.0 generic adaptive
+998 9.0 9.0 8.0 1.0 0.0 0.0 1.0 generic adaptive
+999 9.0 9.0 9.0 1.0 0.0 0.0 1.0 generic adaptive
+0 100 1.0
+0 900 1.0
+0 10 1.0
+0 90 1.0
+0 1 1.0
+0 9 1.0
+1 101 1.0
+1 901 1.0
+1 11 1.0
+1 91 1.0
+1 2 1.0
+1 0 1.0
+2 102 1.0
+2 902 1.0
+2 12 1.0
+2 92 1.0
+2 3 1.0
+2 1 1.0
+3 103 1.0
+3 903 1.0
+3 13 1.0
+3 93 1.0
+3 4 1.0
+3 2 1.0
+4 104 1.0
+4 904 1.0
+4 14 1.0
+4 94 1.0
+4 5 1.0
+4 3 1.0
+5 105 1.0
+5 905 1.0
+5 15 1.0
+5 95 1.0
+5 6 1.0
+5 4 1.0
+6 106 1.0
+6 906 1.0
+6 16 1.0
+6 96 1.0
+6 7 1.0
+6 5 1.0
+7 107 1.0
+7 907 1.0
+7 17 1.0
+7 97 1.0
+7 8 1.0
+7 6 1.0
+8 108 1.0
+8 908 1.0
+8 18 1.0
+8 98 1.0
+8 9 1.0
+8 7 1.0
+9 109 1.0
+9 909 1.0
+9 19 1.0
+9 99 1.0
+9 0 1.0
+9 8 1.0
+10 110 1.0
+10 910 1.0
+10 20 1.0
+10 0 1.0
+10 11 1.0
+10 19 1.0
+11 111 1.0
+11 911 1.0
+11 21 1.0
+11 1 1.0
+11 12 1.0
+11 10 1.0
+12 112 1.0
+12 912 1.0
+12 22 1.0
+12 2 1.0
+12 13 1.0
+12 11 1.0
+13 113 1.0
+13 913 1.0
+13 23 1.0
+13 3 1.0
+13 14 1.0
+13 12 1.0
+14 114 1.0
+14 914 1.0
+14 24 1.0
+14 4 1.0
+14 15 1.0
+14 13 1.0
+15 115 1.0
+15 915 1.0
+15 25 1.0
+15 5 1.0
+15 16 1.0
+15 14 1.0
+16 116 1.0
+16 916 1.0
+16 26 1.0
+16 6 1.0
+16 17 1.0
+16 15 1.0
+17 117 1.0
+17 917 1.0
+17 27 1.0
+17 7 1.0
+17 18 1.0
+17 16 1.0
+18 118 1.0
+18 918 1.0
+18 28 1.0
+18 8 1.0
+18 19 1.0
+18 17 1.0
+19 119 1.0
+19 919 1.0
+19 29 1.0
+19 9 1.0
+19 10 1.0
+19 18 1.0
+20 120 1.0
+20 920 1.0
+20 30 1.0
+20 10 1.0
+20 21 1.0
+20 29 1.0
+21 121 1.0
+21 921 1.0
+21 31 1.0
+21 11 1.0
+21 22 1.0
+21 20 1.0
+22 122 1.0
+22 922 1.0
+22 32 1.0
+22 12 1.0
+22 23 1.0
+22 21 1.0
+23 123 1.0
+23 923 1.0
+23 33 1.0
+23 13 1.0
+23 24 1.0
+23 22 1.0
+24 124 1.0
+24 924 1.0
+24 34 1.0
+24 14 1.0
+24 25 1.0
+24 23 1.0
+25 125 1.0
+25 925 1.0
+25 35 1.0
+25 15 1.0
+25 26 1.0
+25 24 1.0
+26 126 1.0
+26 926 1.0
+26 36 1.0
+26 16 1.0
+26 27 1.0
+26 25 1.0
+27 127 1.0
+27 927 1.0
+27 37 1.0
+27 17 1.0
+27 28 1.0
+27 26 1.0
+28 128 1.0
+28 928 1.0
+28 38 1.0
+28 18 1.0
+28 29 1.0
+28 27 1.0
+29 129 1.0
+29 929 1.0
+29 39 1.0
+29 19 1.0
+29 20 1.0
+29 28 1.0
+30 130 1.0
+30 930 1.0
+30 40 1.0
+30 20 1.0
+30 31 1.0
+30 39 1.0
+31 131 1.0
+31 931 1.0
+31 41 1.0
+31 21 1.0
+31 32 1.0
+31 30 1.0
+32 132 1.0
+32 932 1.0
+32 42 1.0
+32 22 1.0
+32 33 1.0
+32 31 1.0
+33 133 1.0
+33 933 1.0
+33 43 1.0
+33 23 1.0
+33 34 1.0
+33 32 1.0
+34 134 1.0
+34 934 1.0
+34 44 1.0
+34 24 1.0
+34 35 1.0
+34 33 1.0
+35 135 1.0
+35 935 1.0
+35 45 1.0
+35 25 1.0
+35 36 1.0
+35 34 1.0
+36 136 1.0
+36 936 1.0
+36 46 1.0
+36 26 1.0
+36 37 1.0
+36 35 1.0
+37 137 1.0
+37 937 1.0
+37 47 1.0
+37 27 1.0
+37 38 1.0
+37 36 1.0
+38 138 1.0
+38 938 1.0
+38 48 1.0
+38 28 1.0
+38 39 1.0
+38 37 1.0
+39 139 1.0
+39 939 1.0
+39 49 1.0
+39 29 1.0
+39 30 1.0
+39 38 1.0
+40 140 1.0
+40 940 1.0
+40 50 1.0
+40 30 1.0
+40 41 1.0
+40 49 1.0
+41 141 1.0
+41 941 1.0
+41 51 1.0
+41 31 1.0
+41 42 1.0
+41 40 1.0
+42 142 1.0
+42 942 1.0
+42 52 1.0
+42 32 1.0
+42 43 1.0
+42 41 1.0
+43 143 1.0
+43 943 1.0
+43 53 1.0
+43 33 1.0
+43 44 1.0
+43 42 1.0
+44 144 1.0
+44 944 1.0
+44 54 1.0
+44 34 1.0
+44 45 1.0
+44 43 1.0
+45 145 1.0
+45 945 1.0
+45 55 1.0
+45 35 1.0
+45 46 1.0
+45 44 1.0
+46 146 1.0
+46 946 1.0
+46 56 1.0
+46 36 1.0
+46 47 1.0
+46 45 1.0
+47 147 1.0
+47 947 1.0
+47 57 1.0
+47 37 1.0
+47 48 1.0
+47 46 1.0
+48 148 1.0
+48 948 1.0
+48 58 1.0
+48 38 1.0
+48 49 1.0
+48 47 1.0
+49 149 1.0
+49 949 1.0
+49 59 1.0
+49 39 1.0
+49 40 1.0
+49 48 1.0
+50 150 1.0
+50 950 1.0
+50 60 1.0
+50 40 1.0
+50 51 1.0
+50 59 1.0
+51 151 1.0
+51 951 1.0
+51 61 1.0
+51 41 1.0
+51 52 1.0
+51 50 1.0
+52 152 1.0
+52 952 1.0
+52 62 1.0
+52 42 1.0
+52 53 1.0
+52 51 1.0
+53 153 1.0
+53 953 1.0
+53 63 1.0
+53 43 1.0
+53 54 1.0
+53 52 1.0
+54 154 1.0
+54 954 1.0
+54 64 1.0
+54 44 1.0
+54 55 1.0
+54 53 1.0
+55 155 1.0
+55 955 1.0
+55 65 1.0
+55 45 1.0
+55 56 1.0
+55 54 1.0
+56 156 1.0
+56 956 1.0
+56 66 1.0
+56 46 1.0
+56 57 1.0
+56 55 1.0
+57 157 1.0
+57 957 1.0
+57 67 1.0
+57 47 1.0
+57 58 1.0
+57 56 1.0
+58 158 1.0
+58 958 1.0
+58 68 1.0
+58 48 1.0
+58 59 1.0
+58 57 1.0
+59 159 1.0
+59 959 1.0
+59 69 1.0
+59 49 1.0
+59 50 1.0
+59 58 1.0
+60 160 1.0
+60 960 1.0
+60 70 1.0
+60 50 1.0
+60 61 1.0
+60 69 1.0
+61 161 1.0
+61 961 1.0
+61 71 1.0
+61 51 1.0
+61 62 1.0
+61 60 1.0
+62 162 1.0
+62 962 1.0
+62 72 1.0
+62 52 1.0
+62 63 1.0
+62 61 1.0
+63 163 1.0
+63 963 1.0
+63 73 1.0
+63 53 1.0
+63 64 1.0
+63 62 1.0
+64 164 1.0
+64 964 1.0
+64 74 1.0
+64 54 1.0
+64 65 1.0
+64 63 1.0
+65 165 1.0
+65 965 1.0
+65 75 1.0
+65 55 1.0
+65 66 1.0
+65 64 1.0
+66 166 1.0
+66 966 1.0
+66 76 1.0
+66 56 1.0
+66 67 1.0
+66 65 1.0
+67 167 1.0
+67 967 1.0
+67 77 1.0
+67 57 1.0
+67 68 1.0
+67 66 1.0
+68 168 1.0
+68 968 1.0
+68 78 1.0
+68 58 1.0
+68 69 1.0
+68 67 1.0
+69 169 1.0
+69 969 1.0
+69 79 1.0
+69 59 1.0
+69 60 1.0
+69 68 1.0
+70 170 1.0
+70 970 1.0
+70 80 1.0
+70 60 1.0
+70 71 1.0
+70 79 1.0
+71 171 1.0
+71 971 1.0
+71 81 1.0
+71 61 1.0
+71 72 1.0
+71 70 1.0
+72 172 1.0
+72 972 1.0
+72 82 1.0
+72 62 1.0
+72 73 1.0
+72 71 1.0
+73 173 1.0
+73 973 1.0
+73 83 1.0
+73 63 1.0
+73 74 1.0
+73 72 1.0
+74 174 1.0
+74 974 1.0
+74 84 1.0
+74 64 1.0
+74 75 1.0
+74 73 1.0
+75 175 1.0
+75 975 1.0
+75 85 1.0
+75 65 1.0
+75 76 1.0
+75 74 1.0
+76 176 1.0
+76 976 1.0
+76 86 1.0
+76 66 1.0
+76 77 1.0
+76 75 1.0
+77 177 1.0
+77 977 1.0
+77 87 1.0
+77 67 1.0
+77 78 1.0
+77 76 1.0
+78 178 1.0
+78 978 1.0
+78 88 1.0
+78 68 1.0
+78 79 1.0
+78 77 1.0
+79 179 1.0
+79 979 1.0
+79 89 1.0
+79 69 1.0
+79 70 1.0
+79 78 1.0
+80 180 1.0
+80 980 1.0
+80 90 1.0
+80 70 1.0
+80 81 1.0
+80 89 1.0
+81 181 1.0
+81 981 1.0
+81 91 1.0
+81 71 1.0
+81 82 1.0
+81 80 1.0
+82 182 1.0
+82 982 1.0
+82 92 1.0
+82 72 1.0
+82 83 1.0
+82 81 1.0
+83 183 1.0
+83 983 1.0
+83 93 1.0
+83 73 1.0
+83 84 1.0
+83 82 1.0
+84 184 1.0
+84 984 1.0
+84 94 1.0
+84 74 1.0
+84 85 1.0
+84 83 1.0
+85 185 1.0
+85 985 1.0
+85 95 1.0
+85 75 1.0
+85 86 1.0
+85 84 1.0
+86 186 1.0
+86 986 1.0
+86 96 1.0
+86 76 1.0
+86 87 1.0
+86 85 1.0
+87 187 1.0
+87 987 1.0
+87 97 1.0
+87 77 1.0
+87 88 1.0
+87 86 1.0
+88 188 1.0
+88 988 1.0
+88 98 1.0
+88 78 1.0
+88 89 1.0
+88 87 1.0
+89 189 1.0
+89 989 1.0
+89 99 1.0
+89 79 1.0
+89 80 1.0
+89 88 1.0
+90 190 1.0
+90 990 1.0
+90 0 1.0
+90 80 1.0
+90 91 1.0
+90 99 1.0
+91 191 1.0
+91 991 1.0
+91 1 1.0
+91 81 1.0
+91 92 1.0
+91 90 1.0
+92 192 1.0
+92 992 1.0
+92 2 1.0
+92 82 1.0
+92 93 1.0
+92 91 1.0
+93 193 1.0
+93 993 1.0
+93 3 1.0
+93 83 1.0
+93 94 1.0
+93 92 1.0
+94 194 1.0
+94 994 1.0
+94 4 1.0
+94 84 1.0
+94 95 1.0
+94 93 1.0
+95 195 1.0
+95 995 1.0
+95 5 1.0
+95 85 1.0
+95 96 1.0
+95 94 1.0
+96 196 1.0
+96 996 1.0
+96 6 1.0
+96 86 1.0
+96 97 1.0
+96 95 1.0
+97 197 1.0
+97 997 1.0
+97 7 1.0
+97 87 1.0
+97 98 1.0
+97 96 1.0
+98 198 1.0
+98 998 1.0
+98 8 1.0
+98 88 1.0
+98 99 1.0
+98 97 1.0
+99 199 1.0
+99 999 1.0
+99 9 1.0
+99 89 1.0
+99 90 1.0
+99 98 1.0
+100 200 1.0
+100 0 1.0
+100 110 1.0
+100 190 1.0
+100 101 1.0
+100 109 1.0
+101 201 1.0
+101 1 1.0
+101 111 1.0
+101 191 1.0
+101 102 1.0
+101 100 1.0
+102 202 1.0
+102 2 1.0
+102 112 1.0
+102 192 1.0
+102 103 1.0
+102 101 1.0
+103 203 1.0
+103 3 1.0
+103 113 1.0
+103 193 1.0
+103 104 1.0
+103 102 1.0
+104 204 1.0
+104 4 1.0
+104 114 1.0
+104 194 1.0
+104 105 1.0
+104 103 1.0
+105 205 1.0
+105 5 1.0
+105 115 1.0
+105 195 1.0
+105 106 1.0
+105 104 1.0
+106 206 1.0
+106 6 1.0
+106 116 1.0
+106 196 1.0
+106 107 1.0
+106 105 1.0
+107 207 1.0
+107 7 1.0
+107 117 1.0
+107 197 1.0
+107 108 1.0
+107 106 1.0
+108 208 1.0
+108 8 1.0
+108 118 1.0
+108 198 1.0
+108 109 1.0
+108 107 1.0
+109 209 1.0
+109 9 1.0
+109 119 1.0
+109 199 1.0
+109 100 1.0
+109 108 1.0
+110 210 1.0
+110 10 1.0
+110 120 1.0
+110 100 1.0
+110 111 1.0
+110 119 1.0
+111 211 1.0
+111 11 1.0
+111 121 1.0
+111 101 1.0
+111 112 1.0
+111 110 1.0
+112 212 1.0
+112 12 1.0
+112 122 1.0
+112 102 1.0
+112 113 1.0
+112 111 1.0
+113 213 1.0
+113 13 1.0
+113 123 1.0
+113 103 1.0
+113 114 1.0
+113 112 1.0
+114 214 1.0
+114 14 1.0
+114 124 1.0
+114 104 1.0
+114 115 1.0
+114 113 1.0
+115 215 1.0
+115 15 1.0
+115 125 1.0
+115 105 1.0
+115 116 1.0
+115 114 1.0
+116 216 1.0
+116 16 1.0
+116 126 1.0
+116 106 1.0
+116 117 1.0
+116 115 1.0
+117 217 1.0
+117 17 1.0
+117 127 1.0
+117 107 1.0
+117 118 1.0
+117 116 1.0
+118 218 1.0
+118 18 1.0
+118 128 1.0
+118 108 1.0
+118 119 1.0
+118 117 1.0
+119 219 1.0
+119 19 1.0
+119 129 1.0
+119 109 1.0
+119 110 1.0
+119 118 1.0
+120 220 1.0
+120 20 1.0
+120 130 1.0
+120 110 1.0
+120 121 1.0
+120 129 1.0
+121 221 1.0
+121 21 1.0
+121 131 1.0
+121 111 1.0
+121 122 1.0
+121 120 1.0
+122 222 1.0
+122 22 1.0
+122 132 1.0
+122 112 1.0
+122 123 1.0
+122 121 1.0
+123 223 1.0
+123 23 1.0
+123 133 1.0
+123 113 1.0
+123 124 1.0
+123 122 1.0
+124 224 1.0
+124 24 1.0
+124 134 1.0
+124 114 1.0
+124 125 1.0
+124 123 1.0
+125 225 1.0
+125 25 1.0
+125 135 1.0
+125 115 1.0
+125 126 1.0
+125 124 1.0
+126 226 1.0
+126 26 1.0
+126 136 1.0
+126 116 1.0
+126 127 1.0
+126 125 1.0
+127 227 1.0
+127 27 1.0
+127 137 1.0
+127 117 1.0
+127 128 1.0
+127 126 1.0
+128 228 1.0
+128 28 1.0
+128 138 1.0
+128 118 1.0
+128 129 1.0
+128 127 1.0
+129 229 1.0
+129 29 1.0
+129 139 1.0
+129 119 1.0
+129 120 1.0
+129 128 1.0
+130 230 1.0
+130 30 1.0
+130 140 1.0
+130 120 1.0
+130 131 1.0
+130 139 1.0
+131 231 1.0
+131 31 1.0
+131 141 1.0
+131 121 1.0
+131 132 1.0
+131 130 1.0
+132 232 1.0
+132 32 1.0
+132 142 1.0
+132 122 1.0
+132 133 1.0
+132 131 1.0
+133 233 1.0
+133 33 1.0
+133 143 1.0
+133 123 1.0
+133 134 1.0
+133 132 1.0
+134 234 1.0
+134 34 1.0
+134 144 1.0
+134 124 1.0
+134 135 1.0
+134 133 1.0
+135 235 1.0
+135 35 1.0
+135 145 1.0
+135 125 1.0
+135 136 1.0
+135 134 1.0
+136 236 1.0
+136 36 1.0
+136 146 1.0
+136 126 1.0
+136 137 1.0
+136 135 1.0
+137 237 1.0
+137 37 1.0
+137 147 1.0
+137 127 1.0
+137 138 1.0
+137 136 1.0
+138 238 1.0
+138 38 1.0
+138 148 1.0
+138 128 1.0
+138 139 1.0
+138 137 1.0
+139 239 1.0
+139 39 1.0
+139 149 1.0
+139 129 1.0
+139 130 1.0
+139 138 1.0
+140 240 1.0
+140 40 1.0
+140 150 1.0
+140 130 1.0
+140 141 1.0
+140 149 1.0
+141 241 1.0
+141 41 1.0
+141 151 1.0
+141 131 1.0
+141 142 1.0
+141 140 1.0
+142 242 1.0
+142 42 1.0
+142 152 1.0
+142 132 1.0
+142 143 1.0
+142 141 1.0
+143 243 1.0
+143 43 1.0
+143 153 1.0
+143 133 1.0
+143 144 1.0
+143 142 1.0
+144 244 1.0
+144 44 1.0
+144 154 1.0
+144 134 1.0
+144 145 1.0
+144 143 1.0
+145 245 1.0
+145 45 1.0
+145 155 1.0
+145 135 1.0
+145 146 1.0
+145 144 1.0
+146 246 1.0
+146 46 1.0
+146 156 1.0
+146 136 1.0
+146 147 1.0
+146 145 1.0
+147 247 1.0
+147 47 1.0
+147 157 1.0
+147 137 1.0
+147 148 1.0
+147 146 1.0
+148 248 1.0
+148 48 1.0
+148 158 1.0
+148 138 1.0
+148 149 1.0
+148 147 1.0
+149 249 1.0
+149 49 1.0
+149 159 1.0
+149 139 1.0
+149 140 1.0
+149 148 1.0
+150 250 1.0
+150 50 1.0
+150 160 1.0
+150 140 1.0
+150 151 1.0
+150 159 1.0
+151 251 1.0
+151 51 1.0
+151 161 1.0
+151 141 1.0
+151 152 1.0
+151 150 1.0
+152 252 1.0
+152 52 1.0
+152 162 1.0
+152 142 1.0
+152 153 1.0
+152 151 1.0
+153 253 1.0
+153 53 1.0
+153 163 1.0
+153 143 1.0
+153 154 1.0
+153 152 1.0
+154 254 1.0
+154 54 1.0
+154 164 1.0
+154 144 1.0
+154 155 1.0
+154 153 1.0
+155 255 1.0
+155 55 1.0
+155 165 1.0
+155 145 1.0
+155 156 1.0
+155 154 1.0
+156 256 1.0
+156 56 1.0
+156 166 1.0
+156 146 1.0
+156 157 1.0
+156 155 1.0
+157 257 1.0
+157 57 1.0
+157 167 1.0
+157 147 1.0
+157 158 1.0
+157 156 1.0
+158 258 1.0
+158 58 1.0
+158 168 1.0
+158 148 1.0
+158 159 1.0
+158 157 1.0
+159 259 1.0
+159 59 1.0
+159 169 1.0
+159 149 1.0
+159 150 1.0
+159 158 1.0
+160 260 1.0
+160 60 1.0
+160 170 1.0
+160 150 1.0
+160 161 1.0
+160 169 1.0
+161 261 1.0
+161 61 1.0
+161 171 1.0
+161 151 1.0
+161 162 1.0
+161 160 1.0
+162 262 1.0
+162 62 1.0
+162 172 1.0
+162 152 1.0
+162 163 1.0
+162 161 1.0
+163 263 1.0
+163 63 1.0
+163 173 1.0
+163 153 1.0
+163 164 1.0
+163 162 1.0
+164 264 1.0
+164 64 1.0
+164 174 1.0
+164 154 1.0
+164 165 1.0
+164 163 1.0
+165 265 1.0
+165 65 1.0
+165 175 1.0
+165 155 1.0
+165 166 1.0
+165 164 1.0
+166 266 1.0
+166 66 1.0
+166 176 1.0
+166 156 1.0
+166 167 1.0
+166 165 1.0
+167 267 1.0
+167 67 1.0
+167 177 1.0
+167 157 1.0
+167 168 1.0
+167 166 1.0
+168 268 1.0
+168 68 1.0
+168 178 1.0
+168 158 1.0
+168 169 1.0
+168 167 1.0
+169 269 1.0
+169 69 1.0
+169 179 1.0
+169 159 1.0
+169 160 1.0
+169 168 1.0
+170 270 1.0
+170 70 1.0
+170 180 1.0
+170 160 1.0
+170 171 1.0
+170 179 1.0
+171 271 1.0
+171 71 1.0
+171 181 1.0
+171 161 1.0
+171 172 1.0
+171 170 1.0
+172 272 1.0
+172 72 1.0
+172 182 1.0
+172 162 1.0
+172 173 1.0
+172 171 1.0
+173 273 1.0
+173 73 1.0
+173 183 1.0
+173 163 1.0
+173 174 1.0
+173 172 1.0
+174 274 1.0
+174 74 1.0
+174 184 1.0
+174 164 1.0
+174 175 1.0
+174 173 1.0
+175 275 1.0
+175 75 1.0
+175 185 1.0
+175 165 1.0
+175 176 1.0
+175 174 1.0
+176 276 1.0
+176 76 1.0
+176 186 1.0
+176 166 1.0
+176 177 1.0
+176 175 1.0
+177 277 1.0
+177 77 1.0
+177 187 1.0
+177 167 1.0
+177 178 1.0
+177 176 1.0
+178 278 1.0
+178 78 1.0
+178 188 1.0
+178 168 1.0
+178 179 1.0
+178 177 1.0
+179 279 1.0
+179 79 1.0
+179 189 1.0
+179 169 1.0
+179 170 1.0
+179 178 1.0
+180 280 1.0
+180 80 1.0
+180 190 1.0
+180 170 1.0
+180 181 1.0
+180 189 1.0
+181 281 1.0
+181 81 1.0
+181 191 1.0
+181 171 1.0
+181 182 1.0
+181 180 1.0
+182 282 1.0
+182 82 1.0
+182 192 1.0
+182 172 1.0
+182 183 1.0
+182 181 1.0
+183 283 1.0
+183 83 1.0
+183 193 1.0
+183 173 1.0
+183 184 1.0
+183 182 1.0
+184 284 1.0
+184 84 1.0
+184 194 1.0
+184 174 1.0
+184 185 1.0
+184 183 1.0
+185 285 1.0
+185 85 1.0
+185 195 1.0
+185 175 1.0
+185 186 1.0
+185 184 1.0
+186 286 1.0
+186 86 1.0
+186 196 1.0
+186 176 1.0
+186 187 1.0
+186 185 1.0
+187 287 1.0
+187 87 1.0
+187 197 1.0
+187 177 1.0
+187 188 1.0
+187 186 1.0
+188 288 1.0
+188 88 1.0
+188 198 1.0
+188 178 1.0
+188 189 1.0
+188 187 1.0
+189 289 1.0
+189 89 1.0
+189 199 1.0
+189 179 1.0
+189 180 1.0
+189 188 1.0
+190 290 1.0
+190 90 1.0
+190 100 1.0
+190 180 1.0
+190 191 1.0
+190 199 1.0
+191 291 1.0
+191 91 1.0
+191 101 1.0
+191 181 1.0
+191 192 1.0
+191 190 1.0
+192 292 1.0
+192 92 1.0
+192 102 1.0
+192 182 1.0
+192 193 1.0
+192 191 1.0
+193 293 1.0
+193 93 1.0
+193 103 1.0
+193 183 1.0
+193 194 1.0
+193 192 1.0
+194 294 1.0
+194 94 1.0
+194 104 1.0
+194 184 1.0
+194 195 1.0
+194 193 1.0
+195 295 1.0
+195 95 1.0
+195 105 1.0
+195 185 1.0
+195 196 1.0
+195 194 1.0
+196 296 1.0
+196 96 1.0
+196 106 1.0
+196 186 1.0
+196 197 1.0
+196 195 1.0
+197 297 1.0
+197 97 1.0
+197 107 1.0
+197 187 1.0
+197 198 1.0
+197 196 1.0
+198 298 1.0
+198 98 1.0
+198 108 1.0
+198 188 1.0
+198 199 1.0
+198 197 1.0
+199 299 1.0
+199 99 1.0
+199 109 1.0
+199 189 1.0
+199 190 1.0
+199 198 1.0
+200 300 1.0
+200 100 1.0
+200 210 1.0
+200 290 1.0
+200 201 1.0
+200 209 1.0
+201 301 1.0
+201 101 1.0
+201 211 1.0
+201 291 1.0
+201 202 1.0
+201 200 1.0
+202 302 1.0
+202 102 1.0
+202 212 1.0
+202 292 1.0
+202 203 1.0
+202 201 1.0
+203 303 1.0
+203 103 1.0
+203 213 1.0
+203 293 1.0
+203 204 1.0
+203 202 1.0
+204 304 1.0
+204 104 1.0
+204 214 1.0
+204 294 1.0
+204 205 1.0
+204 203 1.0
+205 305 1.0
+205 105 1.0
+205 215 1.0
+205 295 1.0
+205 206 1.0
+205 204 1.0
+206 306 1.0
+206 106 1.0
+206 216 1.0
+206 296 1.0
+206 207 1.0
+206 205 1.0
+207 307 1.0
+207 107 1.0
+207 217 1.0
+207 297 1.0
+207 208 1.0
+207 206 1.0
+208 308 1.0
+208 108 1.0
+208 218 1.0
+208 298 1.0
+208 209 1.0
+208 207 1.0
+209 309 1.0
+209 109 1.0
+209 219 1.0
+209 299 1.0
+209 200 1.0
+209 208 1.0
+210 310 1.0
+210 110 1.0
+210 220 1.0
+210 200 1.0
+210 211 1.0
+210 219 1.0
+211 311 1.0
+211 111 1.0
+211 221 1.0
+211 201 1.0
+211 212 1.0
+211 210 1.0
+212 312 1.0
+212 112 1.0
+212 222 1.0
+212 202 1.0
+212 213 1.0
+212 211 1.0
+213 313 1.0
+213 113 1.0
+213 223 1.0
+213 203 1.0
+213 214 1.0
+213 212 1.0
+214 314 1.0
+214 114 1.0
+214 224 1.0
+214 204 1.0
+214 215 1.0
+214 213 1.0
+215 315 1.0
+215 115 1.0
+215 225 1.0
+215 205 1.0
+215 216 1.0
+215 214 1.0
+216 316 1.0
+216 116 1.0
+216 226 1.0
+216 206 1.0
+216 217 1.0
+216 215 1.0
+217 317 1.0
+217 117 1.0
+217 227 1.0
+217 207 1.0
+217 218 1.0
+217 216 1.0
+218 318 1.0
+218 118 1.0
+218 228 1.0
+218 208 1.0
+218 219 1.0
+218 217 1.0
+219 319 1.0
+219 119 1.0
+219 229 1.0
+219 209 1.0
+219 210 1.0
+219 218 1.0
+220 320 1.0
+220 120 1.0
+220 230 1.0
+220 210 1.0
+220 221 1.0
+220 229 1.0
+221 321 1.0
+221 121 1.0
+221 231 1.0
+221 211 1.0
+221 222 1.0
+221 220 1.0
+222 322 1.0
+222 122 1.0
+222 232 1.0
+222 212 1.0
+222 223 1.0
+222 221 1.0
+223 323 1.0
+223 123 1.0
+223 233 1.0
+223 213 1.0
+223 224 1.0
+223 222 1.0
+224 324 1.0
+224 124 1.0
+224 234 1.0
+224 214 1.0
+224 225 1.0
+224 223 1.0
+225 325 1.0
+225 125 1.0
+225 235 1.0
+225 215 1.0
+225 226 1.0
+225 224 1.0
+226 326 1.0
+226 126 1.0
+226 236 1.0
+226 216 1.0
+226 227 1.0
+226 225 1.0
+227 327 1.0
+227 127 1.0
+227 237 1.0
+227 217 1.0
+227 228 1.0
+227 226 1.0
+228 328 1.0
+228 128 1.0
+228 238 1.0
+228 218 1.0
+228 229 1.0
+228 227 1.0
+229 329 1.0
+229 129 1.0
+229 239 1.0
+229 219 1.0
+229 220 1.0
+229 228 1.0
+230 330 1.0
+230 130 1.0
+230 240 1.0
+230 220 1.0
+230 231 1.0
+230 239 1.0
+231 331 1.0
+231 131 1.0
+231 241 1.0
+231 221 1.0
+231 232 1.0
+231 230 1.0
+232 332 1.0
+232 132 1.0
+232 242 1.0
+232 222 1.0
+232 233 1.0
+232 231 1.0
+233 333 1.0
+233 133 1.0
+233 243 1.0
+233 223 1.0
+233 234 1.0
+233 232 1.0
+234 334 1.0
+234 134 1.0
+234 244 1.0
+234 224 1.0
+234 235 1.0
+234 233 1.0
+235 335 1.0
+235 135 1.0
+235 245 1.0
+235 225 1.0
+235 236 1.0
+235 234 1.0
+236 336 1.0
+236 136 1.0
+236 246 1.0
+236 226 1.0
+236 237 1.0
+236 235 1.0
+237 337 1.0
+237 137 1.0
+237 247 1.0
+237 227 1.0
+237 238 1.0
+237 236 1.0
+238 338 1.0
+238 138 1.0
+238 248 1.0
+238 228 1.0
+238 239 1.0
+238 237 1.0
+239 339 1.0
+239 139 1.0
+239 249 1.0
+239 229 1.0
+239 230 1.0
+239 238 1.0
+240 340 1.0
+240 140 1.0
+240 250 1.0
+240 230 1.0
+240 241 1.0
+240 249 1.0
+241 341 1.0
+241 141 1.0
+241 251 1.0
+241 231 1.0
+241 242 1.0
+241 240 1.0
+242 342 1.0
+242 142 1.0
+242 252 1.0
+242 232 1.0
+242 243 1.0
+242 241 1.0
+243 343 1.0
+243 143 1.0
+243 253 1.0
+243 233 1.0
+243 244 1.0
+243 242 1.0
+244 344 1.0
+244 144 1.0
+244 254 1.0
+244 234 1.0
+244 245 1.0
+244 243 1.0
+245 345 1.0
+245 145 1.0
+245 255 1.0
+245 235 1.0
+245 246 1.0
+245 244 1.0
+246 346 1.0
+246 146 1.0
+246 256 1.0
+246 236 1.0
+246 247 1.0
+246 245 1.0
+247 347 1.0
+247 147 1.0
+247 257 1.0
+247 237 1.0
+247 248 1.0
+247 246 1.0
+248 348 1.0
+248 148 1.0
+248 258 1.0
+248 238 1.0
+248 249 1.0
+248 247 1.0
+249 349 1.0
+249 149 1.0
+249 259 1.0
+249 239 1.0
+249 240 1.0
+249 248 1.0
+250 350 1.0
+250 150 1.0
+250 260 1.0
+250 240 1.0
+250 251 1.0
+250 259 1.0
+251 351 1.0
+251 151 1.0
+251 261 1.0
+251 241 1.0
+251 252 1.0
+251 250 1.0
+252 352 1.0
+252 152 1.0
+252 262 1.0
+252 242 1.0
+252 253 1.0
+252 251 1.0
+253 353 1.0
+253 153 1.0
+253 263 1.0
+253 243 1.0
+253 254 1.0
+253 252 1.0
+254 354 1.0
+254 154 1.0
+254 264 1.0
+254 244 1.0
+254 255 1.0
+254 253 1.0
+255 355 1.0
+255 155 1.0
+255 265 1.0
+255 245 1.0
+255 256 1.0
+255 254 1.0
+256 356 1.0
+256 156 1.0
+256 266 1.0
+256 246 1.0
+256 257 1.0
+256 255 1.0
+257 357 1.0
+257 157 1.0
+257 267 1.0
+257 247 1.0
+257 258 1.0
+257 256 1.0
+258 358 1.0
+258 158 1.0
+258 268 1.0
+258 248 1.0
+258 259 1.0
+258 257 1.0
+259 359 1.0
+259 159 1.0
+259 269 1.0
+259 249 1.0
+259 250 1.0
+259 258 1.0
+260 360 1.0
+260 160 1.0
+260 270 1.0
+260 250 1.0
+260 261 1.0
+260 269 1.0
+261 361 1.0
+261 161 1.0
+261 271 1.0
+261 251 1.0
+261 262 1.0
+261 260 1.0
+262 362 1.0
+262 162 1.0
+262 272 1.0
+262 252 1.0
+262 263 1.0
+262 261 1.0
+263 363 1.0
+263 163 1.0
+263 273 1.0
+263 253 1.0
+263 264 1.0
+263 262 1.0
+264 364 1.0
+264 164 1.0
+264 274 1.0
+264 254 1.0
+264 265 1.0
+264 263 1.0
+265 365 1.0
+265 165 1.0
+265 275 1.0
+265 255 1.0
+265 266 1.0
+265 264 1.0
+266 366 1.0
+266 166 1.0
+266 276 1.0
+266 256 1.0
+266 267 1.0
+266 265 1.0
+267 367 1.0
+267 167 1.0
+267 277 1.0
+267 257 1.0
+267 268 1.0
+267 266 1.0
+268 368 1.0
+268 168 1.0
+268 278 1.0
+268 258 1.0
+268 269 1.0
+268 267 1.0
+269 369 1.0
+269 169 1.0
+269 279 1.0
+269 259 1.0
+269 260 1.0
+269 268 1.0
+270 370 1.0
+270 170 1.0
+270 280 1.0
+270 260 1.0
+270 271 1.0
+270 279 1.0
+271 371 1.0
+271 171 1.0
+271 281 1.0
+271 261 1.0
+271 272 1.0
+271 270 1.0
+272 372 1.0
+272 172 1.0
+272 282 1.0
+272 262 1.0
+272 273 1.0
+272 271 1.0
+273 373 1.0
+273 173 1.0
+273 283 1.0
+273 263 1.0
+273 274 1.0
+273 272 1.0
+274 374 1.0
+274 174 1.0
+274 284 1.0
+274 264 1.0
+274 275 1.0
+274 273 1.0
+275 375 1.0
+275 175 1.0
+275 285 1.0
+275 265 1.0
+275 276 1.0
+275 274 1.0
+276 376 1.0
+276 176 1.0
+276 286 1.0
+276 266 1.0
+276 277 1.0
+276 275 1.0
+277 377 1.0
+277 177 1.0
+277 287 1.0
+277 267 1.0
+277 278 1.0
+277 276 1.0
+278 378 1.0
+278 178 1.0
+278 288 1.0
+278 268 1.0
+278 279 1.0
+278 277 1.0
+279 379 1.0
+279 179 1.0
+279 289 1.0
+279 269 1.0
+279 270 1.0
+279 278 1.0
+280 380 1.0
+280 180 1.0
+280 290 1.0
+280 270 1.0
+280 281 1.0
+280 289 1.0
+281 381 1.0
+281 181 1.0
+281 291 1.0
+281 271 1.0
+281 282 1.0
+281 280 1.0
+282 382 1.0
+282 182 1.0
+282 292 1.0
+282 272 1.0
+282 283 1.0
+282 281 1.0
+283 383 1.0
+283 183 1.0
+283 293 1.0
+283 273 1.0
+283 284 1.0
+283 282 1.0
+284 384 1.0
+284 184 1.0
+284 294 1.0
+284 274 1.0
+284 285 1.0
+284 283 1.0
+285 385 1.0
+285 185 1.0
+285 295 1.0
+285 275 1.0
+285 286 1.0
+285 284 1.0
+286 386 1.0
+286 186 1.0
+286 296 1.0
+286 276 1.0
+286 287 1.0
+286 285 1.0
+287 387 1.0
+287 187 1.0
+287 297 1.0
+287 277 1.0
+287 288 1.0
+287 286 1.0
+288 388 1.0
+288 188 1.0
+288 298 1.0
+288 278 1.0
+288 289 1.0
+288 287 1.0
+289 389 1.0
+289 189 1.0
+289 299 1.0
+289 279 1.0
+289 280 1.0
+289 288 1.0
+290 390 1.0
+290 190 1.0
+290 200 1.0
+290 280 1.0
+290 291 1.0
+290 299 1.0
+291 391 1.0
+291 191 1.0
+291 201 1.0
+291 281 1.0
+291 292 1.0
+291 290 1.0
+292 392 1.0
+292 192 1.0
+292 202 1.0
+292 282 1.0
+292 293 1.0
+292 291 1.0
+293 393 1.0
+293 193 1.0
+293 203 1.0
+293 283 1.0
+293 294 1.0
+293 292 1.0
+294 394 1.0
+294 194 1.0
+294 204 1.0
+294 284 1.0
+294 295 1.0
+294 293 1.0
+295 395 1.0
+295 195 1.0
+295 205 1.0
+295 285 1.0
+295 296 1.0
+295 294 1.0
+296 396 1.0
+296 196 1.0
+296 206 1.0
+296 286 1.0
+296 297 1.0
+296 295 1.0
+297 397 1.0
+297 197 1.0
+297 207 1.0
+297 287 1.0
+297 298 1.0
+297 296 1.0
+298 398 1.0
+298 198 1.0
+298 208 1.0
+298 288 1.0
+298 299 1.0
+298 297 1.0
+299 399 1.0
+299 199 1.0
+299 209 1.0
+299 289 1.0
+299 290 1.0
+299 298 1.0
+300 400 1.0
+300 200 1.0
+300 310 1.0
+300 390 1.0
+300 301 1.0
+300 309 1.0
+301 401 1.0
+301 201 1.0
+301 311 1.0
+301 391 1.0
+301 302 1.0
+301 300 1.0
+302 402 1.0
+302 202 1.0
+302 312 1.0
+302 392 1.0
+302 303 1.0
+302 301 1.0
+303 403 1.0
+303 203 1.0
+303 313 1.0
+303 393 1.0
+303 304 1.0
+303 302 1.0
+304 404 1.0
+304 204 1.0
+304 314 1.0
+304 394 1.0
+304 305 1.0
+304 303 1.0
+305 405 1.0
+305 205 1.0
+305 315 1.0
+305 395 1.0
+305 306 1.0
+305 304 1.0
+306 406 1.0
+306 206 1.0
+306 316 1.0
+306 396 1.0
+306 307 1.0
+306 305 1.0
+307 407 1.0
+307 207 1.0
+307 317 1.0
+307 397 1.0
+307 308 1.0
+307 306 1.0
+308 408 1.0
+308 208 1.0
+308 318 1.0
+308 398 1.0
+308 309 1.0
+308 307 1.0
+309 409 1.0
+309 209 1.0
+309 319 1.0
+309 399 1.0
+309 300 1.0
+309 308 1.0
+310 410 1.0
+310 210 1.0
+310 320 1.0
+310 300 1.0
+310 311 1.0
+310 319 1.0
+311 411 1.0
+311 211 1.0
+311 321 1.0
+311 301 1.0
+311 312 1.0
+311 310 1.0
+312 412 1.0
+312 212 1.0
+312 322 1.0
+312 302 1.0
+312 313 1.0
+312 311 1.0
+313 413 1.0
+313 213 1.0
+313 323 1.0
+313 303 1.0
+313 314 1.0
+313 312 1.0
+314 414 1.0
+314 214 1.0
+314 324 1.0
+314 304 1.0
+314 315 1.0
+314 313 1.0
+315 415 1.0
+315 215 1.0
+315 325 1.0
+315 305 1.0
+315 316 1.0
+315 314 1.0
+316 416 1.0
+316 216 1.0
+316 326 1.0
+316 306 1.0
+316 317 1.0
+316 315 1.0
+317 417 1.0
+317 217 1.0
+317 327 1.0
+317 307 1.0
+317 318 1.0
+317 316 1.0
+318 418 1.0
+318 218 1.0
+318 328 1.0
+318 308 1.0
+318 319 1.0
+318 317 1.0
+319 419 1.0
+319 219 1.0
+319 329 1.0
+319 309 1.0
+319 310 1.0
+319 318 1.0
+320 420 1.0
+320 220 1.0
+320 330 1.0
+320 310 1.0
+320 321 1.0
+320 329 1.0
+321 421 1.0
+321 221 1.0
+321 331 1.0
+321 311 1.0
+321 322 1.0
+321 320 1.0
+322 422 1.0
+322 222 1.0
+322 332 1.0
+322 312 1.0
+322 323 1.0
+322 321 1.0
+323 423 1.0
+323 223 1.0
+323 333 1.0
+323 313 1.0
+323 324 1.0
+323 322 1.0
+324 424 1.0
+324 224 1.0
+324 334 1.0
+324 314 1.0
+324 325 1.0
+324 323 1.0
+325 425 1.0
+325 225 1.0
+325 335 1.0
+325 315 1.0
+325 326 1.0
+325 324 1.0
+326 426 1.0
+326 226 1.0
+326 336 1.0
+326 316 1.0
+326 327 1.0
+326 325 1.0
+327 427 1.0
+327 227 1.0
+327 337 1.0
+327 317 1.0
+327 328 1.0
+327 326 1.0
+328 428 1.0
+328 228 1.0
+328 338 1.0
+328 318 1.0
+328 329 1.0
+328 327 1.0
+329 429 1.0
+329 229 1.0
+329 339 1.0
+329 319 1.0
+329 320 1.0
+329 328 1.0
+330 430 1.0
+330 230 1.0
+330 340 1.0
+330 320 1.0
+330 331 1.0
+330 339 1.0
+331 431 1.0
+331 231 1.0
+331 341 1.0
+331 321 1.0
+331 332 1.0
+331 330 1.0
+332 432 1.0
+332 232 1.0
+332 342 1.0
+332 322 1.0
+332 333 1.0
+332 331 1.0
+333 433 1.0
+333 233 1.0
+333 343 1.0
+333 323 1.0
+333 334 1.0
+333 332 1.0
+334 434 1.0
+334 234 1.0
+334 344 1.0
+334 324 1.0
+334 335 1.0
+334 333 1.0
+335 435 1.0
+335 235 1.0
+335 345 1.0
+335 325 1.0
+335 336 1.0
+335 334 1.0
+336 436 1.0
+336 236 1.0
+336 346 1.0
+336 326 1.0
+336 337 1.0
+336 335 1.0
+337 437 1.0
+337 237 1.0
+337 347 1.0
+337 327 1.0
+337 338 1.0
+337 336 1.0
+338 438 1.0
+338 238 1.0
+338 348 1.0
+338 328 1.0
+338 339 1.0
+338 337 1.0
+339 439 1.0
+339 239 1.0
+339 349 1.0
+339 329 1.0
+339 330 1.0
+339 338 1.0
+340 440 1.0
+340 240 1.0
+340 350 1.0
+340 330 1.0
+340 341 1.0
+340 349 1.0
+341 441 1.0
+341 241 1.0
+341 351 1.0
+341 331 1.0
+341 342 1.0
+341 340 1.0
+342 442 1.0
+342 242 1.0
+342 352 1.0
+342 332 1.0
+342 343 1.0
+342 341 1.0
+343 443 1.0
+343 243 1.0
+343 353 1.0
+343 333 1.0
+343 344 1.0
+343 342 1.0
+344 444 1.0
+344 244 1.0
+344 354 1.0
+344 334 1.0
+344 345 1.0
+344 343 1.0
+345 445 1.0
+345 245 1.0
+345 355 1.0
+345 335 1.0
+345 346 1.0
+345 344 1.0
+346 446 1.0
+346 246 1.0
+346 356 1.0
+346 336 1.0
+346 347 1.0
+346 345 1.0
+347 447 1.0
+347 247 1.0
+347 357 1.0
+347 337 1.0
+347 348 1.0
+347 346 1.0
+348 448 1.0
+348 248 1.0
+348 358 1.0
+348 338 1.0
+348 349 1.0
+348 347 1.0
+349 449 1.0
+349 249 1.0
+349 359 1.0
+349 339 1.0
+349 340 1.0
+349 348 1.0
+350 450 1.0
+350 250 1.0
+350 360 1.0
+350 340 1.0
+350 351 1.0
+350 359 1.0
+351 451 1.0
+351 251 1.0
+351 361 1.0
+351 341 1.0
+351 352 1.0
+351 350 1.0
+352 452 1.0
+352 252 1.0
+352 362 1.0
+352 342 1.0
+352 353 1.0
+352 351 1.0
+353 453 1.0
+353 253 1.0
+353 363 1.0
+353 343 1.0
+353 354 1.0
+353 352 1.0
+354 454 1.0
+354 254 1.0
+354 364 1.0
+354 344 1.0
+354 355 1.0
+354 353 1.0
+355 455 1.0
+355 255 1.0
+355 365 1.0
+355 345 1.0
+355 356 1.0
+355 354 1.0
+356 456 1.0
+356 256 1.0
+356 366 1.0
+356 346 1.0
+356 357 1.0
+356 355 1.0
+357 457 1.0
+357 257 1.0
+357 367 1.0
+357 347 1.0
+357 358 1.0
+357 356 1.0
+358 458 1.0
+358 258 1.0
+358 368 1.0
+358 348 1.0
+358 359 1.0
+358 357 1.0
+359 459 1.0
+359 259 1.0
+359 369 1.0
+359 349 1.0
+359 350 1.0
+359 358 1.0
+360 460 1.0
+360 260 1.0
+360 370 1.0
+360 350 1.0
+360 361 1.0
+360 369 1.0
+361 461 1.0
+361 261 1.0
+361 371 1.0
+361 351 1.0
+361 362 1.0
+361 360 1.0
+362 462 1.0
+362 262 1.0
+362 372 1.0
+362 352 1.0
+362 363 1.0
+362 361 1.0
+363 463 1.0
+363 263 1.0
+363 373 1.0
+363 353 1.0
+363 364 1.0
+363 362 1.0
+364 464 1.0
+364 264 1.0
+364 374 1.0
+364 354 1.0
+364 365 1.0
+364 363 1.0
+365 465 1.0
+365 265 1.0
+365 375 1.0
+365 355 1.0
+365 366 1.0
+365 364 1.0
+366 466 1.0
+366 266 1.0
+366 376 1.0
+366 356 1.0
+366 367 1.0
+366 365 1.0
+367 467 1.0
+367 267 1.0
+367 377 1.0
+367 357 1.0
+367 368 1.0
+367 366 1.0
+368 468 1.0
+368 268 1.0
+368 378 1.0
+368 358 1.0
+368 369 1.0
+368 367 1.0
+369 469 1.0
+369 269 1.0
+369 379 1.0
+369 359 1.0
+369 360 1.0
+369 368 1.0
+370 470 1.0
+370 270 1.0
+370 380 1.0
+370 360 1.0
+370 371 1.0
+370 379 1.0
+371 471 1.0
+371 271 1.0
+371 381 1.0
+371 361 1.0
+371 372 1.0
+371 370 1.0
+372 472 1.0
+372 272 1.0
+372 382 1.0
+372 362 1.0
+372 373 1.0
+372 371 1.0
+373 473 1.0
+373 273 1.0
+373 383 1.0
+373 363 1.0
+373 374 1.0
+373 372 1.0
+374 474 1.0
+374 274 1.0
+374 384 1.0
+374 364 1.0
+374 375 1.0
+374 373 1.0
+375 475 1.0
+375 275 1.0
+375 385 1.0
+375 365 1.0
+375 376 1.0
+375 374 1.0
+376 476 1.0
+376 276 1.0
+376 386 1.0
+376 366 1.0
+376 377 1.0
+376 375 1.0
+377 477 1.0
+377 277 1.0
+377 387 1.0
+377 367 1.0
+377 378 1.0
+377 376 1.0
+378 478 1.0
+378 278 1.0
+378 388 1.0
+378 368 1.0
+378 379 1.0
+378 377 1.0
+379 479 1.0
+379 279 1.0
+379 389 1.0
+379 369 1.0
+379 370 1.0
+379 378 1.0
+380 480 1.0
+380 280 1.0
+380 390 1.0
+380 370 1.0
+380 381 1.0
+380 389 1.0
+381 481 1.0
+381 281 1.0
+381 391 1.0
+381 371 1.0
+381 382 1.0
+381 380 1.0
+382 482 1.0
+382 282 1.0
+382 392 1.0
+382 372 1.0
+382 383 1.0
+382 381 1.0
+383 483 1.0
+383 283 1.0
+383 393 1.0
+383 373 1.0
+383 384 1.0
+383 382 1.0
+384 484 1.0
+384 284 1.0
+384 394 1.0
+384 374 1.0
+384 385 1.0
+384 383 1.0
+385 485 1.0
+385 285 1.0
+385 395 1.0
+385 375 1.0
+385 386 1.0
+385 384 1.0
+386 486 1.0
+386 286 1.0
+386 396 1.0
+386 376 1.0
+386 387 1.0
+386 385 1.0
+387 487 1.0
+387 287 1.0
+387 397 1.0
+387 377 1.0
+387 388 1.0
+387 386 1.0
+388 488 1.0
+388 288 1.0
+388 398 1.0
+388 378 1.0
+388 389 1.0
+388 387 1.0
+389 489 1.0
+389 289 1.0
+389 399 1.0
+389 379 1.0
+389 380 1.0
+389 388 1.0
+390 490 1.0
+390 290 1.0
+390 300 1.0
+390 380 1.0
+390 391 1.0
+390 399 1.0
+391 491 1.0
+391 291 1.0
+391 301 1.0
+391 381 1.0
+391 392 1.0
+391 390 1.0
+392 492 1.0
+392 292 1.0
+392 302 1.0
+392 382 1.0
+392 393 1.0
+392 391 1.0
+393 493 1.0
+393 293 1.0
+393 303 1.0
+393 383 1.0
+393 394 1.0
+393 392 1.0
+394 494 1.0
+394 294 1.0
+394 304 1.0
+394 384 1.0
+394 395 1.0
+394 393 1.0
+395 495 1.0
+395 295 1.0
+395 305 1.0
+395 385 1.0
+395 396 1.0
+395 394 1.0
+396 496 1.0
+396 296 1.0
+396 306 1.0
+396 386 1.0
+396 397 1.0
+396 395 1.0
+397 497 1.0
+397 297 1.0
+397 307 1.0
+397 387 1.0
+397 398 1.0
+397 396 1.0
+398 498 1.0
+398 298 1.0
+398 308 1.0
+398 388 1.0
+398 399 1.0
+398 397 1.0
+399 499 1.0
+399 299 1.0
+399 309 1.0
+399 389 1.0
+399 390 1.0
+399 398 1.0
+400 500 1.0
+400 300 1.0
+400 410 1.0
+400 490 1.0
+400 401 1.0
+400 409 1.0
+401 501 1.0
+401 301 1.0
+401 411 1.0
+401 491 1.0
+401 402 1.0
+401 400 1.0
+402 502 1.0
+402 302 1.0
+402 412 1.0
+402 492 1.0
+402 403 1.0
+402 401 1.0
+403 503 1.0
+403 303 1.0
+403 413 1.0
+403 493 1.0
+403 404 1.0
+403 402 1.0
+404 504 1.0
+404 304 1.0
+404 414 1.0
+404 494 1.0
+404 405 1.0
+404 403 1.0
+405 505 1.0
+405 305 1.0
+405 415 1.0
+405 495 1.0
+405 406 1.0
+405 404 1.0
+406 506 1.0
+406 306 1.0
+406 416 1.0
+406 496 1.0
+406 407 1.0
+406 405 1.0
+407 507 1.0
+407 307 1.0
+407 417 1.0
+407 497 1.0
+407 408 1.0
+407 406 1.0
+408 508 1.0
+408 308 1.0
+408 418 1.0
+408 498 1.0
+408 409 1.0
+408 407 1.0
+409 509 1.0
+409 309 1.0
+409 419 1.0
+409 499 1.0
+409 400 1.0
+409 408 1.0
+410 510 1.0
+410 310 1.0
+410 420 1.0
+410 400 1.0
+410 411 1.0
+410 419 1.0
+411 511 1.0
+411 311 1.0
+411 421 1.0
+411 401 1.0
+411 412 1.0
+411 410 1.0
+412 512 1.0
+412 312 1.0
+412 422 1.0
+412 402 1.0
+412 413 1.0
+412 411 1.0
+413 513 1.0
+413 313 1.0
+413 423 1.0
+413 403 1.0
+413 414 1.0
+413 412 1.0
+414 514 1.0
+414 314 1.0
+414 424 1.0
+414 404 1.0
+414 415 1.0
+414 413 1.0
+415 515 1.0
+415 315 1.0
+415 425 1.0
+415 405 1.0
+415 416 1.0
+415 414 1.0
+416 516 1.0
+416 316 1.0
+416 426 1.0
+416 406 1.0
+416 417 1.0
+416 415 1.0
+417 517 1.0
+417 317 1.0
+417 427 1.0
+417 407 1.0
+417 418 1.0
+417 416 1.0
+418 518 1.0
+418 318 1.0
+418 428 1.0
+418 408 1.0
+418 419 1.0
+418 417 1.0
+419 519 1.0
+419 319 1.0
+419 429 1.0
+419 409 1.0
+419 410 1.0
+419 418 1.0
+420 520 1.0
+420 320 1.0
+420 430 1.0
+420 410 1.0
+420 421 1.0
+420 429 1.0
+421 521 1.0
+421 321 1.0
+421 431 1.0
+421 411 1.0
+421 422 1.0
+421 420 1.0
+422 522 1.0
+422 322 1.0
+422 432 1.0
+422 412 1.0
+422 423 1.0
+422 421 1.0
+423 523 1.0
+423 323 1.0
+423 433 1.0
+423 413 1.0
+423 424 1.0
+423 422 1.0
+424 524 1.0
+424 324 1.0
+424 434 1.0
+424 414 1.0
+424 425 1.0
+424 423 1.0
+425 525 1.0
+425 325 1.0
+425 435 1.0
+425 415 1.0
+425 426 1.0
+425 424 1.0
+426 526 1.0
+426 326 1.0
+426 436 1.0
+426 416 1.0
+426 427 1.0
+426 425 1.0
+427 527 1.0
+427 327 1.0
+427 437 1.0
+427 417 1.0
+427 428 1.0
+427 426 1.0
+428 528 1.0
+428 328 1.0
+428 438 1.0
+428 418 1.0
+428 429 1.0
+428 427 1.0
+429 529 1.0
+429 329 1.0
+429 439 1.0
+429 419 1.0
+429 420 1.0
+429 428 1.0
+430 530 1.0
+430 330 1.0
+430 440 1.0
+430 420 1.0
+430 431 1.0
+430 439 1.0
+431 531 1.0
+431 331 1.0
+431 441 1.0
+431 421 1.0
+431 432 1.0
+431 430 1.0
+432 532 1.0
+432 332 1.0
+432 442 1.0
+432 422 1.0
+432 433 1.0
+432 431 1.0
+433 533 1.0
+433 333 1.0
+433 443 1.0
+433 423 1.0
+433 434 1.0
+433 432 1.0
+434 534 1.0
+434 334 1.0
+434 444 1.0
+434 424 1.0
+434 435 1.0
+434 433 1.0
+435 535 1.0
+435 335 1.0
+435 445 1.0
+435 425 1.0
+435 436 1.0
+435 434 1.0
+436 536 1.0
+436 336 1.0
+436 446 1.0
+436 426 1.0
+436 437 1.0
+436 435 1.0
+437 537 1.0
+437 337 1.0
+437 447 1.0
+437 427 1.0
+437 438 1.0
+437 436 1.0
+438 538 1.0
+438 338 1.0
+438 448 1.0
+438 428 1.0
+438 439 1.0
+438 437 1.0
+439 539 1.0
+439 339 1.0
+439 449 1.0
+439 429 1.0
+439 430 1.0
+439 438 1.0
+440 540 1.0
+440 340 1.0
+440 450 1.0
+440 430 1.0
+440 441 1.0
+440 449 1.0
+441 541 1.0
+441 341 1.0
+441 451 1.0
+441 431 1.0
+441 442 1.0
+441 440 1.0
+442 542 1.0
+442 342 1.0
+442 452 1.0
+442 432 1.0
+442 443 1.0
+442 441 1.0
+443 543 1.0
+443 343 1.0
+443 453 1.0
+443 433 1.0
+443 444 1.0
+443 442 1.0
+444 544 1.0
+444 344 1.0
+444 454 1.0
+444 434 1.0
+444 445 1.0
+444 443 1.0
+445 545 1.0
+445 345 1.0
+445 455 1.0
+445 435 1.0
+445 446 1.0
+445 444 1.0
+446 546 1.0
+446 346 1.0
+446 456 1.0
+446 436 1.0
+446 447 1.0
+446 445 1.0
+447 547 1.0
+447 347 1.0
+447 457 1.0
+447 437 1.0
+447 448 1.0
+447 446 1.0
+448 548 1.0
+448 348 1.0
+448 458 1.0
+448 438 1.0
+448 449 1.0
+448 447 1.0
+449 549 1.0
+449 349 1.0
+449 459 1.0
+449 439 1.0
+449 440 1.0
+449 448 1.0
+450 550 1.0
+450 350 1.0
+450 460 1.0
+450 440 1.0
+450 451 1.0
+450 459 1.0
+451 551 1.0
+451 351 1.0
+451 461 1.0
+451 441 1.0
+451 452 1.0
+451 450 1.0
+452 552 1.0
+452 352 1.0
+452 462 1.0
+452 442 1.0
+452 453 1.0
+452 451 1.0
+453 553 1.0
+453 353 1.0
+453 463 1.0
+453 443 1.0
+453 454 1.0
+453 452 1.0
+454 554 1.0
+454 354 1.0
+454 464 1.0
+454 444 1.0
+454 455 1.0
+454 453 1.0
+455 555 1.0
+455 355 1.0
+455 465 1.0
+455 445 1.0
+455 456 1.0
+455 454 1.0
+456 556 1.0
+456 356 1.0
+456 466 1.0
+456 446 1.0
+456 457 1.0
+456 455 1.0
+457 557 1.0
+457 357 1.0
+457 467 1.0
+457 447 1.0
+457 458 1.0
+457 456 1.0
+458 558 1.0
+458 358 1.0
+458 468 1.0
+458 448 1.0
+458 459 1.0
+458 457 1.0
+459 559 1.0
+459 359 1.0
+459 469 1.0
+459 449 1.0
+459 450 1.0
+459 458 1.0
+460 560 1.0
+460 360 1.0
+460 470 1.0
+460 450 1.0
+460 461 1.0
+460 469 1.0
+461 561 1.0
+461 361 1.0
+461 471 1.0
+461 451 1.0
+461 462 1.0
+461 460 1.0
+462 562 1.0
+462 362 1.0
+462 472 1.0
+462 452 1.0
+462 463 1.0
+462 461 1.0
+463 563 1.0
+463 363 1.0
+463 473 1.0
+463 453 1.0
+463 464 1.0
+463 462 1.0
+464 564 1.0
+464 364 1.0
+464 474 1.0
+464 454 1.0
+464 465 1.0
+464 463 1.0
+465 565 1.0
+465 365 1.0
+465 475 1.0
+465 455 1.0
+465 466 1.0
+465 464 1.0
+466 566 1.0
+466 366 1.0
+466 476 1.0
+466 456 1.0
+466 467 1.0
+466 465 1.0
+467 567 1.0
+467 367 1.0
+467 477 1.0
+467 457 1.0
+467 468 1.0
+467 466 1.0
+468 568 1.0
+468 368 1.0
+468 478 1.0
+468 458 1.0
+468 469 1.0
+468 467 1.0
+469 569 1.0
+469 369 1.0
+469 479 1.0
+469 459 1.0
+469 460 1.0
+469 468 1.0
+470 570 1.0
+470 370 1.0
+470 480 1.0
+470 460 1.0
+470 471 1.0
+470 479 1.0
+471 571 1.0
+471 371 1.0
+471 481 1.0
+471 461 1.0
+471 472 1.0
+471 470 1.0
+472 572 1.0
+472 372 1.0
+472 482 1.0
+472 462 1.0
+472 473 1.0
+472 471 1.0
+473 573 1.0
+473 373 1.0
+473 483 1.0
+473 463 1.0
+473 474 1.0
+473 472 1.0
+474 574 1.0
+474 374 1.0
+474 484 1.0
+474 464 1.0
+474 475 1.0
+474 473 1.0
+475 575 1.0
+475 375 1.0
+475 485 1.0
+475 465 1.0
+475 476 1.0
+475 474 1.0
+476 576 1.0
+476 376 1.0
+476 486 1.0
+476 466 1.0
+476 477 1.0
+476 475 1.0
+477 577 1.0
+477 377 1.0
+477 487 1.0
+477 467 1.0
+477 478 1.0
+477 476 1.0
+478 578 1.0
+478 378 1.0
+478 488 1.0
+478 468 1.0
+478 479 1.0
+478 477 1.0
+479 579 1.0
+479 379 1.0
+479 489 1.0
+479 469 1.0
+479 470 1.0
+479 478 1.0
+480 580 1.0
+480 380 1.0
+480 490 1.0
+480 470 1.0
+480 481 1.0
+480 489 1.0
+481 581 1.0
+481 381 1.0
+481 491 1.0
+481 471 1.0
+481 482 1.0
+481 480 1.0
+482 582 1.0
+482 382 1.0
+482 492 1.0
+482 472 1.0
+482 483 1.0
+482 481 1.0
+483 583 1.0
+483 383 1.0
+483 493 1.0
+483 473 1.0
+483 484 1.0
+483 482 1.0
+484 584 1.0
+484 384 1.0
+484 494 1.0
+484 474 1.0
+484 485 1.0
+484 483 1.0
+485 585 1.0
+485 385 1.0
+485 495 1.0
+485 475 1.0
+485 486 1.0
+485 484 1.0
+486 586 1.0
+486 386 1.0
+486 496 1.0
+486 476 1.0
+486 487 1.0
+486 485 1.0
+487 587 1.0
+487 387 1.0
+487 497 1.0
+487 477 1.0
+487 488 1.0
+487 486 1.0
+488 588 1.0
+488 388 1.0
+488 498 1.0
+488 478 1.0
+488 489 1.0
+488 487 1.0
+489 589 1.0
+489 389 1.0
+489 499 1.0
+489 479 1.0
+489 480 1.0
+489 488 1.0
+490 590 1.0
+490 390 1.0
+490 400 1.0
+490 480 1.0
+490 491 1.0
+490 499 1.0
+491 591 1.0
+491 391 1.0
+491 401 1.0
+491 481 1.0
+491 492 1.0
+491 490 1.0
+492 592 1.0
+492 392 1.0
+492 402 1.0
+492 482 1.0
+492 493 1.0
+492 491 1.0
+493 593 1.0
+493 393 1.0
+493 403 1.0
+493 483 1.0
+493 494 1.0
+493 492 1.0
+494 594 1.0
+494 394 1.0
+494 404 1.0
+494 484 1.0
+494 495 1.0
+494 493 1.0
+495 595 1.0
+495 395 1.0
+495 405 1.0
+495 485 1.0
+495 496 1.0
+495 494 1.0
+496 596 1.0
+496 396 1.0
+496 406 1.0
+496 486 1.0
+496 497 1.0
+496 495 1.0
+497 597 1.0
+497 397 1.0
+497 407 1.0
+497 487 1.0
+497 498 1.0
+497 496 1.0
+498 598 1.0
+498 398 1.0
+498 408 1.0
+498 488 1.0
+498 499 1.0
+498 497 1.0
+499 599 1.0
+499 399 1.0
+499 409 1.0
+499 489 1.0
+499 490 1.0
+499 498 1.0
+500 600 1.0
+500 400 1.0
+500 510 1.0
+500 590 1.0
+500 501 1.0
+500 509 1.0
+501 601 1.0
+501 401 1.0
+501 511 1.0
+501 591 1.0
+501 502 1.0
+501 500 1.0
+502 602 1.0
+502 402 1.0
+502 512 1.0
+502 592 1.0
+502 503 1.0
+502 501 1.0
+503 603 1.0
+503 403 1.0
+503 513 1.0
+503 593 1.0
+503 504 1.0
+503 502 1.0
+504 604 1.0
+504 404 1.0
+504 514 1.0
+504 594 1.0
+504 505 1.0
+504 503 1.0
+505 605 1.0
+505 405 1.0
+505 515 1.0
+505 595 1.0
+505 506 1.0
+505 504 1.0
+506 606 1.0
+506 406 1.0
+506 516 1.0
+506 596 1.0
+506 507 1.0
+506 505 1.0
+507 607 1.0
+507 407 1.0
+507 517 1.0
+507 597 1.0
+507 508 1.0
+507 506 1.0
+508 608 1.0
+508 408 1.0
+508 518 1.0
+508 598 1.0
+508 509 1.0
+508 507 1.0
+509 609 1.0
+509 409 1.0
+509 519 1.0
+509 599 1.0
+509 500 1.0
+509 508 1.0
+510 610 1.0
+510 410 1.0
+510 520 1.0
+510 500 1.0
+510 511 1.0
+510 519 1.0
+511 611 1.0
+511 411 1.0
+511 521 1.0
+511 501 1.0
+511 512 1.0
+511 510 1.0
+512 612 1.0
+512 412 1.0
+512 522 1.0
+512 502 1.0
+512 513 1.0
+512 511 1.0
+513 613 1.0
+513 413 1.0
+513 523 1.0
+513 503 1.0
+513 514 1.0
+513 512 1.0
+514 614 1.0
+514 414 1.0
+514 524 1.0
+514 504 1.0
+514 515 1.0
+514 513 1.0
+515 615 1.0
+515 415 1.0
+515 525 1.0
+515 505 1.0
+515 516 1.0
+515 514 1.0
+516 616 1.0
+516 416 1.0
+516 526 1.0
+516 506 1.0
+516 517 1.0
+516 515 1.0
+517 617 1.0
+517 417 1.0
+517 527 1.0
+517 507 1.0
+517 518 1.0
+517 516 1.0
+518 618 1.0
+518 418 1.0
+518 528 1.0
+518 508 1.0
+518 519 1.0
+518 517 1.0
+519 619 1.0
+519 419 1.0
+519 529 1.0
+519 509 1.0
+519 510 1.0
+519 518 1.0
+520 620 1.0
+520 420 1.0
+520 530 1.0
+520 510 1.0
+520 521 1.0
+520 529 1.0
+521 621 1.0
+521 421 1.0
+521 531 1.0
+521 511 1.0
+521 522 1.0
+521 520 1.0
+522 622 1.0
+522 422 1.0
+522 532 1.0
+522 512 1.0
+522 523 1.0
+522 521 1.0
+523 623 1.0
+523 423 1.0
+523 533 1.0
+523 513 1.0
+523 524 1.0
+523 522 1.0
+524 624 1.0
+524 424 1.0
+524 534 1.0
+524 514 1.0
+524 525 1.0
+524 523 1.0
+525 625 1.0
+525 425 1.0
+525 535 1.0
+525 515 1.0
+525 526 1.0
+525 524 1.0
+526 626 1.0
+526 426 1.0
+526 536 1.0
+526 516 1.0
+526 527 1.0
+526 525 1.0
+527 627 1.0
+527 427 1.0
+527 537 1.0
+527 517 1.0
+527 528 1.0
+527 526 1.0
+528 628 1.0
+528 428 1.0
+528 538 1.0
+528 518 1.0
+528 529 1.0
+528 527 1.0
+529 629 1.0
+529 429 1.0
+529 539 1.0
+529 519 1.0
+529 520 1.0
+529 528 1.0
+530 630 1.0
+530 430 1.0
+530 540 1.0
+530 520 1.0
+530 531 1.0
+530 539 1.0
+531 631 1.0
+531 431 1.0
+531 541 1.0
+531 521 1.0
+531 532 1.0
+531 530 1.0
+532 632 1.0
+532 432 1.0
+532 542 1.0
+532 522 1.0
+532 533 1.0
+532 531 1.0
+533 633 1.0
+533 433 1.0
+533 543 1.0
+533 523 1.0
+533 534 1.0
+533 532 1.0
+534 634 1.0
+534 434 1.0
+534 544 1.0
+534 524 1.0
+534 535 1.0
+534 533 1.0
+535 635 1.0
+535 435 1.0
+535 545 1.0
+535 525 1.0
+535 536 1.0
+535 534 1.0
+536 636 1.0
+536 436 1.0
+536 546 1.0
+536 526 1.0
+536 537 1.0
+536 535 1.0
+537 637 1.0
+537 437 1.0
+537 547 1.0
+537 527 1.0
+537 538 1.0
+537 536 1.0
+538 638 1.0
+538 438 1.0
+538 548 1.0
+538 528 1.0
+538 539 1.0
+538 537 1.0
+539 639 1.0
+539 439 1.0
+539 549 1.0
+539 529 1.0
+539 530 1.0
+539 538 1.0
+540 640 1.0
+540 440 1.0
+540 550 1.0
+540 530 1.0
+540 541 1.0
+540 549 1.0
+541 641 1.0
+541 441 1.0
+541 551 1.0
+541 531 1.0
+541 542 1.0
+541 540 1.0
+542 642 1.0
+542 442 1.0
+542 552 1.0
+542 532 1.0
+542 543 1.0
+542 541 1.0
+543 643 1.0
+543 443 1.0
+543 553 1.0
+543 533 1.0
+543 544 1.0
+543 542 1.0
+544 644 1.0
+544 444 1.0
+544 554 1.0
+544 534 1.0
+544 545 1.0
+544 543 1.0
+545 645 1.0
+545 445 1.0
+545 555 1.0
+545 535 1.0
+545 546 1.0
+545 544 1.0
+546 646 1.0
+546 446 1.0
+546 556 1.0
+546 536 1.0
+546 547 1.0
+546 545 1.0
+547 647 1.0
+547 447 1.0
+547 557 1.0
+547 537 1.0
+547 548 1.0
+547 546 1.0
+548 648 1.0
+548 448 1.0
+548 558 1.0
+548 538 1.0
+548 549 1.0
+548 547 1.0
+549 649 1.0
+549 449 1.0
+549 559 1.0
+549 539 1.0
+549 540 1.0
+549 548 1.0
+550 650 1.0
+550 450 1.0
+550 560 1.0
+550 540 1.0
+550 551 1.0
+550 559 1.0
+551 651 1.0
+551 451 1.0
+551 561 1.0
+551 541 1.0
+551 552 1.0
+551 550 1.0
+552 652 1.0
+552 452 1.0
+552 562 1.0
+552 542 1.0
+552 553 1.0
+552 551 1.0
+553 653 1.0
+553 453 1.0
+553 563 1.0
+553 543 1.0
+553 554 1.0
+553 552 1.0
+554 654 1.0
+554 454 1.0
+554 564 1.0
+554 544 1.0
+554 555 1.0
+554 553 1.0
+555 655 1.0
+555 455 1.0
+555 565 1.0
+555 545 1.0
+555 556 1.0
+555 554 1.0
+556 656 1.0
+556 456 1.0
+556 566 1.0
+556 546 1.0
+556 557 1.0
+556 555 1.0
+557 657 1.0
+557 457 1.0
+557 567 1.0
+557 547 1.0
+557 558 1.0
+557 556 1.0
+558 658 1.0
+558 458 1.0
+558 568 1.0
+558 548 1.0
+558 559 1.0
+558 557 1.0
+559 659 1.0
+559 459 1.0
+559 569 1.0
+559 549 1.0
+559 550 1.0
+559 558 1.0
+560 660 1.0
+560 460 1.0
+560 570 1.0
+560 550 1.0
+560 561 1.0
+560 569 1.0
+561 661 1.0
+561 461 1.0
+561 571 1.0
+561 551 1.0
+561 562 1.0
+561 560 1.0
+562 662 1.0
+562 462 1.0
+562 572 1.0
+562 552 1.0
+562 563 1.0
+562 561 1.0
+563 663 1.0
+563 463 1.0
+563 573 1.0
+563 553 1.0
+563 564 1.0
+563 562 1.0
+564 664 1.0
+564 464 1.0
+564 574 1.0
+564 554 1.0
+564 565 1.0
+564 563 1.0
+565 665 1.0
+565 465 1.0
+565 575 1.0
+565 555 1.0
+565 566 1.0
+565 564 1.0
+566 666 1.0
+566 466 1.0
+566 576 1.0
+566 556 1.0
+566 567 1.0
+566 565 1.0
+567 667 1.0
+567 467 1.0
+567 577 1.0
+567 557 1.0
+567 568 1.0
+567 566 1.0
+568 668 1.0
+568 468 1.0
+568 578 1.0
+568 558 1.0
+568 569 1.0
+568 567 1.0
+569 669 1.0
+569 469 1.0
+569 579 1.0
+569 559 1.0
+569 560 1.0
+569 568 1.0
+570 670 1.0
+570 470 1.0
+570 580 1.0
+570 560 1.0
+570 571 1.0
+570 579 1.0
+571 671 1.0
+571 471 1.0
+571 581 1.0
+571 561 1.0
+571 572 1.0
+571 570 1.0
+572 672 1.0
+572 472 1.0
+572 582 1.0
+572 562 1.0
+572 573 1.0
+572 571 1.0
+573 673 1.0
+573 473 1.0
+573 583 1.0
+573 563 1.0
+573 574 1.0
+573 572 1.0
+574 674 1.0
+574 474 1.0
+574 584 1.0
+574 564 1.0
+574 575 1.0
+574 573 1.0
+575 675 1.0
+575 475 1.0
+575 585 1.0
+575 565 1.0
+575 576 1.0
+575 574 1.0
+576 676 1.0
+576 476 1.0
+576 586 1.0
+576 566 1.0
+576 577 1.0
+576 575 1.0
+577 677 1.0
+577 477 1.0
+577 587 1.0
+577 567 1.0
+577 578 1.0
+577 576 1.0
+578 678 1.0
+578 478 1.0
+578 588 1.0
+578 568 1.0
+578 579 1.0
+578 577 1.0
+579 679 1.0
+579 479 1.0
+579 589 1.0
+579 569 1.0
+579 570 1.0
+579 578 1.0
+580 680 1.0
+580 480 1.0
+580 590 1.0
+580 570 1.0
+580 581 1.0
+580 589 1.0
+581 681 1.0
+581 481 1.0
+581 591 1.0
+581 571 1.0
+581 582 1.0
+581 580 1.0
+582 682 1.0
+582 482 1.0
+582 592 1.0
+582 572 1.0
+582 583 1.0
+582 581 1.0
+583 683 1.0
+583 483 1.0
+583 593 1.0
+583 573 1.0
+583 584 1.0
+583 582 1.0
+584 684 1.0
+584 484 1.0
+584 594 1.0
+584 574 1.0
+584 585 1.0
+584 583 1.0
+585 685 1.0
+585 485 1.0
+585 595 1.0
+585 575 1.0
+585 586 1.0
+585 584 1.0
+586 686 1.0
+586 486 1.0
+586 596 1.0
+586 576 1.0
+586 587 1.0
+586 585 1.0
+587 687 1.0
+587 487 1.0
+587 597 1.0
+587 577 1.0
+587 588 1.0
+587 586 1.0
+588 688 1.0
+588 488 1.0
+588 598 1.0
+588 578 1.0
+588 589 1.0
+588 587 1.0
+589 689 1.0
+589 489 1.0
+589 599 1.0
+589 579 1.0
+589 580 1.0
+589 588 1.0
+590 690 1.0
+590 490 1.0
+590 500 1.0
+590 580 1.0
+590 591 1.0
+590 599 1.0
+591 691 1.0
+591 491 1.0
+591 501 1.0
+591 581 1.0
+591 592 1.0
+591 590 1.0
+592 692 1.0
+592 492 1.0
+592 502 1.0
+592 582 1.0
+592 593 1.0
+592 591 1.0
+593 693 1.0
+593 493 1.0
+593 503 1.0
+593 583 1.0
+593 594 1.0
+593 592 1.0
+594 694 1.0
+594 494 1.0
+594 504 1.0
+594 584 1.0
+594 595 1.0
+594 593 1.0
+595 695 1.0
+595 495 1.0
+595 505 1.0
+595 585 1.0
+595 596 1.0
+595 594 1.0
+596 696 1.0
+596 496 1.0
+596 506 1.0
+596 586 1.0
+596 597 1.0
+596 595 1.0
+597 697 1.0
+597 497 1.0
+597 507 1.0
+597 587 1.0
+597 598 1.0
+597 596 1.0
+598 698 1.0
+598 498 1.0
+598 508 1.0
+598 588 1.0
+598 599 1.0
+598 597 1.0
+599 699 1.0
+599 499 1.0
+599 509 1.0
+599 589 1.0
+599 590 1.0
+599 598 1.0
+600 700 1.0
+600 500 1.0
+600 610 1.0
+600 690 1.0
+600 601 1.0
+600 609 1.0
+601 701 1.0
+601 501 1.0
+601 611 1.0
+601 691 1.0
+601 602 1.0
+601 600 1.0
+602 702 1.0
+602 502 1.0
+602 612 1.0
+602 692 1.0
+602 603 1.0
+602 601 1.0
+603 703 1.0
+603 503 1.0
+603 613 1.0
+603 693 1.0
+603 604 1.0
+603 602 1.0
+604 704 1.0
+604 504 1.0
+604 614 1.0
+604 694 1.0
+604 605 1.0
+604 603 1.0
+605 705 1.0
+605 505 1.0
+605 615 1.0
+605 695 1.0
+605 606 1.0
+605 604 1.0
+606 706 1.0
+606 506 1.0
+606 616 1.0
+606 696 1.0
+606 607 1.0
+606 605 1.0
+607 707 1.0
+607 507 1.0
+607 617 1.0
+607 697 1.0
+607 608 1.0
+607 606 1.0
+608 708 1.0
+608 508 1.0
+608 618 1.0
+608 698 1.0
+608 609 1.0
+608 607 1.0
+609 709 1.0
+609 509 1.0
+609 619 1.0
+609 699 1.0
+609 600 1.0
+609 608 1.0
+610 710 1.0
+610 510 1.0
+610 620 1.0
+610 600 1.0
+610 611 1.0
+610 619 1.0
+611 711 1.0
+611 511 1.0
+611 621 1.0
+611 601 1.0
+611 612 1.0
+611 610 1.0
+612 712 1.0
+612 512 1.0
+612 622 1.0
+612 602 1.0
+612 613 1.0
+612 611 1.0
+613 713 1.0
+613 513 1.0
+613 623 1.0
+613 603 1.0
+613 614 1.0
+613 612 1.0
+614 714 1.0
+614 514 1.0
+614 624 1.0
+614 604 1.0
+614 615 1.0
+614 613 1.0
+615 715 1.0
+615 515 1.0
+615 625 1.0
+615 605 1.0
+615 616 1.0
+615 614 1.0
+616 716 1.0
+616 516 1.0
+616 626 1.0
+616 606 1.0
+616 617 1.0
+616 615 1.0
+617 717 1.0
+617 517 1.0
+617 627 1.0
+617 607 1.0
+617 618 1.0
+617 616 1.0
+618 718 1.0
+618 518 1.0
+618 628 1.0
+618 608 1.0
+618 619 1.0
+618 617 1.0
+619 719 1.0
+619 519 1.0
+619 629 1.0
+619 609 1.0
+619 610 1.0
+619 618 1.0
+620 720 1.0
+620 520 1.0
+620 630 1.0
+620 610 1.0
+620 621 1.0
+620 629 1.0
+621 721 1.0
+621 521 1.0
+621 631 1.0
+621 611 1.0
+621 622 1.0
+621 620 1.0
+622 722 1.0
+622 522 1.0
+622 632 1.0
+622 612 1.0
+622 623 1.0
+622 621 1.0
+623 723 1.0
+623 523 1.0
+623 633 1.0
+623 613 1.0
+623 624 1.0
+623 622 1.0
+624 724 1.0
+624 524 1.0
+624 634 1.0
+624 614 1.0
+624 625 1.0
+624 623 1.0
+625 725 1.0
+625 525 1.0
+625 635 1.0
+625 615 1.0
+625 626 1.0
+625 624 1.0
+626 726 1.0
+626 526 1.0
+626 636 1.0
+626 616 1.0
+626 627 1.0
+626 625 1.0
+627 727 1.0
+627 527 1.0
+627 637 1.0
+627 617 1.0
+627 628 1.0
+627 626 1.0
+628 728 1.0
+628 528 1.0
+628 638 1.0
+628 618 1.0
+628 629 1.0
+628 627 1.0
+629 729 1.0
+629 529 1.0
+629 639 1.0
+629 619 1.0
+629 620 1.0
+629 628 1.0
+630 730 1.0
+630 530 1.0
+630 640 1.0
+630 620 1.0
+630 631 1.0
+630 639 1.0
+631 731 1.0
+631 531 1.0
+631 641 1.0
+631 621 1.0
+631 632 1.0
+631 630 1.0
+632 732 1.0
+632 532 1.0
+632 642 1.0
+632 622 1.0
+632 633 1.0
+632 631 1.0
+633 733 1.0
+633 533 1.0
+633 643 1.0
+633 623 1.0
+633 634 1.0
+633 632 1.0
+634 734 1.0
+634 534 1.0
+634 644 1.0
+634 624 1.0
+634 635 1.0
+634 633 1.0
+635 735 1.0
+635 535 1.0
+635 645 1.0
+635 625 1.0
+635 636 1.0
+635 634 1.0
+636 736 1.0
+636 536 1.0
+636 646 1.0
+636 626 1.0
+636 637 1.0
+636 635 1.0
+637 737 1.0
+637 537 1.0
+637 647 1.0
+637 627 1.0
+637 638 1.0
+637 636 1.0
+638 738 1.0
+638 538 1.0
+638 648 1.0
+638 628 1.0
+638 639 1.0
+638 637 1.0
+639 739 1.0
+639 539 1.0
+639 649 1.0
+639 629 1.0
+639 630 1.0
+639 638 1.0
+640 740 1.0
+640 540 1.0
+640 650 1.0
+640 630 1.0
+640 641 1.0
+640 649 1.0
+641 741 1.0
+641 541 1.0
+641 651 1.0
+641 631 1.0
+641 642 1.0
+641 640 1.0
+642 742 1.0
+642 542 1.0
+642 652 1.0
+642 632 1.0
+642 643 1.0
+642 641 1.0
+643 743 1.0
+643 543 1.0
+643 653 1.0
+643 633 1.0
+643 644 1.0
+643 642 1.0
+644 744 1.0
+644 544 1.0
+644 654 1.0
+644 634 1.0
+644 645 1.0
+644 643 1.0
+645 745 1.0
+645 545 1.0
+645 655 1.0
+645 635 1.0
+645 646 1.0
+645 644 1.0
+646 746 1.0
+646 546 1.0
+646 656 1.0
+646 636 1.0
+646 647 1.0
+646 645 1.0
+647 747 1.0
+647 547 1.0
+647 657 1.0
+647 637 1.0
+647 648 1.0
+647 646 1.0
+648 748 1.0
+648 548 1.0
+648 658 1.0
+648 638 1.0
+648 649 1.0
+648 647 1.0
+649 749 1.0
+649 549 1.0
+649 659 1.0
+649 639 1.0
+649 640 1.0
+649 648 1.0
+650 750 1.0
+650 550 1.0
+650 660 1.0
+650 640 1.0
+650 651 1.0
+650 659 1.0
+651 751 1.0
+651 551 1.0
+651 661 1.0
+651 641 1.0
+651 652 1.0
+651 650 1.0
+652 752 1.0
+652 552 1.0
+652 662 1.0
+652 642 1.0
+652 653 1.0
+652 651 1.0
+653 753 1.0
+653 553 1.0
+653 663 1.0
+653 643 1.0
+653 654 1.0
+653 652 1.0
+654 754 1.0
+654 554 1.0
+654 664 1.0
+654 644 1.0
+654 655 1.0
+654 653 1.0
+655 755 1.0
+655 555 1.0
+655 665 1.0
+655 645 1.0
+655 656 1.0
+655 654 1.0
+656 756 1.0
+656 556 1.0
+656 666 1.0
+656 646 1.0
+656 657 1.0
+656 655 1.0
+657 757 1.0
+657 557 1.0
+657 667 1.0
+657 647 1.0
+657 658 1.0
+657 656 1.0
+658 758 1.0
+658 558 1.0
+658 668 1.0
+658 648 1.0
+658 659 1.0
+658 657 1.0
+659 759 1.0
+659 559 1.0
+659 669 1.0
+659 649 1.0
+659 650 1.0
+659 658 1.0
+660 760 1.0
+660 560 1.0
+660 670 1.0
+660 650 1.0
+660 661 1.0
+660 669 1.0
+661 761 1.0
+661 561 1.0
+661 671 1.0
+661 651 1.0
+661 662 1.0
+661 660 1.0
+662 762 1.0
+662 562 1.0
+662 672 1.0
+662 652 1.0
+662 663 1.0
+662 661 1.0
+663 763 1.0
+663 563 1.0
+663 673 1.0
+663 653 1.0
+663 664 1.0
+663 662 1.0
+664 764 1.0
+664 564 1.0
+664 674 1.0
+664 654 1.0
+664 665 1.0
+664 663 1.0
+665 765 1.0
+665 565 1.0
+665 675 1.0
+665 655 1.0
+665 666 1.0
+665 664 1.0
+666 766 1.0
+666 566 1.0
+666 676 1.0
+666 656 1.0
+666 667 1.0
+666 665 1.0
+667 767 1.0
+667 567 1.0
+667 677 1.0
+667 657 1.0
+667 668 1.0
+667 666 1.0
+668 768 1.0
+668 568 1.0
+668 678 1.0
+668 658 1.0
+668 669 1.0
+668 667 1.0
+669 769 1.0
+669 569 1.0
+669 679 1.0
+669 659 1.0
+669 660 1.0
+669 668 1.0
+670 770 1.0
+670 570 1.0
+670 680 1.0
+670 660 1.0
+670 671 1.0
+670 679 1.0
+671 771 1.0
+671 571 1.0
+671 681 1.0
+671 661 1.0
+671 672 1.0
+671 670 1.0
+672 772 1.0
+672 572 1.0
+672 682 1.0
+672 662 1.0
+672 673 1.0
+672 671 1.0
+673 773 1.0
+673 573 1.0
+673 683 1.0
+673 663 1.0
+673 674 1.0
+673 672 1.0
+674 774 1.0
+674 574 1.0
+674 684 1.0
+674 664 1.0
+674 675 1.0
+674 673 1.0
+675 775 1.0
+675 575 1.0
+675 685 1.0
+675 665 1.0
+675 676 1.0
+675 674 1.0
+676 776 1.0
+676 576 1.0
+676 686 1.0
+676 666 1.0
+676 677 1.0
+676 675 1.0
+677 777 1.0
+677 577 1.0
+677 687 1.0
+677 667 1.0
+677 678 1.0
+677 676 1.0
+678 778 1.0
+678 578 1.0
+678 688 1.0
+678 668 1.0
+678 679 1.0
+678 677 1.0
+679 779 1.0
+679 579 1.0
+679 689 1.0
+679 669 1.0
+679 670 1.0
+679 678 1.0
+680 780 1.0
+680 580 1.0
+680 690 1.0
+680 670 1.0
+680 681 1.0
+680 689 1.0
+681 781 1.0
+681 581 1.0
+681 691 1.0
+681 671 1.0
+681 682 1.0
+681 680 1.0
+682 782 1.0
+682 582 1.0
+682 692 1.0
+682 672 1.0
+682 683 1.0
+682 681 1.0
+683 783 1.0
+683 583 1.0
+683 693 1.0
+683 673 1.0
+683 684 1.0
+683 682 1.0
+684 784 1.0
+684 584 1.0
+684 694 1.0
+684 674 1.0
+684 685 1.0
+684 683 1.0
+685 785 1.0
+685 585 1.0
+685 695 1.0
+685 675 1.0
+685 686 1.0
+685 684 1.0
+686 786 1.0
+686 586 1.0
+686 696 1.0
+686 676 1.0
+686 687 1.0
+686 685 1.0
+687 787 1.0
+687 587 1.0
+687 697 1.0
+687 677 1.0
+687 688 1.0
+687 686 1.0
+688 788 1.0
+688 588 1.0
+688 698 1.0
+688 678 1.0
+688 689 1.0
+688 687 1.0
+689 789 1.0
+689 589 1.0
+689 699 1.0
+689 679 1.0
+689 680 1.0
+689 688 1.0
+690 790 1.0
+690 590 1.0
+690 600 1.0
+690 680 1.0
+690 691 1.0
+690 699 1.0
+691 791 1.0
+691 591 1.0
+691 601 1.0
+691 681 1.0
+691 692 1.0
+691 690 1.0
+692 792 1.0
+692 592 1.0
+692 602 1.0
+692 682 1.0
+692 693 1.0
+692 691 1.0
+693 793 1.0
+693 593 1.0
+693 603 1.0
+693 683 1.0
+693 694 1.0
+693 692 1.0
+694 794 1.0
+694 594 1.0
+694 604 1.0
+694 684 1.0
+694 695 1.0
+694 693 1.0
+695 795 1.0
+695 595 1.0
+695 605 1.0
+695 685 1.0
+695 696 1.0
+695 694 1.0
+696 796 1.0
+696 596 1.0
+696 606 1.0
+696 686 1.0
+696 697 1.0
+696 695 1.0
+697 797 1.0
+697 597 1.0
+697 607 1.0
+697 687 1.0
+697 698 1.0
+697 696 1.0
+698 798 1.0
+698 598 1.0
+698 608 1.0
+698 688 1.0
+698 699 1.0
+698 697 1.0
+699 799 1.0
+699 599 1.0
+699 609 1.0
+699 689 1.0
+699 690 1.0
+699 698 1.0
+700 800 1.0
+700 600 1.0
+700 710 1.0
+700 790 1.0
+700 701 1.0
+700 709 1.0
+701 801 1.0
+701 601 1.0
+701 711 1.0
+701 791 1.0
+701 702 1.0
+701 700 1.0
+702 802 1.0
+702 602 1.0
+702 712 1.0
+702 792 1.0
+702 703 1.0
+702 701 1.0
+703 803 1.0
+703 603 1.0
+703 713 1.0
+703 793 1.0
+703 704 1.0
+703 702 1.0
+704 804 1.0
+704 604 1.0
+704 714 1.0
+704 794 1.0
+704 705 1.0
+704 703 1.0
+705 805 1.0
+705 605 1.0
+705 715 1.0
+705 795 1.0
+705 706 1.0
+705 704 1.0
+706 806 1.0
+706 606 1.0
+706 716 1.0
+706 796 1.0
+706 707 1.0
+706 705 1.0
+707 807 1.0
+707 607 1.0
+707 717 1.0
+707 797 1.0
+707 708 1.0
+707 706 1.0
+708 808 1.0
+708 608 1.0
+708 718 1.0
+708 798 1.0
+708 709 1.0
+708 707 1.0
+709 809 1.0
+709 609 1.0
+709 719 1.0
+709 799 1.0
+709 700 1.0
+709 708 1.0
+710 810 1.0
+710 610 1.0
+710 720 1.0
+710 700 1.0
+710 711 1.0
+710 719 1.0
+711 811 1.0
+711 611 1.0
+711 721 1.0
+711 701 1.0
+711 712 1.0
+711 710 1.0
+712 812 1.0
+712 612 1.0
+712 722 1.0
+712 702 1.0
+712 713 1.0
+712 711 1.0
+713 813 1.0
+713 613 1.0
+713 723 1.0
+713 703 1.0
+713 714 1.0
+713 712 1.0
+714 814 1.0
+714 614 1.0
+714 724 1.0
+714 704 1.0
+714 715 1.0
+714 713 1.0
+715 815 1.0
+715 615 1.0
+715 725 1.0
+715 705 1.0
+715 716 1.0
+715 714 1.0
+716 816 1.0
+716 616 1.0
+716 726 1.0
+716 706 1.0
+716 717 1.0
+716 715 1.0
+717 817 1.0
+717 617 1.0
+717 727 1.0
+717 707 1.0
+717 718 1.0
+717 716 1.0
+718 818 1.0
+718 618 1.0
+718 728 1.0
+718 708 1.0
+718 719 1.0
+718 717 1.0
+719 819 1.0
+719 619 1.0
+719 729 1.0
+719 709 1.0
+719 710 1.0
+719 718 1.0
+720 820 1.0
+720 620 1.0
+720 730 1.0
+720 710 1.0
+720 721 1.0
+720 729 1.0
+721 821 1.0
+721 621 1.0
+721 731 1.0
+721 711 1.0
+721 722 1.0
+721 720 1.0
+722 822 1.0
+722 622 1.0
+722 732 1.0
+722 712 1.0
+722 723 1.0
+722 721 1.0
+723 823 1.0
+723 623 1.0
+723 733 1.0
+723 713 1.0
+723 724 1.0
+723 722 1.0
+724 824 1.0
+724 624 1.0
+724 734 1.0
+724 714 1.0
+724 725 1.0
+724 723 1.0
+725 825 1.0
+725 625 1.0
+725 735 1.0
+725 715 1.0
+725 726 1.0
+725 724 1.0
+726 826 1.0
+726 626 1.0
+726 736 1.0
+726 716 1.0
+726 727 1.0
+726 725 1.0
+727 827 1.0
+727 627 1.0
+727 737 1.0
+727 717 1.0
+727 728 1.0
+727 726 1.0
+728 828 1.0
+728 628 1.0
+728 738 1.0
+728 718 1.0
+728 729 1.0
+728 727 1.0
+729 829 1.0
+729 629 1.0
+729 739 1.0
+729 719 1.0
+729 720 1.0
+729 728 1.0
+730 830 1.0
+730 630 1.0
+730 740 1.0
+730 720 1.0
+730 731 1.0
+730 739 1.0
+731 831 1.0
+731 631 1.0
+731 741 1.0
+731 721 1.0
+731 732 1.0
+731 730 1.0
+732 832 1.0
+732 632 1.0
+732 742 1.0
+732 722 1.0
+732 733 1.0
+732 731 1.0
+733 833 1.0
+733 633 1.0
+733 743 1.0
+733 723 1.0
+733 734 1.0
+733 732 1.0
+734 834 1.0
+734 634 1.0
+734 744 1.0
+734 724 1.0
+734 735 1.0
+734 733 1.0
+735 835 1.0
+735 635 1.0
+735 745 1.0
+735 725 1.0
+735 736 1.0
+735 734 1.0
+736 836 1.0
+736 636 1.0
+736 746 1.0
+736 726 1.0
+736 737 1.0
+736 735 1.0
+737 837 1.0
+737 637 1.0
+737 747 1.0
+737 727 1.0
+737 738 1.0
+737 736 1.0
+738 838 1.0
+738 638 1.0
+738 748 1.0
+738 728 1.0
+738 739 1.0
+738 737 1.0
+739 839 1.0
+739 639 1.0
+739 749 1.0
+739 729 1.0
+739 730 1.0
+739 738 1.0
+740 840 1.0
+740 640 1.0
+740 750 1.0
+740 730 1.0
+740 741 1.0
+740 749 1.0
+741 841 1.0
+741 641 1.0
+741 751 1.0
+741 731 1.0
+741 742 1.0
+741 740 1.0
+742 842 1.0
+742 642 1.0
+742 752 1.0
+742 732 1.0
+742 743 1.0
+742 741 1.0
+743 843 1.0
+743 643 1.0
+743 753 1.0
+743 733 1.0
+743 744 1.0
+743 742 1.0
+744 844 1.0
+744 644 1.0
+744 754 1.0
+744 734 1.0
+744 745 1.0
+744 743 1.0
+745 845 1.0
+745 645 1.0
+745 755 1.0
+745 735 1.0
+745 746 1.0
+745 744 1.0
+746 846 1.0
+746 646 1.0
+746 756 1.0
+746 736 1.0
+746 747 1.0
+746 745 1.0
+747 847 1.0
+747 647 1.0
+747 757 1.0
+747 737 1.0
+747 748 1.0
+747 746 1.0
+748 848 1.0
+748 648 1.0
+748 758 1.0
+748 738 1.0
+748 749 1.0
+748 747 1.0
+749 849 1.0
+749 649 1.0
+749 759 1.0
+749 739 1.0
+749 740 1.0
+749 748 1.0
+750 850 1.0
+750 650 1.0
+750 760 1.0
+750 740 1.0
+750 751 1.0
+750 759 1.0
+751 851 1.0
+751 651 1.0
+751 761 1.0
+751 741 1.0
+751 752 1.0
+751 750 1.0
+752 852 1.0
+752 652 1.0
+752 762 1.0
+752 742 1.0
+752 753 1.0
+752 751 1.0
+753 853 1.0
+753 653 1.0
+753 763 1.0
+753 743 1.0
+753 754 1.0
+753 752 1.0
+754 854 1.0
+754 654 1.0
+754 764 1.0
+754 744 1.0
+754 755 1.0
+754 753 1.0
+755 855 1.0
+755 655 1.0
+755 765 1.0
+755 745 1.0
+755 756 1.0
+755 754 1.0
+756 856 1.0
+756 656 1.0
+756 766 1.0
+756 746 1.0
+756 757 1.0
+756 755 1.0
+757 857 1.0
+757 657 1.0
+757 767 1.0
+757 747 1.0
+757 758 1.0
+757 756 1.0
+758 858 1.0
+758 658 1.0
+758 768 1.0
+758 748 1.0
+758 759 1.0
+758 757 1.0
+759 859 1.0
+759 659 1.0
+759 769 1.0
+759 749 1.0
+759 750 1.0
+759 758 1.0
+760 860 1.0
+760 660 1.0
+760 770 1.0
+760 750 1.0
+760 761 1.0
+760 769 1.0
+761 861 1.0
+761 661 1.0
+761 771 1.0
+761 751 1.0
+761 762 1.0
+761 760 1.0
+762 862 1.0
+762 662 1.0
+762 772 1.0
+762 752 1.0
+762 763 1.0
+762 761 1.0
+763 863 1.0
+763 663 1.0
+763 773 1.0
+763 753 1.0
+763 764 1.0
+763 762 1.0
+764 864 1.0
+764 664 1.0
+764 774 1.0
+764 754 1.0
+764 765 1.0
+764 763 1.0
+765 865 1.0
+765 665 1.0
+765 775 1.0
+765 755 1.0
+765 766 1.0
+765 764 1.0
+766 866 1.0
+766 666 1.0
+766 776 1.0
+766 756 1.0
+766 767 1.0
+766 765 1.0
+767 867 1.0
+767 667 1.0
+767 777 1.0
+767 757 1.0
+767 768 1.0
+767 766 1.0
+768 868 1.0
+768 668 1.0
+768 778 1.0
+768 758 1.0
+768 769 1.0
+768 767 1.0
+769 869 1.0
+769 669 1.0
+769 779 1.0
+769 759 1.0
+769 760 1.0
+769 768 1.0
+770 870 1.0
+770 670 1.0
+770 780 1.0
+770 760 1.0
+770 771 1.0
+770 779 1.0
+771 871 1.0
+771 671 1.0
+771 781 1.0
+771 761 1.0
+771 772 1.0
+771 770 1.0
+772 872 1.0
+772 672 1.0
+772 782 1.0
+772 762 1.0
+772 773 1.0
+772 771 1.0
+773 873 1.0
+773 673 1.0
+773 783 1.0
+773 763 1.0
+773 774 1.0
+773 772 1.0
+774 874 1.0
+774 674 1.0
+774 784 1.0
+774 764 1.0
+774 775 1.0
+774 773 1.0
+775 875 1.0
+775 675 1.0
+775 785 1.0
+775 765 1.0
+775 776 1.0
+775 774 1.0
+776 876 1.0
+776 676 1.0
+776 786 1.0
+776 766 1.0
+776 777 1.0
+776 775 1.0
+777 877 1.0
+777 677 1.0
+777 787 1.0
+777 767 1.0
+777 778 1.0
+777 776 1.0
+778 878 1.0
+778 678 1.0
+778 788 1.0
+778 768 1.0
+778 779 1.0
+778 777 1.0
+779 879 1.0
+779 679 1.0
+779 789 1.0
+779 769 1.0
+779 770 1.0
+779 778 1.0
+780 880 1.0
+780 680 1.0
+780 790 1.0
+780 770 1.0
+780 781 1.0
+780 789 1.0
+781 881 1.0
+781 681 1.0
+781 791 1.0
+781 771 1.0
+781 782 1.0
+781 780 1.0
+782 882 1.0
+782 682 1.0
+782 792 1.0
+782 772 1.0
+782 783 1.0
+782 781 1.0
+783 883 1.0
+783 683 1.0
+783 793 1.0
+783 773 1.0
+783 784 1.0
+783 782 1.0
+784 884 1.0
+784 684 1.0
+784 794 1.0
+784 774 1.0
+784 785 1.0
+784 783 1.0
+785 885 1.0
+785 685 1.0
+785 795 1.0
+785 775 1.0
+785 786 1.0
+785 784 1.0
+786 886 1.0
+786 686 1.0
+786 796 1.0
+786 776 1.0
+786 787 1.0
+786 785 1.0
+787 887 1.0
+787 687 1.0
+787 797 1.0
+787 777 1.0
+787 788 1.0
+787 786 1.0
+788 888 1.0
+788 688 1.0
+788 798 1.0
+788 778 1.0
+788 789 1.0
+788 787 1.0
+789 889 1.0
+789 689 1.0
+789 799 1.0
+789 779 1.0
+789 780 1.0
+789 788 1.0
+790 890 1.0
+790 690 1.0
+790 700 1.0
+790 780 1.0
+790 791 1.0
+790 799 1.0
+791 891 1.0
+791 691 1.0
+791 701 1.0
+791 781 1.0
+791 792 1.0
+791 790 1.0
+792 892 1.0
+792 692 1.0
+792 702 1.0
+792 782 1.0
+792 793 1.0
+792 791 1.0
+793 893 1.0
+793 693 1.0
+793 703 1.0
+793 783 1.0
+793 794 1.0
+793 792 1.0
+794 894 1.0
+794 694 1.0
+794 704 1.0
+794 784 1.0
+794 795 1.0
+794 793 1.0
+795 895 1.0
+795 695 1.0
+795 705 1.0
+795 785 1.0
+795 796 1.0
+795 794 1.0
+796 896 1.0
+796 696 1.0
+796 706 1.0
+796 786 1.0
+796 797 1.0
+796 795 1.0
+797 897 1.0
+797 697 1.0
+797 707 1.0
+797 787 1.0
+797 798 1.0
+797 796 1.0
+798 898 1.0
+798 698 1.0
+798 708 1.0
+798 788 1.0
+798 799 1.0
+798 797 1.0
+799 899 1.0
+799 699 1.0
+799 709 1.0
+799 789 1.0
+799 790 1.0
+799 798 1.0
+800 900 1.0
+800 700 1.0
+800 810 1.0
+800 890 1.0
+800 801 1.0
+800 809 1.0
+801 901 1.0
+801 701 1.0
+801 811 1.0
+801 891 1.0
+801 802 1.0
+801 800 1.0
+802 902 1.0
+802 702 1.0
+802 812 1.0
+802 892 1.0
+802 803 1.0
+802 801 1.0
+803 903 1.0
+803 703 1.0
+803 813 1.0
+803 893 1.0
+803 804 1.0
+803 802 1.0
+804 904 1.0
+804 704 1.0
+804 814 1.0
+804 894 1.0
+804 805 1.0
+804 803 1.0
+805 905 1.0
+805 705 1.0
+805 815 1.0
+805 895 1.0
+805 806 1.0
+805 804 1.0
+806 906 1.0
+806 706 1.0
+806 816 1.0
+806 896 1.0
+806 807 1.0
+806 805 1.0
+807 907 1.0
+807 707 1.0
+807 817 1.0
+807 897 1.0
+807 808 1.0
+807 806 1.0
+808 908 1.0
+808 708 1.0
+808 818 1.0
+808 898 1.0
+808 809 1.0
+808 807 1.0
+809 909 1.0
+809 709 1.0
+809 819 1.0
+809 899 1.0
+809 800 1.0
+809 808 1.0
+810 910 1.0
+810 710 1.0
+810 820 1.0
+810 800 1.0
+810 811 1.0
+810 819 1.0
+811 911 1.0
+811 711 1.0
+811 821 1.0
+811 801 1.0
+811 812 1.0
+811 810 1.0
+812 912 1.0
+812 712 1.0
+812 822 1.0
+812 802 1.0
+812 813 1.0
+812 811 1.0
+813 913 1.0
+813 713 1.0
+813 823 1.0
+813 803 1.0
+813 814 1.0
+813 812 1.0
+814 914 1.0
+814 714 1.0
+814 824 1.0
+814 804 1.0
+814 815 1.0
+814 813 1.0
+815 915 1.0
+815 715 1.0
+815 825 1.0
+815 805 1.0
+815 816 1.0
+815 814 1.0
+816 916 1.0
+816 716 1.0
+816 826 1.0
+816 806 1.0
+816 817 1.0
+816 815 1.0
+817 917 1.0
+817 717 1.0
+817 827 1.0
+817 807 1.0
+817 818 1.0
+817 816 1.0
+818 918 1.0
+818 718 1.0
+818 828 1.0
+818 808 1.0
+818 819 1.0
+818 817 1.0
+819 919 1.0
+819 719 1.0
+819 829 1.0
+819 809 1.0
+819 810 1.0
+819 818 1.0
+820 920 1.0
+820 720 1.0
+820 830 1.0
+820 810 1.0
+820 821 1.0
+820 829 1.0
+821 921 1.0
+821 721 1.0
+821 831 1.0
+821 811 1.0
+821 822 1.0
+821 820 1.0
+822 922 1.0
+822 722 1.0
+822 832 1.0
+822 812 1.0
+822 823 1.0
+822 821 1.0
+823 923 1.0
+823 723 1.0
+823 833 1.0
+823 813 1.0
+823 824 1.0
+823 822 1.0
+824 924 1.0
+824 724 1.0
+824 834 1.0
+824 814 1.0
+824 825 1.0
+824 823 1.0
+825 925 1.0
+825 725 1.0
+825 835 1.0
+825 815 1.0
+825 826 1.0
+825 824 1.0
+826 926 1.0
+826 726 1.0
+826 836 1.0
+826 816 1.0
+826 827 1.0
+826 825 1.0
+827 927 1.0
+827 727 1.0
+827 837 1.0
+827 817 1.0
+827 828 1.0
+827 826 1.0
+828 928 1.0
+828 728 1.0
+828 838 1.0
+828 818 1.0
+828 829 1.0
+828 827 1.0
+829 929 1.0
+829 729 1.0
+829 839 1.0
+829 819 1.0
+829 820 1.0
+829 828 1.0
+830 930 1.0
+830 730 1.0
+830 840 1.0
+830 820 1.0
+830 831 1.0
+830 839 1.0
+831 931 1.0
+831 731 1.0
+831 841 1.0
+831 821 1.0
+831 832 1.0
+831 830 1.0
+832 932 1.0
+832 732 1.0
+832 842 1.0
+832 822 1.0
+832 833 1.0
+832 831 1.0
+833 933 1.0
+833 733 1.0
+833 843 1.0
+833 823 1.0
+833 834 1.0
+833 832 1.0
+834 934 1.0
+834 734 1.0
+834 844 1.0
+834 824 1.0
+834 835 1.0
+834 833 1.0
+835 935 1.0
+835 735 1.0
+835 845 1.0
+835 825 1.0
+835 836 1.0
+835 834 1.0
+836 936 1.0
+836 736 1.0
+836 846 1.0
+836 826 1.0
+836 837 1.0
+836 835 1.0
+837 937 1.0
+837 737 1.0
+837 847 1.0
+837 827 1.0
+837 838 1.0
+837 836 1.0
+838 938 1.0
+838 738 1.0
+838 848 1.0
+838 828 1.0
+838 839 1.0
+838 837 1.0
+839 939 1.0
+839 739 1.0
+839 849 1.0
+839 829 1.0
+839 830 1.0
+839 838 1.0
+840 940 1.0
+840 740 1.0
+840 850 1.0
+840 830 1.0
+840 841 1.0
+840 849 1.0
+841 941 1.0
+841 741 1.0
+841 851 1.0
+841 831 1.0
+841 842 1.0
+841 840 1.0
+842 942 1.0
+842 742 1.0
+842 852 1.0
+842 832 1.0
+842 843 1.0
+842 841 1.0
+843 943 1.0
+843 743 1.0
+843 853 1.0
+843 833 1.0
+843 844 1.0
+843 842 1.0
+844 944 1.0
+844 744 1.0
+844 854 1.0
+844 834 1.0
+844 845 1.0
+844 843 1.0
+845 945 1.0
+845 745 1.0
+845 855 1.0
+845 835 1.0
+845 846 1.0
+845 844 1.0
+846 946 1.0
+846 746 1.0
+846 856 1.0
+846 836 1.0
+846 847 1.0
+846 845 1.0
+847 947 1.0
+847 747 1.0
+847 857 1.0
+847 837 1.0
+847 848 1.0
+847 846 1.0
+848 948 1.0
+848 748 1.0
+848 858 1.0
+848 838 1.0
+848 849 1.0
+848 847 1.0
+849 949 1.0
+849 749 1.0
+849 859 1.0
+849 839 1.0
+849 840 1.0
+849 848 1.0
+850 950 1.0
+850 750 1.0
+850 860 1.0
+850 840 1.0
+850 851 1.0
+850 859 1.0
+851 951 1.0
+851 751 1.0
+851 861 1.0
+851 841 1.0
+851 852 1.0
+851 850 1.0
+852 952 1.0
+852 752 1.0
+852 862 1.0
+852 842 1.0
+852 853 1.0
+852 851 1.0
+853 953 1.0
+853 753 1.0
+853 863 1.0
+853 843 1.0
+853 854 1.0
+853 852 1.0
+854 954 1.0
+854 754 1.0
+854 864 1.0
+854 844 1.0
+854 855 1.0
+854 853 1.0
+855 955 1.0
+855 755 1.0
+855 865 1.0
+855 845 1.0
+855 856 1.0
+855 854 1.0
+856 956 1.0
+856 756 1.0
+856 866 1.0
+856 846 1.0
+856 857 1.0
+856 855 1.0
+857 957 1.0
+857 757 1.0
+857 867 1.0
+857 847 1.0
+857 858 1.0
+857 856 1.0
+858 958 1.0
+858 758 1.0
+858 868 1.0
+858 848 1.0
+858 859 1.0
+858 857 1.0
+859 959 1.0
+859 759 1.0
+859 869 1.0
+859 849 1.0
+859 850 1.0
+859 858 1.0
+860 960 1.0
+860 760 1.0
+860 870 1.0
+860 850 1.0
+860 861 1.0
+860 869 1.0
+861 961 1.0
+861 761 1.0
+861 871 1.0
+861 851 1.0
+861 862 1.0
+861 860 1.0
+862 962 1.0
+862 762 1.0
+862 872 1.0
+862 852 1.0
+862 863 1.0
+862 861 1.0
+863 963 1.0
+863 763 1.0
+863 873 1.0
+863 853 1.0
+863 864 1.0
+863 862 1.0
+864 964 1.0
+864 764 1.0
+864 874 1.0
+864 854 1.0
+864 865 1.0
+864 863 1.0
+865 965 1.0
+865 765 1.0
+865 875 1.0
+865 855 1.0
+865 866 1.0
+865 864 1.0
+866 966 1.0
+866 766 1.0
+866 876 1.0
+866 856 1.0
+866 867 1.0
+866 865 1.0
+867 967 1.0
+867 767 1.0
+867 877 1.0
+867 857 1.0
+867 868 1.0
+867 866 1.0
+868 968 1.0
+868 768 1.0
+868 878 1.0
+868 858 1.0
+868 869 1.0
+868 867 1.0
+869 969 1.0
+869 769 1.0
+869 879 1.0
+869 859 1.0
+869 860 1.0
+869 868 1.0
+870 970 1.0
+870 770 1.0
+870 880 1.0
+870 860 1.0
+870 871 1.0
+870 879 1.0
+871 971 1.0
+871 771 1.0
+871 881 1.0
+871 861 1.0
+871 872 1.0
+871 870 1.0
+872 972 1.0
+872 772 1.0
+872 882 1.0
+872 862 1.0
+872 873 1.0
+872 871 1.0
+873 973 1.0
+873 773 1.0
+873 883 1.0
+873 863 1.0
+873 874 1.0
+873 872 1.0
+874 974 1.0
+874 774 1.0
+874 884 1.0
+874 864 1.0
+874 875 1.0
+874 873 1.0
+875 975 1.0
+875 775 1.0
+875 885 1.0
+875 865 1.0
+875 876 1.0
+875 874 1.0
+876 976 1.0
+876 776 1.0
+876 886 1.0
+876 866 1.0
+876 877 1.0
+876 875 1.0
+877 977 1.0
+877 777 1.0
+877 887 1.0
+877 867 1.0
+877 878 1.0
+877 876 1.0
+878 978 1.0
+878 778 1.0
+878 888 1.0
+878 868 1.0
+878 879 1.0
+878 877 1.0
+879 979 1.0
+879 779 1.0
+879 889 1.0
+879 869 1.0
+879 870 1.0
+879 878 1.0
+880 980 1.0
+880 780 1.0
+880 890 1.0
+880 870 1.0
+880 881 1.0
+880 889 1.0
+881 981 1.0
+881 781 1.0
+881 891 1.0
+881 871 1.0
+881 882 1.0
+881 880 1.0
+882 982 1.0
+882 782 1.0
+882 892 1.0
+882 872 1.0
+882 883 1.0
+882 881 1.0
+883 983 1.0
+883 783 1.0
+883 893 1.0
+883 873 1.0
+883 884 1.0
+883 882 1.0
+884 984 1.0
+884 784 1.0
+884 894 1.0
+884 874 1.0
+884 885 1.0
+884 883 1.0
+885 985 1.0
+885 785 1.0
+885 895 1.0
+885 875 1.0
+885 886 1.0
+885 884 1.0
+886 986 1.0
+886 786 1.0
+886 896 1.0
+886 876 1.0
+886 887 1.0
+886 885 1.0
+887 987 1.0
+887 787 1.0
+887 897 1.0
+887 877 1.0
+887 888 1.0
+887 886 1.0
+888 988 1.0
+888 788 1.0
+888 898 1.0
+888 878 1.0
+888 889 1.0
+888 887 1.0
+889 989 1.0
+889 789 1.0
+889 899 1.0
+889 879 1.0
+889 880 1.0
+889 888 1.0
+890 990 1.0
+890 790 1.0
+890 800 1.0
+890 880 1.0
+890 891 1.0
+890 899 1.0
+891 991 1.0
+891 791 1.0
+891 801 1.0
+891 881 1.0
+891 892 1.0
+891 890 1.0
+892 992 1.0
+892 792 1.0
+892 802 1.0
+892 882 1.0
+892 893 1.0
+892 891 1.0
+893 993 1.0
+893 793 1.0
+893 803 1.0
+893 883 1.0
+893 894 1.0
+893 892 1.0
+894 994 1.0
+894 794 1.0
+894 804 1.0
+894 884 1.0
+894 895 1.0
+894 893 1.0
+895 995 1.0
+895 795 1.0
+895 805 1.0
+895 885 1.0
+895 896 1.0
+895 894 1.0
+896 996 1.0
+896 796 1.0
+896 806 1.0
+896 886 1.0
+896 897 1.0
+896 895 1.0
+897 997 1.0
+897 797 1.0
+897 807 1.0
+897 887 1.0
+897 898 1.0
+897 896 1.0
+898 998 1.0
+898 798 1.0
+898 808 1.0
+898 888 1.0
+898 899 1.0
+898 897 1.0
+899 999 1.0
+899 799 1.0
+899 809 1.0
+899 889 1.0
+899 890 1.0
+899 898 1.0
+900 0 1.0
+900 800 1.0
+900 910 1.0
+900 990 1.0
+900 901 1.0
+900 909 1.0
+901 1 1.0
+901 801 1.0
+901 911 1.0
+901 991 1.0
+901 902 1.0
+901 900 1.0
+902 2 1.0
+902 802 1.0
+902 912 1.0
+902 992 1.0
+902 903 1.0
+902 901 1.0
+903 3 1.0
+903 803 1.0
+903 913 1.0
+903 993 1.0
+903 904 1.0
+903 902 1.0
+904 4 1.0
+904 804 1.0
+904 914 1.0
+904 994 1.0
+904 905 1.0
+904 903 1.0
+905 5 1.0
+905 805 1.0
+905 915 1.0
+905 995 1.0
+905 906 1.0
+905 904 1.0
+906 6 1.0
+906 806 1.0
+906 916 1.0
+906 996 1.0
+906 907 1.0
+906 905 1.0
+907 7 1.0
+907 807 1.0
+907 917 1.0
+907 997 1.0
+907 908 1.0
+907 906 1.0
+908 8 1.0
+908 808 1.0
+908 918 1.0
+908 998 1.0
+908 909 1.0
+908 907 1.0
+909 9 1.0
+909 809 1.0
+909 919 1.0
+909 999 1.0
+909 900 1.0
+909 908 1.0
+910 10 1.0
+910 810 1.0
+910 920 1.0
+910 900 1.0
+910 911 1.0
+910 919 1.0
+911 11 1.0
+911 811 1.0
+911 921 1.0
+911 901 1.0
+911 912 1.0
+911 910 1.0
+912 12 1.0
+912 812 1.0
+912 922 1.0
+912 902 1.0
+912 913 1.0
+912 911 1.0
+913 13 1.0
+913 813 1.0
+913 923 1.0
+913 903 1.0
+913 914 1.0
+913 912 1.0
+914 14 1.0
+914 814 1.0
+914 924 1.0
+914 904 1.0
+914 915 1.0
+914 913 1.0
+915 15 1.0
+915 815 1.0
+915 925 1.0
+915 905 1.0
+915 916 1.0
+915 914 1.0
+916 16 1.0
+916 816 1.0
+916 926 1.0
+916 906 1.0
+916 917 1.0
+916 915 1.0
+917 17 1.0
+917 817 1.0
+917 927 1.0
+917 907 1.0
+917 918 1.0
+917 916 1.0
+918 18 1.0
+918 818 1.0
+918 928 1.0
+918 908 1.0
+918 919 1.0
+918 917 1.0
+919 19 1.0
+919 819 1.0
+919 929 1.0
+919 909 1.0
+919 910 1.0
+919 918 1.0
+920 20 1.0
+920 820 1.0
+920 930 1.0
+920 910 1.0
+920 921 1.0
+920 929 1.0
+921 21 1.0
+921 821 1.0
+921 931 1.0
+921 911 1.0
+921 922 1.0
+921 920 1.0
+922 22 1.0
+922 822 1.0
+922 932 1.0
+922 912 1.0
+922 923 1.0
+922 921 1.0
+923 23 1.0
+923 823 1.0
+923 933 1.0
+923 913 1.0
+923 924 1.0
+923 922 1.0
+924 24 1.0
+924 824 1.0
+924 934 1.0
+924 914 1.0
+924 925 1.0
+924 923 1.0
+925 25 1.0
+925 825 1.0
+925 935 1.0
+925 915 1.0
+925 926 1.0
+925 924 1.0
+926 26 1.0
+926 826 1.0
+926 936 1.0
+926 916 1.0
+926 927 1.0
+926 925 1.0
+927 27 1.0
+927 827 1.0
+927 937 1.0
+927 917 1.0
+927 928 1.0
+927 926 1.0
+928 28 1.0
+928 828 1.0
+928 938 1.0
+928 918 1.0
+928 929 1.0
+928 927 1.0
+929 29 1.0
+929 829 1.0
+929 939 1.0
+929 919 1.0
+929 920 1.0
+929 928 1.0
+930 30 1.0
+930 830 1.0
+930 940 1.0
+930 920 1.0
+930 931 1.0
+930 939 1.0
+931 31 1.0
+931 831 1.0
+931 941 1.0
+931 921 1.0
+931 932 1.0
+931 930 1.0
+932 32 1.0
+932 832 1.0
+932 942 1.0
+932 922 1.0
+932 933 1.0
+932 931 1.0
+933 33 1.0
+933 833 1.0
+933 943 1.0
+933 923 1.0
+933 934 1.0
+933 932 1.0
+934 34 1.0
+934 834 1.0
+934 944 1.0
+934 924 1.0
+934 935 1.0
+934 933 1.0
+935 35 1.0
+935 835 1.0
+935 945 1.0
+935 925 1.0
+935 936 1.0
+935 934 1.0
+936 36 1.0
+936 836 1.0
+936 946 1.0
+936 926 1.0
+936 937 1.0
+936 935 1.0
+937 37 1.0
+937 837 1.0
+937 947 1.0
+937 927 1.0
+937 938 1.0
+937 936 1.0
+938 38 1.0
+938 838 1.0
+938 948 1.0
+938 928 1.0
+938 939 1.0
+938 937 1.0
+939 39 1.0
+939 839 1.0
+939 949 1.0
+939 929 1.0
+939 930 1.0
+939 938 1.0
+940 40 1.0
+940 840 1.0
+940 950 1.0
+940 930 1.0
+940 941 1.0
+940 949 1.0
+941 41 1.0
+941 841 1.0
+941 951 1.0
+941 931 1.0
+941 942 1.0
+941 940 1.0
+942 42 1.0
+942 842 1.0
+942 952 1.0
+942 932 1.0
+942 943 1.0
+942 941 1.0
+943 43 1.0
+943 843 1.0
+943 953 1.0
+943 933 1.0
+943 944 1.0
+943 942 1.0
+944 44 1.0
+944 844 1.0
+944 954 1.0
+944 934 1.0
+944 945 1.0
+944 943 1.0
+945 45 1.0
+945 845 1.0
+945 955 1.0
+945 935 1.0
+945 946 1.0
+945 944 1.0
+946 46 1.0
+946 846 1.0
+946 956 1.0
+946 936 1.0
+946 947 1.0
+946 945 1.0
+947 47 1.0
+947 847 1.0
+947 957 1.0
+947 937 1.0
+947 948 1.0
+947 946 1.0
+948 48 1.0
+948 848 1.0
+948 958 1.0
+948 938 1.0
+948 949 1.0
+948 947 1.0
+949 49 1.0
+949 849 1.0
+949 959 1.0
+949 939 1.0
+949 940 1.0
+949 948 1.0
+950 50 1.0
+950 850 1.0
+950 960 1.0
+950 940 1.0
+950 951 1.0
+950 959 1.0
+951 51 1.0
+951 851 1.0
+951 961 1.0
+951 941 1.0
+951 952 1.0
+951 950 1.0
+952 52 1.0
+952 852 1.0
+952 962 1.0
+952 942 1.0
+952 953 1.0
+952 951 1.0
+953 53 1.0
+953 853 1.0
+953 963 1.0
+953 943 1.0
+953 954 1.0
+953 952 1.0
+954 54 1.0
+954 854 1.0
+954 964 1.0
+954 944 1.0
+954 955 1.0
+954 953 1.0
+955 55 1.0
+955 855 1.0
+955 965 1.0
+955 945 1.0
+955 956 1.0
+955 954 1.0
+956 56 1.0
+956 856 1.0
+956 966 1.0
+956 946 1.0
+956 957 1.0
+956 955 1.0
+957 57 1.0
+957 857 1.0
+957 967 1.0
+957 947 1.0
+957 958 1.0
+957 956 1.0
+958 58 1.0
+958 858 1.0
+958 968 1.0
+958 948 1.0
+958 959 1.0
+958 957 1.0
+959 59 1.0
+959 859 1.0
+959 969 1.0
+959 949 1.0
+959 950 1.0
+959 958 1.0
+960 60 1.0
+960 860 1.0
+960 970 1.0
+960 950 1.0
+960 961 1.0
+960 969 1.0
+961 61 1.0
+961 861 1.0
+961 971 1.0
+961 951 1.0
+961 962 1.0
+961 960 1.0
+962 62 1.0
+962 862 1.0
+962 972 1.0
+962 952 1.0
+962 963 1.0
+962 961 1.0
+963 63 1.0
+963 863 1.0
+963 973 1.0
+963 953 1.0
+963 964 1.0
+963 962 1.0
+964 64 1.0
+964 864 1.0
+964 974 1.0
+964 954 1.0
+964 965 1.0
+964 963 1.0
+965 65 1.0
+965 865 1.0
+965 975 1.0
+965 955 1.0
+965 966 1.0
+965 964 1.0
+966 66 1.0
+966 866 1.0
+966 976 1.0
+966 956 1.0
+966 967 1.0
+966 965 1.0
+967 67 1.0
+967 867 1.0
+967 977 1.0
+967 957 1.0
+967 968 1.0
+967 966 1.0
+968 68 1.0
+968 868 1.0
+968 978 1.0
+968 958 1.0
+968 969 1.0
+968 967 1.0
+969 69 1.0
+969 869 1.0
+969 979 1.0
+969 959 1.0
+969 960 1.0
+969 968 1.0
+970 70 1.0
+970 870 1.0
+970 980 1.0
+970 960 1.0
+970 971 1.0
+970 979 1.0
+971 71 1.0
+971 871 1.0
+971 981 1.0
+971 961 1.0
+971 972 1.0
+971 970 1.0
+972 72 1.0
+972 872 1.0
+972 982 1.0
+972 962 1.0
+972 973 1.0
+972 971 1.0
+973 73 1.0
+973 873 1.0
+973 983 1.0
+973 963 1.0
+973 974 1.0
+973 972 1.0
+974 74 1.0
+974 874 1.0
+974 984 1.0
+974 964 1.0
+974 975 1.0
+974 973 1.0
+975 75 1.0
+975 875 1.0
+975 985 1.0
+975 965 1.0
+975 976 1.0
+975 974 1.0
+976 76 1.0
+976 876 1.0
+976 986 1.0
+976 966 1.0
+976 977 1.0
+976 975 1.0
+977 77 1.0
+977 877 1.0
+977 987 1.0
+977 967 1.0
+977 978 1.0
+977 976 1.0
+978 78 1.0
+978 878 1.0
+978 988 1.0
+978 968 1.0
+978 979 1.0
+978 977 1.0
+979 79 1.0
+979 879 1.0
+979 989 1.0
+979 969 1.0
+979 970 1.0
+979 978 1.0
+980 80 1.0
+980 880 1.0
+980 990 1.0
+980 970 1.0
+980 981 1.0
+980 989 1.0
+981 81 1.0
+981 881 1.0
+981 991 1.0
+981 971 1.0
+981 982 1.0
+981 980 1.0
+982 82 1.0
+982 882 1.0
+982 992 1.0
+982 972 1.0
+982 983 1.0
+982 981 1.0
+983 83 1.0
+983 883 1.0
+983 993 1.0
+983 973 1.0
+983 984 1.0
+983 982 1.0
+984 84 1.0
+984 884 1.0
+984 994 1.0
+984 974 1.0
+984 985 1.0
+984 983 1.0
+985 85 1.0
+985 885 1.0
+985 995 1.0
+985 975 1.0
+985 986 1.0
+985 984 1.0
+986 86 1.0
+986 886 1.0
+986 996 1.0
+986 976 1.0
+986 987 1.0
+986 985 1.0
+987 87 1.0
+987 887 1.0
+987 997 1.0
+987 977 1.0
+987 988 1.0
+987 986 1.0
+988 88 1.0
+988 888 1.0
+988 998 1.0
+988 978 1.0
+988 989 1.0
+988 987 1.0
+989 89 1.0
+989 889 1.0
+989 999 1.0
+989 979 1.0
+989 980 1.0
+989 988 1.0
+990 90 1.0
+990 890 1.0
+990 900 1.0
+990 980 1.0
+990 991 1.0
+990 999 1.0
+991 91 1.0
+991 891 1.0
+991 901 1.0
+991 981 1.0
+991 992 1.0
+991 990 1.0
+992 92 1.0
+992 892 1.0
+992 902 1.0
+992 982 1.0
+992 993 1.0
+992 991 1.0
+993 93 1.0
+993 893 1.0
+993 903 1.0
+993 983 1.0
+993 994 1.0
+993 992 1.0
+994 94 1.0
+994 894 1.0
+994 904 1.0
+994 984 1.0
+994 995 1.0
+994 993 1.0
+995 95 1.0
+995 895 1.0
+995 905 1.0
+995 985 1.0
+995 996 1.0
+995 994 1.0
+996 96 1.0
+996 896 1.0
+996 906 1.0
+996 986 1.0
+996 997 1.0
+996 995 1.0
+997 97 1.0
+997 897 1.0
+997 907 1.0
+997 987 1.0
+997 998 1.0
+997 996 1.0
+998 98 1.0
+998 898 1.0
+998 908 1.0
+998 988 1.0
+998 999 1.0
+998 997 1.0
+999 99 1.0
+999 899 1.0
+999 909 1.0
+999 989 1.0
+999 990 1.0
+999 998 1.0
