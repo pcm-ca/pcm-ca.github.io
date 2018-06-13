@@ -87,4 +87,4 @@ In this point, you need to have a JSON file to run 𝕍egas. Let's go to learn h
 * [Model and method](/vegas/model-and-method/)
 * [System building](/vegas/system-building/)
 * [Simulation and data analysis](/vegas/simulation-and-data-analysis/)
-* [Tutorials](/vegas/examples/)
+* [Tutorials](/vegas/tutorials/)

@@ -9,7 +9,7 @@ In this section, the general features of the simulation and data analysis proces
 
 ### Input files
 
-Vegas takes in some input files to perform a simulation:
+𝕍egas takes in some input files to perform a simulation:
 
 * Configuration file
 * Sample file
@@ -93,7 +93,7 @@ Using this structure, the magnetic field is varied from $2.0$ to $-2.0\ arb. uni
 
 #### Sample, anisotropy and initial state files
 
-The sample and anisotropy files contain the structural and magnetic characteristics of the system that will be simulated. The initial state file contains a system magnetization state that will be used to start the simulation. However, this file is optional, and if no file is given, the system would start in a random magnetization state. The name of these files must match the filenames in the path of the "sample", "anisotropy" and "initialstate" attributes in the configuration file. The format and construction of these files is explained in the [System building](/vegas/system-building/) section.
+The sample and anisotropy files contain the structural and magnetic characteristics of the system that will be simulated. The user can input different anisotropy files, each one adding an anisotropy term to the Hamiltonian. The initial state file contains a system magnetization state that will be used to start the simulation. However, this file is optional, and if no file is given, the system would start in a random magnetization state. The name of these files must match the filenames in the path of the "sample", "anisotropy" and "initialstate" attributes in the configuration file. The format and construction of these files is explained in the [System building](/vegas/system-building/) section.
 
 ### Starting the simulation
 
@@ -129,4 +129,4 @@ However, to handle the data and facilitate its analysis, it is better to create 
 * [Model and method](/vegas/model-and-method/)
 * [Installation](/vegas/installation/)
 * [System building](/vegas/system-building/)
-* [Tutorials](/vegas/examples/)
+* [Tutorials](/vegas/tutorials/)
