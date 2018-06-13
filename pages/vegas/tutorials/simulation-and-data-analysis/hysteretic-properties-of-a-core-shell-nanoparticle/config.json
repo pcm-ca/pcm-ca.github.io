@@ -1,0 +1,17 @@
+{
+    "sample": "sample.dat",
+    "anisotropy": "anisotropy.dat",
+    "initialstate": "initialstate.dat",
+    "out": "results.h5",
+    "kb": 1.0,
+    "mcs": 1000,
+    "seed": 87036167,
+    "field":
+    {
+        "start": 1.0,
+        "final": -1.0,
+        "points": 100,
+        "cycle": true
+    },
+    "temperature": 0.001
+}

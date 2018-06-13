@@ -1,0 +1,14 @@
+{
+    "sample": "sample.dat",
+    "anisotropy": "anisotropy.dat",
+    "out": "results.h5",
+    "kb": 0.08618,
+    "mcs": 10000,
+    "seed": 5681401,
+    "field": 0.0,
+    "temperature": {
+        "start": 1500.0,
+        "final": 1.0,
+        "points": 100
+    }
+}

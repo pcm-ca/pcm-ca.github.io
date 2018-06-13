@@ -2,15 +2,14 @@
 title: "Building a core/shell nanoparticle"
 ---
 
-
 Let's build a core/shell nanoparticle with a simple cubic structure using a python script.
 
 Import the required libraries
 
-* [**numpy**](http://www.numpy.org/) handles numeric arrays and mathematical operations.
-* [**product**](https://docs.python.org/3.7/library/itertools.html#itertools.product) returns cartesian product of input iterables.
-* [**matplotlib**](https://matplotlib.org/) produces figures.
-* [**defaultdict**](https://docs.python.org/3.7/library/collections.html#collections.defaultdict) is a dictionary where each *value* has a defined type.
+* [numpy](http://www.numpy.org/) handles numeric arrays and mathematical operations.
+* [product](https://docs.python.org/3.7/library/itertools.html#itertools.product) returns cartesian product of input iterables.
+* [matplotlib](https://matplotlib.org/) produces figures.
+* [defaultdict](https://docs.python.org/3.7/library/collections.html#collections.defaultdict) is a dictionary where each *value* has a defined type.
 
 
 ```python
@@ -20,7 +19,7 @@ from matplotlib import pyplot
 from collections import defaultdict
 ```
 
-Define the values of the core (**$R_c$**) and nanoparticle (**$R$**) radius measured in magnetic unit cells. Each site is a magnetic moment.
+Define the values of the core (```Rc```) and nanoparticle (```R```) radius measured in magnetic unit cells (muc). Each site is a magnetic moment.
 
 
 ```python
@@ -28,16 +27,16 @@ Rc = 7.5
 R = 10.5
 ```
 
-Define the core $\left(sc\right)$ and shell $\left(ss\right)$ spin values, the core $\left(kc\right)$ and shell $\left(ks\right)$ anisotropy constants, the core-core $\left(jcc\right)$, core/shell $\left(jint\right)$ and shell-shell $\left(jss\right)$ exchange interaction constants, and the [update policy](https://pcm-ca.github.io/vegas/sample-build/update-policies/) for the direction of the magnetic moments.
+Define the core (```sc```) and shell (```ss```) spin values, the core (```kc```) and shell (```ks```) anisotropy constants, the core-core (```jcc```), core-shell (```jint```) and shell-shell (```jss```) exchange interaction constants, and the [spin update policy](/vegas/spin-update-policies/) for the direction of the magnetic moments. Because the atomic magnetic moment is taken as $1.0$, it should be considered in the units of the magnetic field in a simulation. ```jcc = 1.0``` is taken as the unit of energy (see [Dimitriadis et al.](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.92.064420)). 
 
 
 ```python
 ss = sc = 1.0
-kc = 0.1
-ks = 0.5
 jcc = 1.0
-jint = -0.5
-jss = -0.5
+kc = 0.1 * jcc
+ks = 0.5 * jcc
+jint = -0.5 * jcc
+jss = -0.5 * jcc
 update_policy = "adaptive"
 ```
 
@@ -67,7 +66,7 @@ jex = {
       }
 ```
 
-Create a list of sites and assign them as core or shell ions according to $R_c$.
+Create a list of sites and assign them as core or shell ions according to ```Rc```.
 
 
 ```python
@@ -132,7 +131,7 @@ for site in sites:
             nhbs[site].append(nhb)
 ```
 
-Make some verifications: that each site has a maximum of $6$ neighbors, that the neighbors of each site are $1$ $muc$ away, and that each site is in the neighbors list of each of its neighbors.
+Make some verifications: that each site has a maximum of $6$ neighbors, that the neighbors of each site are $1$ muc away, and that each site is in the neighbors list of each of its neighbors.
 
 
 ```python
@@ -143,7 +142,7 @@ for site in sites:
         assert site in nhbs[nhb]
 ```
 
-Create a dictionary to identify the type of each site, which can be *core*, *shell*, *core\_interface* and *shell\_interface*, which corresponds to sites located in the core, the shell, the core interface and the shell interface, respectively.
+Create a dictionary to identify the type of each site, which can be ```core```, ```shell```, ```core_interface``` and ```shell_interface```, which corresponds to sites located in the core, the shell, the core interface and the shell interface, respectively.
 
 
 ```python
@@ -181,7 +180,7 @@ positions.keys()
 
 
 
-Again, convert the sites list to numpy arrays in order to produce a midplane cross-section for $z=0$.
+Again, convert the sites list to numpy arrays in order to produce a midplane cross-section for $y=0$.
 
 
 ```python
@@ -238,7 +237,7 @@ for site in sites:
 num_sites = len(sites)
 ```
 
-Create the files to store the sample.
+Create the files to store the structural properties (```sample.dat```) and the anisotropy (```anisotropy.dat```) of the sample.
 
 
 ```python
@@ -272,7 +271,7 @@ for t in sorted(set(types.values())):
     shell_interface
 
 
-Write the parameters of each site according to the established [format](https://pcm-ca.github.io/vegas/sample-build/).
+Write the parameters of each site according to the established [format](/vegas/system-building/).
 
 
 ```python
@@ -304,11 +303,15 @@ sample_file.close()
 anisotropy_file.close()
 ```
 
-## Creando el estado inicial
+## Creating an initial state file
 
-Supongamos que deseamos crear la muestra como propone wevans. En vista de que este sistema es altamente anisotrópico bla bla, entonces se puede predecir el estado inicial de la muestra bajo la aproximación bla bla bla ... acá citar el paper de wevans.
+When a magnetic system is simulated in 𝕍egas, the initial magnetization state of the system can be a random state or a state inputed by the user. 
 
-Definimos una función para calcular la energía del sistema con un campo magnético externo $H_{max}$:
+Let's look at a case where the user needs to input the initial magnetization state: In simulations of exchange bias in core/shell nanoparticles, it is necessary to cool down the nanoparticle from a temperature between the Néel temperature of the antiferromagnetic shell ($T_N$) and the Curie temperature of the ferromagnetic core ($T_C$), in presence of an external magnetic field ($H_{max}$), to a very low temperature $T_{sim}$. However, this cooling process can be avoided using an energy minimization procedure. The ferromagnetic core ions are first oriented along the $+z$ direction, indicating the desired core orientation at positive field saturation. The antiferromagnetic shell is then set with one of two polarities, AFM+ and AFM−, indicating whether alternate atoms in the lattice are up-down-up-down or down-up-down-up. For each of the polarities the total system energy is calculated, and the polarity with the lowest energy is then selected. This process ensured a left shift of the hysteresis loop for all particles, consistent with the setting of a fully saturated exchange-bias system (see [Evans et al.](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.84.092404)). 
+
+Let's implement this energy minimization procedure in the current python script.
+
+Define a function to calculate the energy of the system in presence of an external magnetic field ```Hmax```:
 
 
 ```python
@@ -329,7 +332,7 @@ def energy(state, Hmax):
     return 0.5 * E_exchange + E_other
 ```
 
-Calculamos uno de los dos posibles estados iniciales tal que sea de la forma $\uparrow \downarrow \uparrow \downarrow$ en el shell y $\uparrow \uparrow \uparrow \uparrow$ para el core:
+Create one of the two possible magnetization states where the orientation of the spin moments in the shell are  $\uparrow \downarrow \uparrow \downarrow$ and in the core are $\uparrow \uparrow \uparrow \uparrow$:
 
 
 ```python
@@ -346,7 +349,7 @@ for site in sites:
 state1 = numpy.array(state1)
 ```
 
-Y calculamos el otro de los dos posibles estados iniciales tal que sea de la forma $\downarrow \uparrow \downarrow \uparrow$ en el shell y $\uparrow \uparrow \uparrow \uparrow$ para el core:
+And create the other possible magnetization state where the orientation of the spin moments in the shell are  $\downarrow \uparrow \downarrow \uparrow$ and in the core are $\uparrow \uparrow \uparrow \uparrow$:
 
 
 ```python
@@ -363,7 +366,7 @@ for site in sites:
 state2 = numpy.array(state2)
 ```
 
-Con el fin de graficar esa vaina, creamos un core transversal para y = 0 y graficamos el plano xz
+In order to visualize both magnetization states, create midplane cross-section for $y=0$:
 
 
 ```python
@@ -376,7 +379,7 @@ layer2 = all_positions[all_positions[:, 1] == 0]
 x2, y2, z2 = layer1.T
 ```
 
-Graficamos los dos posibles estados. Podemos apreciar que todos los sitios del core, en ambos estados, apuntan hacia arriba. Sin embargo, el shell de uo es el inverso del shell del otro, como era de esperarse.
+Plot both midplane cross-sections. In both cases the core ions are oriented along the $+z$ direction, while the the shell ions are alternated in different ways, as expected.
 
 
 ```python
@@ -410,7 +413,7 @@ pyplot.show()
 ![png](output_59_0.png)
 
 
-Empleando la función ```energy```, podemos calcular la energía de los dos posibles estados iniciales:
+Call the function ```energy``` to compute the energy of the two magnetization states.
 
 
 ```python
@@ -422,14 +425,14 @@ print("state2: ", energy(state2, Hmax))
     state2:  -11576.41
 
 
-En este caso, ```state2``` minimiza la energía. Sin embargo, para otros tamaños podría darse que no sea así. Por esta razón, calculamos el estado que minimice la energía:
+In this case, the magnetization state ```state2``` minimizes the energy. However, this could change for nanoparticles of different size. Then, it is always recommended to compute and compare both energies.
 
 
 ```python
 state = state1 if energy(state1, Hmax) <= energy(state2, Hmax) else state2
 ```
 
-Por último, debemos almacenar este estado inicial. El formato del archivo para el estado inicial puede consultarse [aquí](www.redtube.com)
+Finally, create the file to store the initial state of the nanoparticle (```initialstate.dat```):
 
 
 ```python
@@ -446,3 +449,14 @@ for i, site in enumerate(sites):
 ```python
 initialstate_file.close()
 ```
+
+The result of this script is the creation of three files: ```sample.dat```, ```anisotropy.dat``` and ```initialstate.dat```, which store the structural properties, the anisotropy and the initial magnetic state of the core/shell nanoparticle.
+
+---
+
+* [Home](/vegas/)
+* [Model and method](/vegas/model-and-method/)
+* [Installation](/vegas/installation/)
+* [System building](/vegas/system-building/)
+* [Simulation and data analysis](/vegas/simulation-and-data-analysis/)
+* [Tutorials](/vegas/tutorials/)
