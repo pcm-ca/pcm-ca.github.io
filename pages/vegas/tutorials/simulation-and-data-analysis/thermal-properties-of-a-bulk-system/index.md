@@ -6,8 +6,8 @@ In this tutorial, we explain how to simulate thermal behavior of a bulk system.
 
 The system in consideration is a Fe bulk with BCC structure. Nearest neighbors exchange interactions and cubic anisotropy were considered. To describe the ferromagnetic behavior of Fe, the following parameters were used:
 
-$$J=44.01\ meV/link$$
-$$k=3.53e-3\ meV/atom$$
+$$J=44.01\ \text{meV}/\text{link}$$
+$$k=3.53e-3\ \text{meV}/\text{atom}$$
 $$|\mathbf{S}|=1.0$$
 $$\mu_s=2.22\mu_B$$
 <center>Spin update policy: Adaptive move</center>
@@ -327,8 +327,10 @@ pyplot.show()
 
 Producing plots at every temperature and using a program to join the figures, it is possible to create a video of the temperature evolution of the magnetic moments. 
 
-asdf
+<video src="animation.mp4" controls>
+</video>
 
+---
 ***
 
 * [Home](/vegas/)
@@ -342,4 +344,3 @@ asdf
 * [Simulation and data analysis](/vegas/simulation-and-data-analysis/)
 
 * [Tutorials](/vegas/tutorials/)
-

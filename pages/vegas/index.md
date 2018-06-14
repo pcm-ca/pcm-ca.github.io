@@ -14,7 +14,7 @@ The main features of 𝕍egas are the following:
 * The building and simulation of a great variety of magnetic systems, with different structural and magnetic characteristics, can be made with high flexibility.
 * The history of the simulation is stored, which allows to study the dynamic and static behavior from a single simulation. 
 * Temperature/field evolution of the magnetic configuration of the system can be computed and visualized. 
-* 𝕍egas can be run directly on Linux 32/64 bits and Windows 8 (or later) operating systems. 
+* 𝕍egas can be run directly on Linux 64 bits and Windows 8 (or later) operating systems. 
  
 The model and method, installation, system building, simulation and data analysis processes of 𝕍egas, along with some tutorials, can be found in the next sections:
 
