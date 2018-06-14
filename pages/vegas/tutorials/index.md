@@ -7,13 +7,14 @@ title: "Tutorials"
 
 - [Building a bulk system](/vegas/tutorials/system-building/building-a-bulk-system/)
 - [Building a core/shell nanoparticle](/vegas/tutorials/system-building/building-a-core-shell-nanoparticle/)
-- [Building an Ising thin film](/vegas/tutorials/system-building/building-an-ising-thin-film/)
+- [Building a 2D Ising film](/vegas/tutorials/system-building/building-a-2d-ising-film/)
 
 ## Simulation and data analysis
 
 - [Thermal properties of a bulk system](/vegas/tutorials/simulation-and-data-analysis/thermal-properties-of-a-bulk-system/)
 - [Hysteretic properties of a core/shell nanoparticle](/vegas/tutorials/simulation-and-data-analysis/hysteretic-properties-of-a-core-shell-nanoparticle/
 )
+- [Scaling behavior of a 2D Ising film](/vegas/tutorials/simulation-and-data-analysis/scaling-behavior-of-a-2d-ising-film/)
 
 ---
 

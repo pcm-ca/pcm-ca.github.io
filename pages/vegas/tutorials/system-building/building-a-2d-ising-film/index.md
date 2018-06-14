@@ -1,8 +1,8 @@
 ---
-title: "Building an Ising thin film"
+title: "Building an 2D Ising film"
 ---
 
-Let's build an Ising film with simple cubic structure and periodic boundary conditions.
+Let's build a 2D Ising film with simple cubic structure and periodic boundary conditions.
 
 Import the required libraries
 
@@ -199,7 +199,7 @@ Close the file.
 sample_file.close()
 ```
 
-The result of this script is the creation of one file: ```sample.dat```, which stores the structural properties of the Ising thin film.
+The result of this script is the creation of one file: ```sample.dat```, which stores the structural properties of the 2D Ising film.
 
 ---
 
