@@ -2,17 +2,23 @@
 title: "Installation"
 ---
 
-Until date, it is so easy to install 𝕍egas in Ubuntu 14.* and 16.*. In the future. the installation will be so easy. We are working in this.
+In order to execute a simulation using 𝕍egas, two executables are available for Linux 32/64 bits and Windows 8 (or later) operating systems. However, 𝕍egas can be built on Ubuntu 14.* and 16.* operating systems.
 
-In order to install 𝕍egas you need to have installed in your computer the libraries for [HDF5](https://support.hdfgroup.org/HDF5/), [JSON](https://en.wikibooks.org/wiki/JsonCpp) and, ofcourse, g++. Let's talk about HDF5 and JSON. HDF5 is a data model, library, and file format for storing and managing data. Data is saved in binary such that the writing and reading is so fast. We use HDF5 because the simulation history usually is huge. If we would save the data in text, a simulation history could have a size until 30 Gb ... that is a bad idea. For this reason we decided to use HDF5. On the other hand, we used JSON to read the input for the simulation. It is a pretty format for inputs.
+## Linux and Windows executables
 
-To install HDF5, JSON and g++ in your PC, you need to get the libhdf5-dev, libjsoncpp-dev and g++ libraries with the following command
+Explain ...
+
+## Building 𝕍egas on Ubuntu
+
+In order to build and install 𝕍egas on Ubuntu 14.* and 16.* operating systems, it is required to install the libraries of [HDF5](https://support.hdfgroup.org/HDF5/), [JSON](https://en.wikibooks.org/wiki/JsonCpp) and g++. HDF5 is a data model, library, and file format for storing and managing data. HDF5 is built for fast I/O processing and storage. 𝕍egas uses HDF5 because the results output file, which stores the history of the simulation, is usually very large. If the simulation results were stored in plain text, the output file could have a size of several gigabytes. However, using HDF5, the output file size is in the order of megabytes. Aso, JSON is a very useful and simple format to input the initial parameters to the simulation.
+
+To install HDF5, JSON and g++, it is necessary to get the libhdf5-dev, libjsoncpp-dev and g++ libraries, which can be done by typing the following command on a terminal
 
 ```bash
 sudo apt-get install libjsoncpp-dev libhdf5-dev g++
 ```
 
-Moreover, you need cmake with a version > 3.5.1 to compile the project. By default, Ubuntu 14.* and 16.* have in their repositories a cmake version greater than 3.5.1. To install cmake, run this command
+Moreover, to compile the files, cmake (version > 3.5.1) needs to be installed. By default, Ubuntu 14.* and 16.* have in their repositories a valid version of cmake. To install cmake, run
 
 ```bash
 sudo apt-get install cmake
@@ -24,19 +30,19 @@ To check the version of cmake, run
 cmake --version
 ```
 
-In this point you have all the dependencies that you need to install 𝕍egas. Download 𝕍egas from the master branch from [here](https://github.com/jdalzatec/vegas/archive/master.zip), unzip and enter in the respective folder. When you run ```ls```, you should get the following output
+At this point, all the dependencies required to install 𝕍egas are installed. Now, download 𝕍egas from the master branch [here](https://github.com/jdalzatec/vegas/archive/master.zip), unzip and ```cd``` to the respective folder. If you run ```ls```, you should get the following output
 
 ```bash
 analyzers  code  compilers  Dockerfile  executables  README.md
 ```
 
-where **analyzers**, **code**, **compilers** and **executables** are folders and ~Readme.md~ and ~Dockerfile~ are files. To build with ```cmake``` in Linux, enter in **compilers/linux/** and create a folder named build, enter in this, run ```cmake ..``` and run ```make```. You can do the before with the following
+where **analyzers**, **code**, **compilers** and **executables** are folders and ~Readme.md~ and ~Dockerfile~ are files. To build 𝕍egas with ```cmake```, ```cd``` to **compilers/linux/** and create a folder named build, ```cd``` to this new folder, run ```cmake ..```, and then run ```make```. All of this can be done by just running the following command
 
 ```bash
 mkdir compilers/linux/build && cd compilers/linux/build && cmake .. && make
 ```
 
-You should get in console some information like
+The following output should be visualized
 
 ```bash
 -- The CXX compiler identification is GNU 5.4.0
@@ -70,15 +76,15 @@ Scanning dependencies of target vegas
 [100%] Built target vegas
 ```
 
-and in your **build** folder some files and a folder were created. Moreover, a executable file named 𝕍egas was created. This is the part of 𝕍egas to run the simulations. You can have this file in all folder where you are going to run a simulation. But it is better have the 𝕍egas executable into your ```/usr/bin/``` folder such that 𝕍egas can be executed wherever. If you want this, run ```sudo make install``` and 𝕍egas will be into ```/usr/bin/```.
+Once this process ends, in the **build** folder some files and a folder should have been created, along with a executable file named 𝕍egas. This file is the executable used to run the simulations in 𝕍egas. You can place this file in all the folders where you are going to run a simulation. However, it is better place the 𝕍egas executable in the ```/usr/bin/``` folder, such that 𝕍egas can be executed anywhere. To do this, run ```sudo make install``` and 𝕍egas will be placed in the ```/usr/bin/``` folder.
 
-If all was fine, when you run in your terminal the command 𝕍egas, a message like this should be showed
+If everything went well, when you run the command ```vegas``` in a terminal, a message like this should appear
 
 <center>
     <img src="output.png" alt="Image"/>
 </center>
 
-In this point, you need to have a JSON file to run 𝕍egas. Let's go to learn how to make this file in the next section. But firts, let me to show you how you should to [build the sample](/vegas/system-building/).
+At this point, you just need a JSON input file with the simulation parameters, along with the sample files, to run a simulation using 𝕍egas.
 
 
 ---
