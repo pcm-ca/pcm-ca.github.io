@@ -16,7 +16,7 @@ export default class Index extends React.Component {
       (
         get(page, 'file.ext') === 'md' && !_.includes(page.path, '/404')
         || get(page, 'data.date')
-      ) && (_.includes(get(page, 'file.dir'), 'tutorials'))
+      ) && (_.includes(get(page, 'file.dir'), 'tutorials') && !_.includes(get(page, 'file.dir'), 'vegas'))
     ))
     return (
       <div>

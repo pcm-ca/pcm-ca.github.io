@@ -2,11 +2,19 @@
 title: "Installation"
 ---
 
-In order to execute a simulation using 𝕍egas, two executables are available for Linux 32/64 bits and Windows 8 (or later) operating systems. However, 𝕍egas can be built on Ubuntu 14.* and 16.* operating systems.
+In order to execute a simulation using 𝕍egas, two executables are available for Linux 32/64 bits and Windows 7 (or later) operating systems. However, 𝕍egas can be built on Ubuntu 14.* and 16.* operating systems.
 
 ## Linux and Windows executables
 
-Explain ...
+Please find the links for download the executables files for linux and windows here:
+
+[![Icon made by Freepik from www.flaticon.com](linux.png "𝕍egas for linux")](https://github.com/jdalzatec/vegas/raw/master/executables/vegas-linux64/vegas)
+[![Icon made by Freepik from www.flaticon.com](windows.png "𝕍egas for windows")](https://github.com/jdalzatec/vegas/raw/master/executables/vegas-win64/install_vegas.exe)
+
+With these files, you do not need to compile 𝕍egas from source files.
+
+- **Linux**: Just move that file to the /usr/bin path in order to execute 𝕍egas from any path. It is possible that you require sudo permissions in order to move, or copy, 𝕍egas executable to the root system. 
+- **Windows**: You should execute the *install_vegas.exe* file in order to install 𝕍egas to the Program Files folder. The 𝕍egas folder is added to the path in the enviromental variables and, for this reason, you can execute 𝕍egas from any path from a CMD. It is possible that you need to deactivate the antivirus software. We are working in add a sign to the *install_vegas.exe* for be more secure to the windows system.
 
 ## Building 𝕍egas on Ubuntu
 

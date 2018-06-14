@@ -12,7 +12,6 @@ title: "Tutorials"
 ## Simulation and data analysis
 
 - [Thermal properties of a bulk system](/vegas/tutorials/simulation-and-data-analysis/thermal-properties-of-a-bulk-system/)
-
 - [Hysteretic properties of a core/shell nanoparticle](/vegas/tutorials/simulation-and-data-analysis/hysteretic-properties-of-a-core-shell-nanoparticle/
 )
 
