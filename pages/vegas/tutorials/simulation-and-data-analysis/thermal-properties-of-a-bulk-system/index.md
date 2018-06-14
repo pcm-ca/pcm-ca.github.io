@@ -325,10 +325,6 @@ pyplot.show()
 
 ![png](output_40_0.png)
 
-Producing plots at every temperature and using a program to join the figures, it is possible to create a video of the temperature evolution of the magnetic moments. 
-
-<video src="animation.mp4" controls>
-</video>
 
 ---
 ***
