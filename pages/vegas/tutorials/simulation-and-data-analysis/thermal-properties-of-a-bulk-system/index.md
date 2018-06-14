@@ -323,17 +323,23 @@ pyplot.gca().set_aspect("equal")
 pyplot.show()
 ```
 
-
 ![png](output_40_0.png)
-
 
 Producing plots at every temperature and using a program to join the figures, it is possible to create a video of the temperature evolution of the magnetic moments. 
 
----
+asdf
+
+***
 
 * [Home](/vegas/)
+
 * [Model and method](/vegas/model-and-method/)
+
 * [Installation](/vegas/installation/)
+
 * [System building](/vegas/system-building/)
+
 * [Simulation and data analysis](/vegas/simulation-and-data-analysis/)
+
 * [Tutorials](/vegas/tutorials/)
+
