@@ -3,7 +3,7 @@ title: ""
 ---
 
 <p>
-  <center><img width="300px" src="./images/vegas.png" alt=""/></center>
+  <center><img width="300px" src="./vegas.png" alt=""/></center>
 </p>
 
 𝕍egas is an open-source software package that provides the required tools to build, simulate and analyze magnetic systems. 𝕍egas is hosted in [GitHub](https://github.com/jdalzatec/vegas).
@@ -18,8 +18,14 @@ The main features of 𝕍egas are the following:
  
 The model and method, installation, system building, simulation and data analysis processes of 𝕍egas, along with some tutorials, can be found in the next sections:
 
+---
+
 * [Model and method](/vegas/model-and-method/)
+
 * [Installation](/vegas/installation/)
+
 * [System building](/vegas/system-building/)
+
 * [Simulation and data analysis](/vegas/simulation-and-data-analysis/)
+
 * [Tutorials](/vegas/tutorials/)

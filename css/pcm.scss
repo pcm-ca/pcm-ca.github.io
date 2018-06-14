@@ -77,9 +77,18 @@ nav ul li a {
 }
 
 .markdown {
-    p a {
+    p a, li a {
         text-decoration: underline;
         color: blue;
+        &:hover {
+            color: crimson;
+        }
+    }
+
+    li p a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
         &:hover {
             color: crimson;
         }
@@ -194,3 +203,4 @@ nav ul li a {
 div ul li, div ol li {
     text-align: justify;
 }
+

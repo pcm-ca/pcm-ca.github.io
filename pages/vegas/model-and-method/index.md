@@ -17,7 +17,11 @@ where $J_{ij}$ is the exchange interaction constant between sites $i$ and $j$, $
 ---
 
 * [Home](/vegas/)
+
 * [Installation](/vegas/installation/)
+
 * [System building](/vegas/system-building/)
+
 * [Simulation and data analysis](/vegas/simulation-and-data-analysis/)
+
 * [Tutorials](/vegas/tutorials/)

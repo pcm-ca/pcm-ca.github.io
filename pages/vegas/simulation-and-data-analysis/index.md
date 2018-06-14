@@ -3,7 +3,7 @@ title: "Simulation and data analysis"
 ---
 
 
-In this section, the general features of the simulation and data analysis processes are presented. Further explanation applied to different examples can be found in the [Tutorials](/vegas/examples/) section.
+In this section, the general features of the simulation and data analysis processes are presented. Further explanation applied to different examples can be found in the [Tutorials](/vegas/tutorials/) section.
 
 ## Simulation
 
@@ -125,8 +125,15 @@ Simulation results are stored in a set of variables and attributes. Variables in
 
 However, to handle the data and facilitate its analysis, it is better to create and use python scripts to extract and visualize the data of interest of the results output file. 
 
+---
+
 * [Home](/vegas/)
+
 * [Model and method](/vegas/model-and-method/)
+
 * [Installation](/vegas/installation/)
+
 * [System building](/vegas/system-building/)
+
 * [Tutorials](/vegas/tutorials/)
+

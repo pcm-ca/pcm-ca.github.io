@@ -18,7 +18,11 @@ title: "Tutorials"
 ---
 
 * [Home](/vegas/)
+
 * [Model and method](/vegas/model-and-method/)
+
 * [Installation](/vegas/installation/)
+
 * [System building](/vegas/system-building/)
+
 * [Simulation and data analysis](/vegas/simulation-and-data-analysis/)

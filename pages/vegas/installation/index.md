@@ -2,7 +2,7 @@
 title: "Installation"
 ---
 
-In order to execute a simulation using 𝕍egas, two executables are available for Linux 32/64 bits and Windows 7 (or later) operating systems. However, 𝕍egas can be built on Ubuntu 14.* and 16.* operating systems.
+In order to execute a simulation using 𝕍egas, two executables are available for Linux 64 bits and Windows 7 (or later) operating systems. However, 𝕍egas can be built on Ubuntu 14.* and 16.* operating systems.
 
 ## Linux and Windows executables
 
@@ -98,7 +98,11 @@ At this point, you just need a JSON input file with the simulation parameters, a
 ---
 
 * [Home](/vegas/)
+
 * [Model and method](/vegas/model-and-method/)
+
 * [System building](/vegas/system-building/)
+
 * [Simulation and data analysis](/vegas/simulation-and-data-analysis/)
+
 * [Tutorials](/vegas/tutorials/)

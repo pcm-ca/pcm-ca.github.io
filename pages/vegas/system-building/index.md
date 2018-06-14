@@ -34,13 +34,15 @@ The following **num_ions** lines correspond to the ions parameters. These lines 
 ```python
 index px py pz spinNorm hx hy hz type updatePolicy
 ```
+
 where:
+
 - **index** (*int*) is the 0-index indicator of the ion. The largest **index** must be equal to **num_ions** - 1.
 - **px**, **py** and **pz** (*floats*) are the spatial coordinates x, y and z of the ions, repectively.
 - **spinNorm** (*float*) is the norm of the spin.
 - **hx**, **hy** and **hz** (*floats*) are the x, y and z components of the magnetic field vector, respectively. This vector is a unit vector, however, depending on the application, it could be modified.
 - **type** (*string*) is the type of the ion.
-- **updatePolicy** is the update policy for the spin moment of the ion. It must take one of these values: [**random**, **flip**, **qising**, **adaptive**, **cone30**, **cone15**, **hn30**, **hn15**]. Information about the update policies can be found in the [Spin update policies section](/vegas/spin-update-policies/).
+- **updatePolicy** (*string*) is the update policy for the spin moment of the ion. It must take one of these values: [**random**, **flip**, **qising**, **adaptive**, **cone30**, **cone15**, **hn30**, **hn15**]. Information about the update policies can be found in the [Spin update policies section](/vegas/spin-update-policies/).
 
 The following **num_interactions** lines correspond to the ion interactions in the system. These lines must have the following format:
 
@@ -86,7 +88,11 @@ where **Sx**, **Sy** and **Sz** are the x, y and z components of the spin moment
 ---
 
 * [Home](/vegas/)
+
 * [Installation](/vegas/installation/)
+
 * [Model and method](/vegas/model-and-method/)
+
 * [Simulation and data analysis](/vegas/simulation-and-data-analysis/)
+
 * [Tutorials](/vegas/tutorials/)
