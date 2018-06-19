@@ -22,7 +22,7 @@ export default class Index extends React.Component {
         <h1>
           Homepage
         </h1>
-        <p>Welcome to the PCM Computational Applications Group’s webpage at the Universidad Nacional de Colombia.</p>
+        <p>Welcome to the PCM Computational Applications Research Group webpage.</p>
         
         <div class="img-fluid">
           <Carousel >
@@ -85,24 +85,15 @@ export default class Index extends React.Component {
           </div>
         
         <br/>
-        <h2>What are we ?</h2>
-        <p>We are an investigation group interested in studying many topics in
-          computational physics and applied mathematics, in special, magnetic,
-          mechanical and nanoscale properties.</p>
-        <h2>Where are we ?</h2>
-        <p>We are at the Universidad Nacional de Colombia.
-          The group's core is in <a className="link" target='_blank' href="https://es.wikipedia.org/wiki/Manizales">Manizales</a> in the Nubia Campus, near of the airport of Manizales.</p>
-        <h2>What does <b style={{color: "black"}}>PCM</b> mean?</h2>
-        <p><b style={{color: "black"}}>PCM</b> are the abbreviations for Physics, Chemistry and Mathematics.</p>
-        <h2>Who is(are) the Boss(es) ?</h2>
-        <p>We have really two bosses. One of them is the boss
-          for the physics and chemistry students and her name
-          is <a className="link" href="mailto:erestrepopa@unal.edu.co">Elisabeth Restrepo Parra</a>. The another boss is for
-          the mathematics students and his name is <a className="link" href="mailto:jcrianoro@unal.edu.co">Juan Carlos Riaño Rojas</a>.
-          Both of them are teachers of the Universidad Nacional de Colombia
-          and belong to the Faculty of exact and natural sciences.</p>
-          <h2>Do you want to know another things?</h2>
-          <p>Please write us.</p>
+        <h2>About us</h2>
+        <p>PCM Computational Applications (where  <b>PCM</b> stands for Physics, Chemistry and Mathematics) is a computational physics and applied mathematics research group 
+          that uses analytical theory and computer simulations to understand interesting phenomena in different fields of physics, chemestry and mathematics.
+          Our research focuses mainly on the study of mechanical and magnetic properties of nano and bulk materials. As part of our work, we have also developed an open-source software package, <a className="link" href="/vegas/">𝕍egas</a>, for the atomistic simulation of magnetic materials.</p>
+        <h2>Where are we located ?</h2>
+        <p>Our research group is located at the Universidad Nacional de Colombia - Sede Manizales - Campus La Nubia.</p>
+        <h2>The bosses</h2>
+        <p>Our research group has two bosses. Dr. <a className="link" href="mailto:erestrepopa@unal.edu.co">Elisabeth Restrepo Parra</a> is in charge of the research 
+        in physics and chemestry, and Dr. <a className="link" href="mailto:jcrianoro@unal.edu.co">Juan Carlos Riaño Rojas</a> is in charge of the research in applied mathematics.</p>
       </div>
     )
   }

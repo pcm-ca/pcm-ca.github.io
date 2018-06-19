@@ -19,7 +19,7 @@ export default class Index extends React.Component {
           People
         </h1>
 
-        <h2>The Leaders</h2>
+        <h2>The bosses</h2>
 
         <div className='people'>
           {_.map(_.filter(info, {"level": "boss"}), person => (

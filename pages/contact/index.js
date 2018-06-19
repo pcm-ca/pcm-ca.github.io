@@ -17,8 +17,8 @@ export default class Index extends React.Component {
 
         <p>
             <div className="uptext">
-              If you have some question about the group or about some work,
-              don't hesitate in write to the appropiate person (<Link className="link" to={prefixLink('/people/')}>People</Link>).
+              If you have any questions about our group or the different research works,
+              do not hesitate to contact the appropiate person (<Link className="link" to={prefixLink('/people/')}>People</Link>).
             </div>
             <br/>
             <div className="uptext">
