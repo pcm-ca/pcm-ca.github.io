@@ -88,7 +88,7 @@ export default class Index extends React.Component {
         <h2>About us</h2>
         <p>PCM Computational Applications (where  <b>PCM</b> stands for Physics, Chemistry and Mathematics) is a computational physics and applied mathematics research group 
           that uses analytical theory and computer simulations to understand interesting phenomena in different fields of physics, chemestry and mathematics.
-          Our research focuses mainly on the study of mechanical and magnetic properties of nano and bulk materials. As part of our work, we have also developed an open-source software package, <a className="link" href="/vegas/">𝕍egas</a>, for the atomistic simulation of magnetic materials.</p>
+          Our research focuses mainly on the study of mechanical and magnetic properties of nano and bulk materials. As part of our work, we also have developed an open-source software package, <a className="link" href="/vegas/">𝕍egas</a>, for the atomistic simulation of magnetic materials.</p>
         <h2>Where are we located ?</h2>
         <p>Our research group is located at the Universidad Nacional de Colombia - Sede Manizales - Campus La Nubia.</p>
         <h2>The bosses</h2>
